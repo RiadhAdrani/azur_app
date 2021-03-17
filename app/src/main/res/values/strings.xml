@@ -1,9 +1,32 @@
 <resources>
     <string name="app_name">Azur App</string>
+
     <string name="picture">picture</string>
     <string name="azur_city">Azur City</string>
     <string name="open">Open Today</string>
     <string name="time">from 9:00 to 18:00</string>
+
     <string name="time_can_change">Hours may change due to the health crisis.</string>
     <string name="check_store_hours"><u>Check store hours.</u></string>
+
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- MAIN ACTIVITY -->
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="favorite">Favorite</string>
+
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- LANDING FRAGMENT -->
+
+    <string name="your_center">Your center</string>
+    <string name="shops">Shops</string>
+    <string name="geant">Géant</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="leisure">Leisure</string>
+    <string name="services">Services</string>
+
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+
 </resources>
