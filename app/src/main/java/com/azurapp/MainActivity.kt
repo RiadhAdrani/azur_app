@@ -2,6 +2,7 @@ package com.azurapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.azurapp.fragments.BaseFragment
 import com.azurapp.fragments.LandingFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
@@ -51,5 +52,14 @@ class MainActivity : AppCompatActivity() {
             .addToBackStack(null)
             .commit()
 
+    }
+
+    override fun onBackPressed() {
+
+        val fragment = supportFragmentManager.findFragmentById(R.id.activity_main_fragment) as BaseFragment
+        if (fragment.onBackPressed())
+            super.onBackPressed()
+        else
+            finish()
     }
 }

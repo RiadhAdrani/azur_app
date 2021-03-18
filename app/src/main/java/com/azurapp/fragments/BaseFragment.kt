@@ -4,5 +4,5 @@ import androidx.fragment.app.Fragment
 
 abstract class BaseFragment(layoutRes : Int): Fragment(layoutRes) {
 
-    abstract fun onBackPressed()
+    abstract fun onBackPressed(): Boolean
 }

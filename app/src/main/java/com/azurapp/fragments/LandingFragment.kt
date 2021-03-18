@@ -3,11 +3,14 @@ package com.azurapp.fragments
 import android.os.Bundle
 import android.view.View
 import androidx.cardview.widget.CardView
-import androidx.fragment.app.Fragment
 import androidx.fragment.app.commit
 import com.azurapp.R
 
-class LandingFragment : Fragment(R.layout.fragment_landing) {
+class LandingFragment : BaseFragment(R.layout.fragment_landing) {
+
+    override fun onBackPressed(): Boolean {
+        return false
+    }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -21,14 +24,12 @@ class LandingFragment : Fragment(R.layout.fragment_landing) {
 
         yourCenterButton.setOnClickListener {
 
-            val testFragment = LandingFragment()
-
             parentFragmentManager.commit {
                 setCustomAnimations(
-                    R.anim.fade_in,
+                    R.anim.slide_in_left,
                     R.anim.slide_out_left
                 )
-                replace(R.id.activity_main_fragment, testFragment)
+                replace(R.id.activity_main_fragment, YourCenterFragment())
                 addToBackStack(null)
             }
 
