@@ -3,7 +3,7 @@ package com.azurapp
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.azurapp.fragments.BaseFragment
-import com.azurapp.fragments.LandingFragment
+import com.azurapp.fragments.MainFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        val landingFragment = LandingFragment()
+        val landingFragment = MainFragment()
         supportFragmentManager
             .beginTransaction()
             .replace(R.id.activity_main_fragment, landingFragment)

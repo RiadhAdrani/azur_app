@@ -7,12 +7,7 @@ import com.azurapp.R
 
 class YourCenterFragment : BaseFragment(R.layout.fragment_your_center) {
 
-    override fun onBackPressed(): Boolean {
-        return true
-    }
+    override fun onBackPressed(): Boolean = true
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        Log.d("test","map fragment")
-    }
+    override fun tag(): String = "YOUR_CENTER_FRAGMENT"
 }
