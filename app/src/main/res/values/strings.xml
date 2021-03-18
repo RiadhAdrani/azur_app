@@ -9,6 +9,9 @@
     <string name="time_can_change">Hours may change due to the health crisis.</string>
     <string name="check_store_hours"><u>Check store hours.</u></string>
 
+    <string name="under_construction">Section under construction</string>
+    <string name="check_later">Make sure to check in later!</string>
+
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- MAIN ACTIVITY -->
     <string name="home">Home</string>

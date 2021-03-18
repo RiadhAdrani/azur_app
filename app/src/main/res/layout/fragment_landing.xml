@@ -70,10 +70,11 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textAlignment="center"
-                    android:minLines="2"
                     android:maxLines="2"
-                    android:text="@string/your_center"/>
+                    android:minLines="2"
+                    android:text="@string/your_center"
+                    android:textAlignment="center"
+                    android:gravity="center"/>
 
             </LinearLayout>
 
@@ -108,7 +109,8 @@
                     android:textAlignment="center"
                     android:minLines="2"
                     android:maxLines="2"
-                    android:text="@string/shops"/>
+                    android:text="@string/shops"
+                    android:gravity="center"/>
 
             </LinearLayout>
 
@@ -143,7 +145,8 @@
                     android:textAlignment="center"
                     android:minLines="2"
                     android:maxLines="2"
-                    android:text="@string/geant"/>
+                    android:text="@string/geant"
+                    android:gravity="center"/>
 
             </LinearLayout>
 
@@ -192,7 +195,8 @@
                     android:textAlignment="center"
                     android:minLines="2"
                     android:maxLines="2"
-                    android:text="@string/restaurant"/>
+                    android:text="@string/restaurant"
+                    android:gravity="center"/>
 
             </LinearLayout>
 
@@ -227,7 +231,8 @@
                     android:textAlignment="center"
                     android:minLines="2"
                     android:maxLines="2"
-                    android:text="@string/leisure"/>
+                    android:text="@string/leisure"
+                    android:gravity="center"/>
 
             </LinearLayout>
 
@@ -262,7 +267,8 @@
                     android:textAlignment="center"
                     android:minLines="2"
                     android:maxLines="2"
-                    android:text="@string/services"/>
+                    android:text="@string/services"
+                    android:gravity="center"/>
 
             </LinearLayout>
 

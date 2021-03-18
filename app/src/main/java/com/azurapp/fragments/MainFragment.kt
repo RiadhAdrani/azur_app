@@ -8,17 +8,23 @@ import com.azurapp.R
 
 class MainFragment : BaseFragment(R.layout.fragment_landing) {
 
-    override fun onBackPressed(): Boolean {
-        return false
-    }
+    override fun onBackPressed(): Boolean = false
 
     override fun tag(): String = "MAIN_FRAGMENT"
 
-    private fun replaceFragment(fragment : BaseFragment, enterAnimRes : Int, exitAnimRes : Int){
+    private fun pushFragment(
+        fragment : BaseFragment,
+        enterAnimRes : Int = R.anim.fade_in,
+        exitAnimRes : Int = R.anim.fade_out,
+        popEnterAnimRes : Int = R.anim.fade_in,
+        popExitAnimRes : Int = R.anim.fade_out
+    ){
         parentFragmentManager.commit {
             setCustomAnimations(
                 enterAnimRes,
-                exitAnimRes
+                exitAnimRes,
+                popEnterAnimRes,
+                popExitAnimRes
             )
             replace(R.id.activity_main_fragment, fragment)
             addToBackStack(fragment.tag())
@@ -36,27 +42,27 @@ class MainFragment : BaseFragment(R.layout.fragment_landing) {
         val servicesButton = view.findViewById<CardView>(R.id.fragment_service_button)
 
         yourCenterButton.setOnClickListener {
-            replaceFragment(YourCenterFragment(), R.anim.slide_left_in, R.anim.slide_left_out)
+            pushFragment(YourCenterFragment(), R.anim.slide_left_in, R.anim.slide_left_out)
         }
 
         shopsButton.setOnClickListener {
-            replaceFragment(ShopsFragment(), R.anim.slide_up_in, R.anim.slide_up_out)
+            pushFragment(ShopsFragment(), R.anim.slide_up_in, R.anim.slide_up_out)
         }
 
         geantButton.setOnClickListener {
-            replaceFragment(GeantFragment(), R.anim.slide_right_in, R.anim.slide_right_out)
+            pushFragment(GeantFragment(), R.anim.slide_right_in, R.anim.slide_right_out)
         }
 
         restaurantButton.setOnClickListener {
-            replaceFragment(RestaurantFragment(), R.anim.slide_left_in, R.anim.slide_left_out)
+            pushFragment(RestaurantFragment(), R.anim.slide_left_in, R.anim.slide_left_out)
         }
 
         leisureButton.setOnClickListener {
-            replaceFragment(LeisureFragment(), R.anim.fade_in, R.anim.slide_down_out)
+            pushFragment(LeisureFragment(), R.anim.slide_down_in, R.anim.slide_down_out)
         }
 
         servicesButton.setOnClickListener {
-            replaceFragment(ServicesFragment(), R.anim.slide_right_in, R.anim.slide_right_out)
+            pushFragment(ServicesFragment(), R.anim.slide_right_in, R.anim.slide_right_out)
         }
     }
 }

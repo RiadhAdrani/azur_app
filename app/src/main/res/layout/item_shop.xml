@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_margin="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@android:dimen/thumbnail_width"
+    android:layout_height="@android:dimen/thumbnail_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/beige"
+    app:cardCornerRadius="15dp"
+    app:cardUseCompatPadding="true">
+
+    <TextView
+        android:text="@string/shops"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        />
+
+</androidx.cardview.widget.CardView>

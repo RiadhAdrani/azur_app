@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_epsilon_extra">6sp</dimen>
+    <dimen name="text_epsilon">8sp</dimen>
+    <dimen name="text_tiny_extra">12sp</dimen>
+    <dimen name="text_tiny">14sp</dimen>
+    <dimen name="text_small_extra">16sp</dimen>
+    <dimen name="text_small">18sp</dimen>
+    <dimen name="text_medium_small">20sp</dimen>
+    <dimen name="text_medium">22sp</dimen>
+    <dimen name="text_medium_large">24sp</dimen>
+    <dimen name="text_large">26sp</dimen>
+    <dimen name="text_larger">28sp</dimen>
+    <dimen name="text_big">32sp</dimen>
+    <dimen name="text_big_extra">36sp</dimen>
+    <dimen name="text_bigger">40sp</dimen>
+    <dimen name="text_bigger_extra">48sp</dimen>
+    <dimen name="text_giant">56sp</dimen>
+    <dimen name="text_giant_extra">72sp</dimen>
+    <dimen name="text_enormous">88sp</dimen>
+    <dimen name="text_enormous_extra">120sp</dimen>
+    <dimen name="text_yo_mama">152sp</dimen>
+    <dimen name="text_yo_mama_extra">184sp</dimen>
+    <dimen name="text_yo_mama_so_fat">216sp</dimen>
+    <dimen name="text_yo_mama_so_fat_extra">248sp</dimen>
+
+    <dimen name="epsilon_extra">2dp</dimen>
+    <dimen name="epsilon">4dp</dimen>
+    <dimen name="tiny_extra">8dp</dimen>
+    <dimen name="tiny">12dp</dimen>
+    <dimen name="small_extra">16dp</dimen>
+    <dimen name="small">20dp</dimen>
+    <dimen name="medium_small">24dp</dimen>
+    <dimen name="medium">28dp</dimen>
+    <dimen name="medium_large">32dp</dimen>
+    <dimen name="large">36dp</dimen>
+    <dimen name="larger">44dp</dimen>
+    <dimen name="big">56dp</dimen>
+    <dimen name="big_extra">64dp</dimen>
+    <dimen name="bigger">80dp</dimen>
+    <dimen name="bigger_extra">96dp</dimen>
+    <dimen name="giant">116dp</dimen>
+    <dimen name="giant_extra">132dp</dimen>
+    <dimen name="enormous">160dp</dimen>
+    <dimen name="enormous_extra">180dp</dimen>
+    <dimen name="yo_mama">220dp</dimen>
+    <dimen name="yo_mama_extra">240dp</dimen>
+    <dimen name="yo_mama_so_fat">280dp</dimen>
+    <dimen name="yo_mama_so_fat_extra">320dp</dimen>
+
+</resources>
