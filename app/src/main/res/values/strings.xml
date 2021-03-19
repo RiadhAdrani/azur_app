@@ -12,6 +12,9 @@
     <string name="under_construction">Section under construction</string>
     <string name="check_later">Make sure to check in later!</string>
 
+    <string name="category"> Category</string>
+    <string name="level">Level</string>
+
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- MAIN ACTIVITY -->
     <string name="home">Home</string>

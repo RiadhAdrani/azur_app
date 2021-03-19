@@ -2,11 +2,34 @@ package com.azurapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.commit
 import com.azurapp.fragments.BaseFragment
 import com.azurapp.fragments.MainFragment
+import com.azurapp.fragments.SearchFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
+
+    private fun pushFragment(
+        fragment : BaseFragment,
+        enterAnimRes : Int = R.anim.fade_in,
+        exitAnimRes : Int = R.anim.fade_out,
+        popEnterAnimRes : Int = R.anim.fade_in,
+        popExitAnimRes : Int = R.anim.fade_out
+    ){
+        val currentFragment = supportFragmentManager.findFragmentById(R.id.activity_main_fragment) as BaseFragment
+
+        currentFragment.parentFragmentManager.commit {
+            setCustomAnimations(
+                enterAnimRes,
+                exitAnimRes,
+                popEnterAnimRes,
+                popExitAnimRes
+            )
+            replace(R.id.activity_main_fragment, fragment)
+            addToBackStack(fragment.tag())
+        }
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -6,7 +6,7 @@ import androidx.cardview.widget.CardView
 import androidx.fragment.app.commit
 import com.azurapp.R
 
-class MainFragment : BaseFragment(R.layout.fragment_landing) {
+class MainFragment : BaseFragment(R.layout.fragment_main) {
 
     override fun onBackPressed(): Boolean = false
 

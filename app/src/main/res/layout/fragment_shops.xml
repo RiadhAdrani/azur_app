@@ -18,7 +18,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:background="@color/azur"
         android:id="@+id/fragment_shops_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"

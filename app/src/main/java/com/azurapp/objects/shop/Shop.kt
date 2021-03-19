@@ -4,7 +4,7 @@ package com.azurapp.objects.shop
  * Data class representing a shop object.
  * @param name name.
  * @param icon icon.
- * @param activity activity. check [Activities].
+ * @param activity activity. check [Activity].
  * @param description brief description.
  * @param phone main phone number.
  * @param mapID ID on the center's map.
@@ -13,7 +13,7 @@ package com.azurapp.objects.shop
 data class Shop(
     val name : String,
     val icon : Int,
-    val activity : Activities,
+    val activity : Activity,
     val description : String,
     val phone : String,
     val mapID : Int,
