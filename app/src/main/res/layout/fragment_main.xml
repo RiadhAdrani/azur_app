@@ -34,7 +34,6 @@
         android:id="@+id/fragment_landing_service_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
         android:gravity="center|bottom"
         app:layout_constraintBottom_toTopOf="@id/activity_landing_service_2"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -156,9 +155,9 @@
     <LinearLayout
         android:id="@+id/activity_landing_service_2"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:gravity="center|top"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/fragment_azur_hire"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/fragment_landing_service_1"
@@ -277,5 +276,19 @@
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/fragment_azur_hire"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/big_extra"
+        android:text="@string/we_hire"
+        android:autoSizeTextType="uniform"
+        android:textStyle="bold"
+        android:paddingVertical="@dimen/tiny"
+        android:layout_marginHorizontal="@dimen/medium"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_landing_service_2"        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

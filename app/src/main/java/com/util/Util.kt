@@ -1,5 +1,6 @@
 package com.util
 
+import androidx.fragment.app.Fragment
 import com.azurapp.R
 import com.azurapp.objects.shop.Activity
 import com.azurapp.objects.shop.Shop
@@ -7,6 +8,7 @@ import com.azurapp.objects.shop.Shop
 fun activityToString(activity : Activity):String{
 
     return when (activity){
+        Activity.All -> "All"
         Activity.KIDS_CLOTHING -> "Kids Clothing"
         Activity.MEN_CLOTHING -> "Men Clothing"
         Activity.WOMEN_CLOTHING -> "Women Clothing"
@@ -15,6 +17,19 @@ fun activityToString(activity : Activity):String{
         Activity.TECH -> "Tech."
     }
 
+}
+
+fun activityImage(activity: Activity): Int{
+    return R.drawable.pic_inside
+}
+
+fun getStatusBarHeight(fragment : Fragment): Int {
+    var result = 0
+    val resourceId = fragment.resources.getIdentifier("status_bar_height", "dimen", "android")
+    if (resourceId > 0) {
+        result = fragment.resources.getDimensionPixelSize(resourceId)
+    }
+    return result
 }
 
 fun levelToString(level: Int): String{

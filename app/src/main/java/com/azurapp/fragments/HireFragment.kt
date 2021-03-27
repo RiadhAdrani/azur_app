@@ -4,12 +4,12 @@ import android.os.Bundle
 import android.view.View
 import com.azurapp.R
 
-class ServicesFragment: BaseFragment(R.layout.fragment_services) {
-
-    override fun onBackPressed(): Boolean = true
-
-    override fun tag(): String = "SERVICES_FRAGMENT"
+class HireFragment: BaseFragment(R.layout.fragment_services) {
 
     override fun onCreated(view: View, savedInstanceState: Bundle?) {
     }
+
+    override fun onBackPressed(): Boolean = true
+
+    override fun tag(): String = "HIRE_FRAGMENT"
 }
