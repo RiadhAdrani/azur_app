@@ -2,6 +2,7 @@ package com.azurapp.fragments
 
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
 import androidx.cardview.widget.CardView
 import androidx.fragment.app.commit
 import com.azurapp.R
@@ -20,6 +21,7 @@ class MainFragment : BaseFragment(R.layout.fragment_main) {
         val restaurantButton = view.findViewById<CardView>(R.id.fragment_restaurant_button)
         val leisureButton = view.findViewById<CardView>(R.id.fragment_leisure_button)
         val servicesButton = view.findViewById<CardView>(R.id.fragment_service_button)
+        val weHireButton = view.findViewById<Button>(R.id.fragment_azur_hire)
 
         yourCenterButton.setOnClickListener {
             pushFragment(YourCenterFragment(), R.anim.slide_left_in, R.anim.slide_left_out)
@@ -44,6 +46,11 @@ class MainFragment : BaseFragment(R.layout.fragment_main) {
         servicesButton.setOnClickListener {
             pushFragment(ServicesFragment(), R.anim.slide_right_in, R.anim.slide_right_out)
         }
+
+        weHireButton.setOnClickListener {
+            pushFragment(HireFragment(), R.anim.fade_in, R.anim.fade_out)
+        }
+
     }
 
 }

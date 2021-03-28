@@ -38,7 +38,7 @@ class ShopsFragment: BaseFragment(R.layout.fragment_shops) {
         activitiesRecyclerView.setHasFixedSize(true)
         val activitiesAdapter = ActivitiesAdapter(activitiesList, object : ActivitiesAdapter.OnActivityClick{
             override fun onClick(position: Int) {
-                // filterListByActivity(activitiesList[position], adapter)
+                filterListByActivity(activitiesList[position], adapter)
             }
         })
         activitiesRecyclerView.adapter = activitiesAdapter
@@ -47,6 +47,7 @@ class ShopsFragment: BaseFragment(R.layout.fragment_shops) {
 
     fun filterListByActivity(activity: Activity, adapter: ShopAdapter){
         adapter.filter(activity, currentCategory)
+
         currentCategory = activity
     }
 

@@ -1,8 +1,10 @@
 package com.azurapp.objects.shop
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Filter
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
@@ -12,7 +14,16 @@ import com.util.levelToString
 
 class ShopAdapter(private val list : ArrayList<Shop>, private val onClick : OnStoreClick) : RecyclerView.Adapter<ShopAdapter.ShopHolder>() {
 
-    private var listToDisplay : ArrayList<Shop> = list
+    private lateinit var listToDisplay : ArrayList<Shop>
+
+    init {
+        listToDisplay = ArrayList()
+        for (item : Shop in list){
+            listToDisplay.add(item)
+        }
+
+        Log.d("DEBUGGING","Size = ${listToDisplay.size} ")
+    }
 
     interface OnStoreClick{
         fun onClick(position: Int)
@@ -59,16 +70,18 @@ class ShopAdapter(private val list : ArrayList<Shop>, private val onClick : OnSt
             return
 
         if (activity == Activity.All){
-            listToDisplay = list
+            listToDisplay = ArrayList(list)
             notifyDataSetChanged()
         } else{
             listToDisplay.clear()
             for (shop : Shop in list){
                 if (shop.activity == activity){
-                    listToDisplay.add(shop)
+                    listToDisplay.add(0,shop)
+                    notifyItemInserted(0)
                 }
             }
             notifyDataSetChanged()
+            Log.d("DEBUGGING","Size = ${listToDisplay.size} ")
         }
 
     }
