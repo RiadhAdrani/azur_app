@@ -35,5 +35,82 @@
     <string name="we_hire">Azur is hiring! Join Our Team!</string>
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- LANDING FRAGMENT -->
 
+    <string name="we_hire_description">Are you in search of an opportunity to gain money and experience? Are you confident enough with your skills? What are you waiting for!!! Join our working team now!</string>
+    <string name="first_name">First name</string>
+    <string name="first_name_hint">foulen</string>
+    <string name="last_name">Last name</string>
+    <string name="last_name_hint">benfoulen</string>
+    <string name="cin">CIN</string>
+    <string name="cin_hint">12345678</string>
+    <string name="activity">Activity</string>
+    <string name="activity_hint">marketing, development…</string>
+    <string name="embed_cv">Embed your CV</string>
+    <string name="submit">Submit</string>
+    <string name="all">All</string>
+
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- FLOOR LEVEL -->
+
+    <string name="ground_floor">Ground Floor</string>
+    <string name="main_floor">Main Floor</string>
+    <string name="first_floor">First Floor</string>
+    <string name="second_floor">Second Floor</string>
+
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- SOCIAL MEDIA NAMES -->
+    <string name="website">Website</string>
+    <string name="facebook">Facebook</string>
+
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ACTIVITIES NAMES -->
+
+    <string name="activity_shoes">Shoes</string>
+    <string name="activity_ready_to_wear">Ready-to-wear</string>
+    <string name="activity_ready_to_wear_women">Ready-to-wear women</string>
+    <string name="activity_ready_to_wear_men">Ready-to-wear men</string>
+    <string name="activity_ready_to_wear_kids">Ready-to-wear kids</string>
+    <string name="activity_cosmetics">Cosmetics</string>
+    <string name="activity_decoration">Decoration</string>
+    <string name="activity_sport">Sport</string>
+    <string name="activity_perfumery">Perfumery</string>
+    <string name="activity_jewelry">Jewelry</string>
+    <string name="activity_lingerie">Lingerie</string>
+    <string name="activity_service">Service</string>
+    <string name="activity_optics">Optics</string>
+    <string name="activity_furniture">Furniture</string>
+    <string name="activity_cafeteria">Cafeteria</string>
+    <string name="activity_showroom">Showroom</string>
+    <string name="activity_linens">Linens</string>
+    <string name="activity_restaurant">Restaurant</string>
+
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- STORES DATA -->
+
+    <string name="store_aldo">Aldo</string>
+    <string name="store_aldo_fb">aldo</string>
+    <string name="store_aldo_web">aldo</string>
+    <string name="store_aldo_des">Aldo description</string>
+    <string name="store_aldo_phone">11223344</string>
+
+    <string name="store_sens_inverse">Sens Inverse</string>
+    <string name="store_sens_inverse_des">Sens Inverse description</string>
+    <string name="store_sens_inverse_phone">11335577</string>
+    <string name="store_sens_inverse_fb">sens inverse</string>
+    <string name="store_sens_inverse_web">sensinverse.com</string>
+
+    <string name="store_maha_modern">Maha Modern</string>
+    <string name="store_maha_modern_des">maha modern des</string>
+    <string name="store_maha_modern_phone">99775511</string>
+    <string name="store_maha_modern_fb">mahamodern</string>
+    <string name="store_maha_modern_web">mahamodern.tn</string>
+
+    <string name="store_yves_rocher">Yves Rocher</string>
+    <string name="store_yves_rocher_des">yves rocher des</string>
+    <string name="store_yves_rocher_phone">66882244</string>
+    <string name="store_yves_rocher_fb">yvesrocher.gg</string>
+    <string name="store_yves_rocher_web">yvesrocher.io</string>
+
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
 </resources>

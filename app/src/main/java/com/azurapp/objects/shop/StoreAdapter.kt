@@ -1,28 +1,26 @@
 package com.azurapp.objects.shop
 
-import android.util.Log
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Filter
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.azurapp.R
-import com.util.activityToString
-import com.util.levelToString
 
-class ShopAdapter(private val list : ArrayList<Shop>, private val onClick : OnStoreClick) : RecyclerView.Adapter<ShopAdapter.ShopHolder>() {
+class StoreAdapter(
+    private val context: Context,
+    private val list : ArrayList<Store>,
+    private val onClick : OnStoreClick) : RecyclerView.Adapter<StoreAdapter.ShopHolder>() {
 
-    private lateinit var listToDisplay : ArrayList<Shop>
+    private var listToDisplay : ArrayList<Store>
 
     init {
         listToDisplay = ArrayList()
-        for (item : Shop in list){
+        for (item : Store in list){
             listToDisplay.add(item)
         }
-
-        Log.d("DEBUGGING","Size = ${listToDisplay.size} ")
     }
 
     interface OnStoreClick{
@@ -36,11 +34,11 @@ class ShopAdapter(private val list : ArrayList<Shop>, private val onClick : OnSt
         private val storeCategory: TextView = itemView.findViewById(R.id.item_store_category_label)
         private val storeLevel: TextView = itemView.findViewById(R.id.item_store_level_label)
 
-        fun bindData(shop: Shop){
-            storeLogo.setImageResource(shop.icon)
-            storeName.text = shop.name
-            storeCategory.text = activityToString(shop.activity)
-            storeLevel.text = levelToString(shop.level)
+        fun bindData(store: Store){
+            storeLogo.setImageResource(store.icon)
+            storeName.text = context.getString(store.name)
+            storeCategory.text = context.getString(store.activity[0].name)
+            storeLevel.text = context.getString(store.level.name)
 
             itemView.setOnClickListener {
                 onClick.onClick(adapterPosition)
@@ -66,22 +64,21 @@ class ShopAdapter(private val list : ArrayList<Shop>, private val onClick : OnSt
 
     fun filter(activity: Activity, oldActivity: Activity){
 
-        if (activity == oldActivity)
+        if (activity.id == oldActivity.id)
             return
 
-        if (activity == Activity.All){
+        if (activity.id == 0){
             listToDisplay = ArrayList(list)
             notifyDataSetChanged()
         } else{
             listToDisplay.clear()
-            for (shop : Shop in list){
-                if (shop.activity == activity){
-                    listToDisplay.add(0,shop)
+            for (store : Store in list){
+                if (activity in store.activity){
+                    listToDisplay.add(0,store)
                     notifyItemInserted(0)
                 }
             }
             notifyDataSetChanged()
-            Log.d("DEBUGGING","Size = ${listToDisplay.size} ")
         }
 
     }

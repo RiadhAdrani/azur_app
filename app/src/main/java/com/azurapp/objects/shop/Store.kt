@@ -10,14 +10,15 @@ package com.azurapp.objects.shop
  * @param mapID ID on the center's map.
  * @param level level in which the shop exists according to the center's map.
  */
-data class Shop(
-    val name : String,
+data class Store(
+    val name : Int,
     val icon : Int,
-    val activity : Activity,
-    val description : String,
-    val phone : String,
+    val activity : ArrayList<Activity>,
+    val description : Int,
+    val phone : Int,
     val mapID : Int,
-    val level : Int
+    val level : StoreLevel,
+    val links : ArrayList<Link>,
 ) {
 
 }

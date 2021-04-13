@@ -6,40 +6,206 @@
     android:padding="@dimen/tiny_extra">
 
     <ImageView
-        android:id="@+id/under_construction_icon"
-        android:layout_width="@dimen/bigger_extra"
-        android:layout_height="@dimen/bigger_extra"
-        android:src="@drawable/ic_construction"
-        app:layout_constraintBottom_toTopOf="@id/under_construction_text"
+        android:id="@+id/fragment_header_icon"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginVertical="@dimen/small"
-        app:tint="@color/azur_dark"
-        android:contentDescription="@string/under_construction" />
+        app:layout_constraintBottom_toTopOf="@id/fragment_header_text"
+        android:layout_width="@dimen/bigger"
+        android:contentDescription="@string/azur_city"
+        android:layout_gravity="center"
+        android:src="@drawable/azur_icon"
+        android:layout_height="@dimen/bigger"/>
 
     <TextView
-        android:id="@+id/under_construction_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/under_construction"
-        android:textColor="@color/azur"
-        android:textSize="@dimen/text_big"
+        android:id="@+id/fragment_header_text"
+        app:layout_constraintTop_toBottomOf="@id/fragment_header_icon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/fragment_header_description"
+        android:text="@string/we_hire"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textColor="@color/azur_dark"
+        android:textSize="@dimen/text_small"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
 
     <TextView
-        android:id="@+id/under_construction_info"
+        android:id="@+id/fragment_header_description"
+        app:layout_constraintTop_toBottomOf="@id/fragment_header_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/fragment_first_name_label"
+        android:text="@string/we_hire_description"
+        android:textColor="@color/azur_darker"
+        android:textSize="@dimen/text_tiny_extra"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/fragment_first_name_label"
+        app:layout_constraintTop_toBottomOf="@id/fragment_header_description"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/fragment_first_name_box"
+        android:text="@string/first_name"
+        android:textColor="@color/azur_dark"
+        android:textSize="@dimen/text_tiny_extra"
+        android:textStyle="italic"
+        android:gravity="start"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/fragment_first_name_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/fragment_first_name_label"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/fragment_last_name_label"
+        android:singleLine="true"
+        android:autofillHints="@string/first_name"
+        android:maxLength="20"
+        android:hint="@string/first_name_hint"
+        android:inputType="textCapWords" />
+
+    <TextView
+        android:id="@+id/fragment_last_name_label"
+        app:layout_constraintTop_toBottomOf="@id/fragment_first_name_box"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/fragment_last_name_box"
+        android:text="@string/last_name"
+        android:textColor="@color/azur_dark"
+        android:textSize="@dimen/text_tiny_extra"
+        android:textStyle="italic"
+        android:gravity="start"
+        android:maxLength="20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/fragment_last_name_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/fragment_last_name_label"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/fragment_cin_label"
+        android:hint="@string/last_name_hint"
+        android:singleLine="true"
+        android:autofillHints="@string/last_name_hint"
+        android:inputType="textCapWords" />
+
+    <TextView
+        android:id="@+id/fragment_cin_label"
+        app:layout_constraintTop_toBottomOf="@id/fragment_last_name_box"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/fragment_cin_box"
+        android:text="@string/cin"
+        android:textColor="@color/azur_dark"
+        android:textSize="@dimen/text_tiny_extra"
+        android:textStyle="italic"
+        android:gravity="start"
+        android:maxLength="20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/fragment_cin_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/fragment_cin_label"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/fragment_activity_label"
+        android:hint="@string/cin_hint"
+        android:singleLine="true"
+        android:autofillHints="@string/cin_hint"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/fragment_activity_label"
+        app:layout_constraintTop_toBottomOf="@id/fragment_cin_box"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/fragment_activity_box"
+        android:text="@string/activity"
+        android:textColor="@color/azur_dark"
+        android:textSize="@dimen/text_tiny_extra"
+        android:textStyle="italic"
+        android:gravity="start"
+        android:maxLength="20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/fragment_activity_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/fragment_activity_label"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/fragment_embed_cv_button"
+        android:hint="@string/activity_hint"
+        android:singleLine="true"
+        android:autofillHints="@string/cin_hint"
+        android:inputType="textCapWords" />
+
+    <Button
+        android:id="@+id/fragment_embed_cv_button"
+        app:layout_constraintTop_toBottomOf="@id/fragment_activity_box"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/fragment_embedded_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/embed_cv"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/fragment_embedded_file"
+        app:layout_constraintTop_toBottomOf="@id/fragment_embed_cv_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/fragment_submit_button"
+        android:text="@string/embed_cv"
+        android:textColor="@color/azur_dark"
+        android:textSize="@dimen/text_tiny_extra"
+        android:textStyle="italic"
         android:gravity="center"
-        android:text="@string/check_later"
-        android:textColor="@color/azur_darker"
-        android:textSize="20sp"
-        app:layout_constraintTop_toBottomOf="@id/under_construction_text"
-        android:layout_marginVertical="@dimen/small"
+        android:maxLength="20"
+        android:maxLines="2"
+        android:minLines="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         />
+
+    <Button
+        android:id="@+id/fragment_submit_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fragment_embedded_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="@string/submit"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_small"/>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
