@@ -112,5 +112,125 @@
     <string name="store_yves_rocher_fb">yvesrocher.gg</string>
     <string name="store_yves_rocher_web">yvesrocher.io</string>
 
+    <string name="store_nine_west">Nine West</string>
+    <string name="store_nine_west_des">Nine west des</string>
+    <string name="store_nine_west_phone">88665511</string>
+    <string name="store_nine_west_fb">ninewest</string>
+    <string name="store_nine_west_web">ninewest.com</string>
+
+    <string name="store_pimkie">Pimkie</string>
+    <string name="store_pimkie_des">Pimkie des</string>
+    <string name="store_pimkie_phone">00000000</string>
+    <string name="store_pimkie_fb">pimkie</string>
+    <string name="store_pimkie_web">pimkie.gg</string>
+
+    <string name="store_moda_vinci">Moda Vinci</string>
+    <string name="store_moda_vinci_des">Moda vinci des</string>
+    <string name="store_moda_vinci_phone">00000000</string>
+    <string name="store_moda_vinci_fb">modaVinci</string>
+    <string name="store_moda_vinci_web">modavinci.tn</string>
+
+    <string name="store_ecovillage">Ecovillage</string>
+    <string name="store_ecovillage_des">ecovillage des</string>
+    <string name="store_ecovillage_phone">00000000</string>
+    <string name="store_ecovillage_fb">ecovillage</string>
+    <string name="store_ecovillage_web">ecovillage.co</string>
+
+    <string name="store_hmila">H\'mila</string>
+    <string name="store_hmila_des">hmila desc</string>
+    <string name="store_hmila_phone">00000000</string>
+    <string name="store_hmila_fb">hmila</string>
+    <string name="store_hmila_web">hmila.tn</string>
+
+    <string name="store_hummel">Hummel</string>
+    <string name="store_hummel_des">hummel des</string>
+    <string name="store_hummel_phone">00000000</string>
+    <string name="store_hummel_fb">hummel</string>
+    <string name="store_hummel_web">hummel.fr</string>
+
+    <string name="store_pretty_women">Pretty Woman</string>
+    <string name="store_pretty_women_des">pretty woman</string>
+    <string name="store_pretty_women_phone">00000000</string>
+    <string name="store_pretty_women_fb">prettywoman</string>
+    <string name="store_pretty_women_web">prettywoman.uk</string>
+
+    <string name="store_lile_aux_bijoux">L\'ile Aux Bijoux</string>
+    <string name="store_lile_aux_bijoux_des">lile aux bijoux</string>
+    <string name="store_lile_aux_bijoux_phone">0000000</string>
+    <string name="store_lile_aux_bijoux_fb">lileauxbijoux</string>
+    <string name="store_lile_aux_bijoux_web">lileauxbijoux.fr</string>
+
+    <string name="store_women_secret">Women Secret</string>
+    <string name="store_women_secret_des">women des</string>
+    <string name="store_women_secret_phone">11111111</string>
+    <string name="store_women_secret_fb">womensecret</string>
+    <string name="store_women_secret_web">womensecret.us</string>
+
+    <string name="store_fatales">Fatales</string>
+    <string name="store_fatales_web">fatales.com</string>
+    <string name="store_fatales_fb">fatales</string>
+    <string name="store_fatales_des">fatales des</string>
+    <string name="store_fatales_phone">11111111</string>
+
+    <string name="store_orange">Orange</string>
+    <string name="store_orange_des">orange des</string>
+    <string name="store_orange_phone">0000000</string>
+    <string name="store_orange_fb">orange</string>
+    <string name="store_orange_web">orange.tn</string>
+
+    <string name="store_manuella">Manuella</string>
+    <string name="store_manuella_des">manuella des</string>
+    <string name="store_manuella_phone">0000000</string>
+    <string name="store_manuella_fb">manuella</string>
+    <string name="store_manuella_web">manuella.ge</string>
+
+    <string name="store_bali_optique">Bali Optique</string>
+    <string name="store_bali_optique_des">bali des</string>
+    <string name="store_bali_optique_phone">000000000</string>
+    <string name="store_bali_optique_fb">balioptique</string>
+    <string name="store_bali_optique_web">balioptique.it</string>
+
+    <string name="store_faouzia_frad">Faouzia Frad</string>
+    <string name="store_faouzia_frad_des">faouzia des</string>
+    <string name="store_faouzia_frad_phone">1111111111</string>
+    <string name="store_faouzia_frad_fb">faouziafrad</string>
+    <string name="store_faouzia_frad_web">faouziafrad.tn</string>
+
+    <string name="store_etam">ETAM</string>
+    <string name="store_etam_des">etam des</string>
+    <string name="store_etam_phone">33333333</string>
+    <string name="store_etam_fb">etam</string>
+    <string name="store_etam_web">etam.fr</string>
+
+    <string name="store_naf_naf">Naf Naf</string>
+    <string name="store_naf_naf_des">naf des</string>
+    <string name="store_naf_naf_phone">00000000</string>
+    <string name="store_naf_naf_fb">nafnaf.fr</string>
+    <string name="store_naf_naf_web">nafnaf.com</string>
+
+    <string name="store_beltoni">Beltoni</string>
+    <string name="store_beltoni_des">beltoni des</string>
+    <string name="store_beltoni_phone">888888888</string>
+    <string name="store_beltoni_fb">beltoni</string>
+    <string name="store_beltoni_web">beltoni.co</string>
+
+    <string name="store_kareena" >Kareena</string>
+    <string name="store_kareena_des">kareena des</string>
+    <string name="store_kareena_phone">5555555555</string>
+    <string name="store_kareena_fb">kareenatn</string>
+    <string name="store_kareena_web">kareena.li</string>
+
+    <string name="store_123">123</string>
+    <string name="store_123_des">123 des</string>
+    <string name="store_123_phone">12345678</string>
+    <string name="store_123_fb">123fb</string>
+    <string name="store_123_web">123.fr</string>
+
+    <string name="store_parfois">Parfois</string>
+    <string name="store_parfois_des">parfois des</string>
+    <string name="store_parfois_phone">159951159</string>
+    <string name="store_parfois_fb">parfois</string>
+    <string name="store_parfois_web">parfois.fr</string>
+
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
 </resources>

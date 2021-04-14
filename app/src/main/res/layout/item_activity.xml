@@ -23,11 +23,12 @@
             android:text="@string/azur_city"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:textSize="@dimen/text_medium_small"
-            android:paddingHorizontal="@dimen/epsilon"
-            android:paddingVertical="@dimen/epsilon"
+            android:textSize="@dimen/text_tiny"
+            android:paddingHorizontal="@dimen/tiny"
+            android:paddingVertical="@dimen/tiny_extra"
             android:textAlignment="gravity"
             android:gravity="end|bottom"
+            android:ellipsize="end"
             />
 
 

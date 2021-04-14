@@ -3,7 +3,7 @@
     android:layout_margin="4dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="@dimen/enormous_extra"
-    android:layout_height="@dimen/yo_mama"
+    android:layout_height="@dimen/yo_mama_so_fat"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="15dp"
     android:elevation="4dp"
@@ -25,21 +25,22 @@
             app:layout_constraintTop_toTopOf="parent"
             android:contentDescription="@string/shops" />
 
-
         <TextView
             android:id="@+id/item_store_name"
             android:text="@string/shops"
-            android:padding="@dimen/tiny_extra"
             app:layout_constraintTop_toBottomOf="@id/item_store_logo"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintBottom_toTopOf="@id/item_store_category_icon"
             android:layout_width="match_parent"
             android:textStyle="bold"
-            android:layout_height="45dp"
-            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:minLines="2"
+            android:maxLines="2"
+            android:gravity="center"
+            android:paddingHorizontal="4dp"
             android:textAlignment="center"
-            android:autoSizeTextType="uniform"
+            android:textSize="@dimen/text_medium"
             android:letterSpacing="0.05"
             />
 
@@ -62,10 +63,12 @@
             app:layout_constraintLeft_toRightOf="@id/item_store_category_icon"
             app:layout_constraintRight_toRightOf="parent"
             android:layout_width="0dp"
-            android:singleLine="true"
+            android:maxLines="2"
+            android:minLines="2"
+            android:gravity="center"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:autoSizeTextType="uniform"
+            android:textSize="@dimen/text_tiny"
             />
 
         <ImageView
@@ -87,10 +90,12 @@
             app:layout_constraintLeft_toRightOf="@id/item_store_level_icon"
             app:layout_constraintRight_toRightOf="parent"
             android:layout_width="0dp"
-            android:singleLine="true"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:autoSizeTextType="uniform"
+            android:maxLines="2"
+            android:minLines="2"
+            android:gravity="center"
+            android:textSize="@dimen/text_tiny"
             />
 
 
