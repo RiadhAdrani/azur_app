@@ -14,7 +14,7 @@ import com.azurapp.objects.shop.StoreAdapter
 import com.util.getLocalStoreList
 import com.util.getStatusBarHeight
 
-class ShopsFragment: BaseFragment(R.layout.fragment_stores) {
+class StoresFragment: BaseFragment(R.layout.fragment_stores) {
 
     override fun onBackPressed(): Boolean = true
 
@@ -28,10 +28,13 @@ class ShopsFragment: BaseFragment(R.layout.fragment_stores) {
         val storeList = ArrayList<Store>(getLocalStoreList())
 
         val recyclerView : RecyclerView = view.findViewById(R.id.fragment_shops_recycler_view)
+
         val adapter = StoreAdapter(requireContext(),storeList, object : StoreAdapter.OnStoreClick{
-            override fun onClick(position: Int) {
+            override fun onClick(position: Int, list: ArrayList<Store>) {
+                pushFragment(StoreFragment(list[position]))
             }
         })
+
         recyclerView.adapter = adapter
         recyclerView.layoutManager = GridLayoutManager(context, 2)
 

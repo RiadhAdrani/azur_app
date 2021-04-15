@@ -14,7 +14,7 @@ class StoreAdapter(
     private val list : ArrayList<Store>,
     private val onClick : OnStoreClick) : RecyclerView.Adapter<StoreAdapter.ShopHolder>() {
 
-    private var listToDisplay : ArrayList<Store>
+    var listToDisplay : ArrayList<Store>
 
     init {
         listToDisplay = ArrayList()
@@ -24,7 +24,7 @@ class StoreAdapter(
     }
 
     interface OnStoreClick{
-        fun onClick(position: Int)
+        fun onClick(position: Int, list: ArrayList<Store>)
     }
 
     inner class ShopHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
@@ -41,7 +41,7 @@ class StoreAdapter(
             storeLevel.text = context.getString(store.level.name)
 
             itemView.setOnClickListener {
-                onClick.onClick(adapterPosition)
+                onClick.onClick(adapterPosition, listToDisplay)
             }
         }
 

@@ -1,6 +1,7 @@
 package com.azurapp.objects.shop
 
 import com.azurapp.R
+import com.azurapp.objects.shop.Activity.Companion.watchmaking
 
 data class Activity(val id: Int, val name: Int) {
 
@@ -25,6 +26,7 @@ data class Activity(val id: Int, val name: Int) {
         val showroom = Activity(16, R.string.activity_showroom)
         val linens = Activity(17, R.string.activity_linens)
         val restaurant = Activity(18, R.string.activity_restaurant)
-
+        val telecom= Activity(19, R.string.telecom)
+        val watchmaking = Activity(20, R.string.watchmaking)
     }
 }

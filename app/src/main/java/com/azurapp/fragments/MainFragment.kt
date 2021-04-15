@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import androidx.cardview.widget.CardView
-import androidx.fragment.app.commit
 import com.azurapp.R
 
 class MainFragment : BaseFragment(R.layout.fragment_main) {
@@ -28,7 +27,7 @@ class MainFragment : BaseFragment(R.layout.fragment_main) {
         }
 
         shopsButton.setOnClickListener {
-            pushFragment(ShopsFragment(), R.anim.slide_up_in, R.anim.slide_up_out)
+            pushFragment(StoresFragment(), R.anim.slide_up_in, R.anim.slide_up_out)
         }
 
         geantButton.setOnClickListener {

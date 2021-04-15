@@ -1,18 +1,220 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-    
-    <ImageView
-        android:id="@+id/fragment_banner"
-        android:background="@drawable/pic_inside"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/giant_extra"
-        android:scaleType="centerCrop"
-        android:contentDescription="@string/azur_city" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/fragment_banner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/giant_extra"
+            android:src="@drawable/pic_inside"
+            android:contentDescription="@string/azur_city"
+            android:scaleType="centerCrop"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fragment_store_name"
+            android:text="@string/store_samsung"
+            app:layout_constraintTop_toBottomOf="@id/fragment_banner"
+            android:textSize="@dimen/text_big"
+            android:textAlignment="center"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="@dimen/small_extra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:id="@+id/wrapper"
+            app:layout_constraintTop_toBottomOf="@id/fragment_store_name"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/small_extra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tiny_extra"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/fragment_activity_icon"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/medium_large"
+                    android:contentDescription="@string/azur_city"
+                    android:src="@drawable/ic_store"
+                    />
+
+                <TextView
+                    android:id="@+id/fragment_activity_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/azur_city"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    style="@style/fragment_store_text"
+                     />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tiny_extra"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/fragment_floor_icon"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/medium_large"
+                    android:contentDescription="@string/azur_city"
+                    android:src="@drawable/ic_floor"
+                    />
+
+                <TextView
+                    android:id="@+id/fragment_floor_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/azur_city"
+                    style="@style/fragment_store_text"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tiny_extra"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/fragment_id_icon"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/medium_large"
+                    android:contentDescription="@string/azur_city"
+                    android:src="@drawable/ic_location"
+                    />
+
+                <TextView
+                    android:id="@+id/fragment_id_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/azur_city"
+                    style="@style/fragment_store_text"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tiny_extra"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/fragment_phone_icon"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/medium_large"
+                    android:contentDescription="@string/azur_city"
+                    android:src="@drawable/ic_phone"
+                    />
+
+                <TextView
+                    android:id="@+id/fragment_phone_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/azur_city"
+                    style="@style/fragment_store_text"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tiny_extra"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/fragment_facebook_icon"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/medium_large"
+                    android:contentDescription="@string/azur_city"
+                    android:src="@drawable/ic_facebook"
+                    />
+
+                <TextView
+                    android:id="@+id/fragment_facebook_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/azur_city"
+                    style="@style/fragment_store_text"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tiny_extra"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/fragment_web_icon"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/medium_large"
+                    android:contentDescription="@string/azur_city"
+                    android:src="@drawable/ic_link"
+                    />
+
+                <TextView
+                    android:id="@+id/fragment_web_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/azur_city"
+                    style="@style/fragment_store_text"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/fragment_description"
+                android:layout_marginTop="@dimen/tiny"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="@dimen/small"
+                android:text="@string/lorem"
+                style="@style/fragment_store_description"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
+

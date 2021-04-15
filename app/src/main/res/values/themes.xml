@@ -16,4 +16,23 @@
         <item name="android:windowTranslucentNavigation">true</item>
         <item name="fontFamily">@font/open_sans</item>
     </style>
+
+    <style name="fragment_store_text">
+        <item name="android:paddingTop">@dimen/tiny_extra</item>
+        <item name="android:paddingBottom">@dimen/tiny_extra</item>
+        <item name="singleLine">true</item>
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/text_tiny</item>
+    </style>
+
+    <style name="fragment_store_description">
+        <item name="android:paddingTop">@dimen/tiny</item>
+        <item name="android:paddingBottom">@dimen/tiny</item>
+        <item name="paddingStart">@dimen/tiny</item>
+        <item name="paddingEnd">@dimen/tiny</item>
+        <item name="singleLine">true</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
 </resources>

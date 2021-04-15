@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Azur App</string>
 
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
     <string name="picture">picture</string>
     <string name="azur_city">Azur City</string>
     <string name="open">Open Today</string>
@@ -84,6 +85,8 @@
     <string name="activity_showroom">Showroom</string>
     <string name="activity_linens">Linens</string>
     <string name="activity_restaurant">Restaurant</string>
+    <string name="telecom">Telecom</string>
+    <string name="watchmaking">Watchmaking</string>
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- STORES DATA -->
@@ -231,6 +234,180 @@
     <string name="store_parfois_phone">159951159</string>
     <string name="store_parfois_fb">parfois</string>
     <string name="store_parfois_web">parfois.fr</string>
+
+    <string name="store_samsung">Samsung</string>
+    <string name="store_samsung_des">smasung des</string>
+    <string name="store_samsung_phone">333333333</string>
+    <string name="store_samsung_fb">samsungtn</string>
+    <string name="store_samsung_web">samsung.tn</string>
+
+    <string name="store_archipel">Archipel</string>
+    <string name="store_archipel_des">archipel des</string>
+    <string name="store_archipel_phone">11113051</string>
+    <string name="store_archipel_fb">archipel</string>
+    <string name="store_archipel_web">archipel.fr</string>
+
+    <string name="store_gift_story">Gift Story</string>
+    <string name="store_gift_story_des">gift story des</string>
+    <string name="store_gift_story_phone">85461561</string>
+    <string name="store_gift_story_fb">fb</string>
+    <string name="store_gift_story_web">giftstory</string>
+
+    <string name="store_specs_optique">Spec\'s Optique</string>
+    <string name="store_specs_optique_des">des</string>
+    <string name="store_specs_optique_phone">phone number</string>
+    <string name="store_specs_optique_fb">fb</string>
+    <string name="store_specs_optique_web">com</string>
+
+    <string name="store_city_watch">City Watch</string>
+    <string name="store_city_watch_des">des</string>
+    <string name="store_city_watch_phone">phone</string>
+    <string name="store_city_watch_fb">fb</string>
+    <string name="store_city_watch_web">web</string>
+
+    <string name="store_lufian">Lufian</string>
+    <string name="store_lufian_des">luf</string>
+    <string name="store_lufian_phone">wuf</string>
+    <string name="store_lufian_fb">fb</string>
+    <string name="store_lufian_web">web</string>
+
+    <string name="store_star_watches">Star Watches</string>
+    <string name="store_star_watches_des">w</string>
+    <string name="store_star_watches_phone">phone</string>
+    <string name="store_star_watches_fb">fb</string>
+    <string name="store_star_watches_web">web</string>
+
+    <string name="store_elu">ELU</string>
+    <string name="store_elu_des">des</string>
+    <string name="store_elu_phone">p</string>
+    <string name="store_elu_fb">fb</string>
+    <string name="store_elu_web">web</string>
+
+    <string name="store_loccitane">L\'Occitane</string>
+    <string name="store_loccitane_des">loc</string>
+    <string name="store_loccitane_phone">1</string>
+    <string name="store_loccitane_fb">fb</string>
+    <string name="store_loccitane_web">com</string>
+
+    <string name="store_strass">Strass</string>
+    <string name="store_strass_des">sdes</string>
+    <string name="store_strass_phone">1</string>
+    <string name="store_strass_fb">fb</string>
+    <string name="store_strass_web">com</string>
+
+    <string name="store_penti">Penti</string>
+    <string name="store_penti_des">des</string>
+    <string name="store_penti_phone">p</string>
+    <string name="store_penti_fb">fb</string>
+    <string name="store_penti_web">web</string>
+
+    <string name="store_tiffosi">Tiffosi</string>
+    <string name="store_tiffosi_des">des</string>
+    <string name="store_tiffosi_phone">ph</string>
+    <string name="store_tiffosi_fb">fb</string>
+    <string name="store_tiffosi_web">web</string>
+
+    <string name="store_tempus">Tempus</string>
+    <string name="store_tempus_des">tem</string>
+    <string name="store_tempus_phone">tem</string>
+    <string name="store_tempus_fb">tem</string>
+    <string name="store_tempus_web">tem</string>
+
+    <string name="store_gimel">Gimel</string>
+    <string name="store_gimel_des">g</string>
+    <string name="store_gimel_phone">g</string>
+    <string name="store_gimel_fb">g</string>
+    <string name="store_gimel_web">g</string>
+
+    <string name="store_gioseppo">Gioseppo</string>
+    <string name="store_gioseppo_des">g</string>
+    <string name="store_gioseppo_phone">g</string>
+    <string name="store_gioseppo_fb">g</string>
+    <string name="store_gioseppo_web">g</string>
+
+    <string name="store_cosmito">Cosmito</string>
+    <string name="store_cosmito_des">c</string>
+    <string name="store_cosmito_phone">c</string>
+    <string name="store_cosmito_fb">c</string>
+    <string name="store_cosmito_web">c</string>
+
+    <string name="store_peak">Peak</string>
+    <string name="store_peak_des">p</string>
+    <string name="store_peak_phone">e</string>
+    <string name="store_peak_fb">e</string>
+    <string name="store_peak_web">e</string>
+
+    <string name="store_joliesse">Joliesse</string>
+    <string name="store_joliesse_des">j</string>
+    <string name="store_joliesse_phone">e</string>
+    <string name="store_joliesse_fb">e</string>
+    <string name="store_joliesse_web">e</string>
+
+    <string name="store_springfield">Springfield</string>
+    <string name="store_springfield_des">sp</string>
+    <string name="store_springfield_phone">e</string>
+    <string name="store_springfield_fb">e</string>
+    <string name="store_springfield_web">e</string>
+
+    <string name="store_sebago_cat">Sebago Cat</string>
+    <string name="store_sebago_cat_des">s</string>
+    <string name="store_sebago_cat_phone">e</string>
+    <string name="store_sebago_cat_fb">e</string>
+    <string name="store_sebago_cat_web">e</string>
+
+    <string name="store_wael_optic">Wael Optic</string>
+    <string name="store_wael_optic_des">e</string>
+    <string name="store_wael_optic_phone">e</string>
+    <string name="store_wael_optic_fb">e</string>
+    <string name="store_wael_optic_web">e</string>
+
+    <string name="store_polaris">Polaris</string>
+    <string name="store_polaris_des">e</string>
+    <string name="store_polaris_phone">e</string>
+    <string name="store_polaris_fb">e</string>
+    <string name="store_polaris_web">e</string>
+
+    <string name="store_lee_cooper_lois">Lee Cooper Lois</string>
+    <string name="store_lee_cooper_lois_des">e</string>
+    <string name="store_lee_cooper_lois_phone">e</string>
+    <string name="store_lee_cooper_lois_fb">e</string>
+    <string name="store_lee_cooper_lois_web">e</string>
+
+    <string name="store_la_scarfa">La Scarfa</string>
+    <string name="store_la_scarfa_des">e</string>
+    <string name="store_la_scarfa_phone">e</string>
+    <string name="store_la_scarfa_fb">e</string>
+    <string name="store_la_scarfa_web">e</string>
+
+    <string name="store_pitillos">Pitillos</string>
+    <string name="store_pitillos_des">e</string>
+    <string name="store_pitillos_phone">e</string>
+    <string name="store_pitillos_fb">e</string>
+    <string name="store_pitillos_web">e</string>
+
+    <string name="store_courir">Courir</string>
+    <string name="store_courir_des">e</string>
+    <string name="store_courir_phone">e</string>
+    <string name="store_courir_fb">e</string>
+    <string name="store_courir_web">e</string>
+
+    <string name="store_du_pareil_au_meme">Du Pareil Au Même</string>
+    <string name="store_du_pareil_au_meme_des">e</string>
+    <string name="store_du_pareil_au_meme_phone">e</string>
+    <string name="store_du_pareil_au_meme_fb">e</string>
+    <string name="store_du_pareil_au_meme_web">e</string>
+
+    <string name="store_enzo">Enzo</string>
+    <string name="store_enzo_des">e</string>
+    <string name="store_enzo_phone">e</string>
+    <string name="store_enzo_fb">e</string>
+    <string name="store_enzo_web">e</string>
+
+    <string name="store_xti">XTI</string>
+    <string name="store_xti_des">e</string>
+    <string name="store_xti_phone">e</string>
+    <string name="store_xti_fb">e</string>
+    <string name="store_xti_web">e</string>
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
 </resources>
