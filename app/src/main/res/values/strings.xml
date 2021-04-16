@@ -92,106 +92,106 @@
     <!-- STORES DATA -->
 
     <string name="store_aldo">Aldo</string>
-    <string name="store_aldo_fb">aldo</string>
-    <string name="store_aldo_web">aldo</string>
-    <string name="store_aldo_des">Aldo description</string>
-    <string name="store_aldo_phone">11223344</string>
+    <string name="store_aldo_fb">https://www.facebook.com/ALDO</string>
+    <string name="store_aldo_web">www.aldoshoes.com</string>
+    <string name="store_aldo_des">Aldo est la destination mondiale pour les chaussures et accessoires de mode tendance à des prix accessibles. Positif, authentique et débordant de personnalité, Aldo est la marque de style de vie pour les personnes qui s\'engagent dans le monde. ALDO est la première entreprise de chaussures et d\'accessoires de mode au monde à être certifiée climatiquement neutre.</string>
+    <string name="store_aldo_phone"/>
 
     <string name="store_sens_inverse">Sens Inverse</string>
-    <string name="store_sens_inverse_des">Sens Inverse description</string>
-    <string name="store_sens_inverse_phone">11335577</string>
-    <string name="store_sens_inverse_fb">sens inverse</string>
-    <string name="store_sens_inverse_web">sensinverse.com</string>
+    <string name="store_sens_inverse_des">Si vous êtes une cendrillon des temps modernes, venez trouver chaussure à vos pieds chez les magasins SENS INVERSE.</string>
+    <string name="store_sens_inverse_phone"/>
+    <string name="store_sens_inverse_fb">https://www.facebook.com/SensInverseTunisie</string>
+    <string name="store_sens_inverse_web">www.sensinverse.com.tn</string>
 
     <string name="store_maha_modern">Maha Modern</string>
-    <string name="store_maha_modern_des">maha modern des</string>
-    <string name="store_maha_modern_phone">99775511</string>
-    <string name="store_maha_modern_fb">mahamodern</string>
-    <string name="store_maha_modern_web">mahamodern.tn</string>
+    <string name="store_maha_modern_des">Maha Moden est une marque 100% tunisienne spécialisée dans le prêt à porter féminin. La femme Maha Modern , casual, chic, sport chic ou bien discrète et élégante, attractive et pleine de féminité sans trop en faire. Elle mixe en toute liberté des pièces ultra-tendance indémodables et faciles à porter. Au fil des années maha Moden s\'est dotée d’une culture d\'entreprise basée sur le travail rigoureux, la valorisation du capital humain, et la satisfaction du client.</string>
+    <string name="store_maha_modern_phone"/>
+    <string name="store_maha_modern_fb">https://www.facebook.com/MAHAMODEN.1990/</string>
+    <string name="store_maha_modern_web">www.mahamodern.tn</string>
 
     <string name="store_yves_rocher">Yves Rocher</string>
-    <string name="store_yves_rocher_des">yves rocher des</string>
-    <string name="store_yves_rocher_phone">66882244</string>
-    <string name="store_yves_rocher_fb">yvesrocher.gg</string>
-    <string name="store_yves_rocher_web">yvesrocher.io</string>
+    <string name="store_yves_rocher_des">Yves Rocher crée le principe de la cosmétique à base de plantes, alliant les propriétés des plantes aux meilleures applications de la science. Grâce à son modèle unique, La marque  récolte ses plantes dans ses propres champs cultivés en agriculture biologique. Parce que respecter les plantes et l’environnement, c’est aussi respecter votre beauté. Yves Rocher garantit la qualité inégalée de ses produits et l\'accès direct de ses consommateurs à ceux-ci.</string>
+    <string name="store_yves_rocher_phone"/>
+    <string name="store_yves_rocher_fb">https://www.facebook.com/YvesRocherTn</string>
+    <string name="store_yves_rocher_web">https://www.yvesrocher.tn/</string>
 
     <string name="store_nine_west">Nine West</string>
-    <string name="store_nine_west_des">Nine west des</string>
-    <string name="store_nine_west_phone">88665511</string>
-    <string name="store_nine_west_fb">ninewest</string>
-    <string name="store_nine_west_web">ninewest.com</string>
+    <string name="store_nine_west_des">Nine West une des marques américaines les plus connues qui définit le style féminin intemporel associé aux dernières tendances chaussures et sacs.</string>
+    <string name="store_nine_west_phone">70 130 871</string>
+    <string name="store_nine_west_fb">https://www.facebook.com/NineWestTunisia</string>
+    <string name="store_nine_west_web"/>
 
     <string name="store_pimkie">Pimkie</string>
-    <string name="store_pimkie_des">Pimkie des</string>
-    <string name="store_pimkie_phone">00000000</string>
-    <string name="store_pimkie_fb">pimkie</string>
-    <string name="store_pimkie_web">pimkie.gg</string>
+    <string name="store_pimkie_des">PIMKIE  a toujours aimé la mode et a toujours voulu être proche de ses clientes. Notre cliente aime aussi la mode. Elle aime avoir le choix et sait mixer ses tenues pour construire son style. Vous avez changé. Nous aussi. Vous êtes devenues plus femmes. Vous êtes devenues plus mode. Nos collections sont le reflet de vos envies du moment. Une mode à croquer, toujours au goût du jour et facile à s’offrir. Et comme nous savons que vous aimez être surprises et vous surprendre vous même, nous vous faisons une promesse : « Surprise Me »</string>
+    <string name="store_pimkie_phone"/>
+    <string name="store_pimkie_fb">https://www.facebook.com/Pimkie.Tunisie/</string>
+    <string name="store_pimkie_web">www.pimkie.fr</string>
 
     <string name="store_moda_vinci">Moda Vinci</string>
-    <string name="store_moda_vinci_des">Moda vinci des</string>
-    <string name="store_moda_vinci_phone">00000000</string>
-    <string name="store_moda_vinci_fb">modaVinci</string>
-    <string name="store_moda_vinci_web">modavinci.tn</string>
+    <string name="store_moda_vinci_des">Une marque de prêt à porter homme. L’exigence de qualité et le souci du détail sont au cœur de la conception des collections, pour vous garantir un produit juste, élégant et durable</string>
+    <string name="store_moda_vinci_phone">94 792 835</string>
+    <string name="store_moda_vinci_fb">https://www.facebook.com/ModaVinci.Tunisie</string>
+    <string name="store_moda_vinci_web">https://moda-vinci.com/</string>
 
     <string name="store_ecovillage">Ecovillage</string>
-    <string name="store_ecovillage_des">ecovillage des</string>
-    <string name="store_ecovillage_phone">00000000</string>
-    <string name="store_ecovillage_fb">ecovillage</string>
-    <string name="store_ecovillage_web">ecovillage.co</string>
+    <string name="store_ecovillage_des">Fruit de la collaboration de passionnés d’aromathérapie et d’agriculture, inspirée d’une nature d’une richesse insoupçonnable, la marque ne cesse depuis plus de 4 ans de vous offrir une gamme de cosmétique naturelle, alliant efficacité, accessibilité et plaisir des sens. A partir des matières premières naturelles sélectionnées avec soin, provenant de nos propres plantations ou de partenaires locaux, Ecovillage Natural Beauty vous présente un large choix de produits allant du soin de visage, au soin corps, à l’emblématique savon noir, aux parfums d’ambiance et ancestrales eaux de linge.</string>
+    <string name="store_ecovillage_phone">29 766 961</string>
+    <string name="store_ecovillage_fb">https://www.facebook.com/www.ecovillage.com.tn/</string>
+    <string name="store_ecovillage_web">www.ecovillage.com.tn</string>
 
     <string name="store_hmila">H\'mila</string>
-    <string name="store_hmila_des">hmila desc</string>
-    <string name="store_hmila_phone">00000000</string>
-    <string name="store_hmila_fb">hmila</string>
-    <string name="store_hmila_web">hmila.tn</string>
+    <string name="store_hmila_des">Hamila stoneware manufacture Tunisienne de produits d’art de la table et de décoration en grès émaillé, la seule de son genre sur tout le continent africain.</string>
+    <string name="store_hmila_phone">29 666 718</string>
+    <string name="store_hmila_fb">https://www.facebook.com/HamilaStoneware</string>
+    <string name="store_hmila_web">www.hamilastore.com </string>
 
     <string name="store_hummel">Hummel</string>
-    <string name="store_hummel_des">hummel des</string>
-    <string name="store_hummel_phone">00000000</string>
-    <string name="store_hummel_fb">hummel</string>
-    <string name="store_hummel_web">hummel.fr</string>
+    <string name="store_hummel_des">Hummel, fondée en 1923, est une marque de sportswear et de chaussures de sport profondément ancrée dans le football et le handball.</string>
+    <string name="store_hummel_phone"/>
+    <string name="store_hummel_fb">https://www.facebook.com/hummeltn/</string>
+    <string name="store_hummel_web">www.hummel.tn</string>
 
     <string name="store_pretty_women">Pretty Woman</string>
-    <string name="store_pretty_women_des">pretty woman</string>
-    <string name="store_pretty_women_phone">00000000</string>
-    <string name="store_pretty_women_fb">prettywoman</string>
-    <string name="store_pretty_women_web">prettywoman.uk</string>
+    <string name="store_pretty_women_des">L’art de la parfumerie PRETTY WOMAN  s’évertue à offrir un lieu inspirant et aspirant aux femmes pour les accompagner à trouver le chemin de leur propre beauté et se sentir exceptionnelles le temps d’un moment. La maîtrise de nos marques et de leur philosophie nous installe comme narrateurs d’un luxe de connaisseurs.</string>
+    <string name="store_pretty_women_phone">71 983 315</string>
+    <string name="store_pretty_women_fb">https://www.facebook.com/Pretty.Woman.Parfumeries</string>
+    <string name="store_pretty_women_web">www.pw-beauty.com</string>
 
     <string name="store_lile_aux_bijoux">L\'ile Aux Bijoux</string>
-    <string name="store_lile_aux_bijoux_des">lile aux bijoux</string>
-    <string name="store_lile_aux_bijoux_phone">0000000</string>
-    <string name="store_lile_aux_bijoux_fb">lileauxbijoux</string>
-    <string name="store_lile_aux_bijoux_web">lileauxbijoux.fr</string>
+    <string name="store_lile_aux_bijoux_des">L\'élégance, la finesse, la classe, la qualité, le charme, le grand choix, les bons prix… Bijoux en Argent Platiné 925.L\'île aux Bijoux - Just SILVER 925: ARE ALWAYS GOOD IDEA !!</string>
+    <string name="store_lile_aux_bijoux_phone"/>
+    <string name="store_lile_aux_bijoux_fb"/>
+    <string name="store_lile_aux_bijoux_web"/>
 
     <string name="store_women_secret">Women Secret</string>
-    <string name="store_women_secret_des">women des</string>
-    <string name="store_women_secret_phone">11111111</string>
-    <string name="store_women_secret_fb">womensecret</string>
-    <string name="store_women_secret_web">womensecret.us</string>
+    <string name="store_women_secret_des">Women\'secret  est une marque de sous-vêtements, vêtements de nuit, accessoires et maillots de bain pour la femme d\'aujourd\'hui. Nous créons de nouvelles idées pour rendre la vie plus facile et plus heureuse, provoquant parfois des émotions et parfois apportant des solutions. Nous sommes spécialistes de l\'univers féminin, une marque créée par et pour les femmes .</string>
+    <string name="store_women_secret_phone">29 988 507</string>
+    <string name="store_women_secret_fb">https://www.facebook.com/WomenSecretTN</string>
+    <string name="store_women_secret_web">www.womensecret.com </string>
 
     <string name="store_fatales">Fatales</string>
-    <string name="store_fatales_web">fatales.com</string>
-    <string name="store_fatales_fb">fatales</string>
-    <string name="store_fatales_des">fatales des</string>
-    <string name="store_fatales_phone">11111111</string>
+    <string name="store_fatales_web">https://www.fatales.tn/</string>
+    <string name="store_fatales_fb">https://www.facebook.com/fatales.tunisie</string>
+    <string name="store_fatales_des">FATALES est la première chaîne de parfumeries sélectives au concept de libre service. Vous y trouverez parfums, maquillage, soins, produits pour le corps et le bain et accessoires. </string>
+    <string name="store_fatales_phone">70 130 840</string>
 
     <string name="store_orange">Orange</string>
-    <string name="store_orange_des">orange des</string>
-    <string name="store_orange_phone">0000000</string>
-    <string name="store_orange_fb">orange</string>
-    <string name="store_orange_web">orange.tn</string>
+    <string name="store_orange_des">Orange est un opérateur téléphonique et fournisseur d\'accès à Internet, leader en France et implanté également dans d\'autres pays européens, africains et au moyen orient. </string>
+    <string name="store_orange_phone">31 111 150</string>
+    <string name="store_orange_fb">https://www.facebook.com/orange.tn</string>
+    <string name="store_orange_web">www.orange.tn</string>
 
     <string name="store_manuella">Manuella</string>
-    <string name="store_manuella_des">manuella des</string>
-    <string name="store_manuella_phone">0000000</string>
-    <string name="store_manuella_fb">manuella</string>
-    <string name="store_manuella_web">manuella.ge</string>
+    <string name="store_manuella_des">Manuella Chaussures met un soin pointilleux à réaliser de vrais souliers proches de la perfection… Manuella vos Chaussures de Star !! Pour transformer en un clin d’œil vos tenues en leurs donnant allure, classe et dégager un charisme de folie, Manuella Chaussures conçoit de véritables bijoux cordonniers réalisés dans un souci extrême du détail.</string>
+    <string name="store_manuella_phone">90 779 525</string>
+    <string name="store_manuella_fb">https://www.facebook.com/ManuellaChaussures/</string>
+    <string name="store_manuella_web">www.manuella.com.tn</string>
 
     <string name="store_bali_optique">Bali Optique</string>
-    <string name="store_bali_optique_des">bali des</string>
-    <string name="store_bali_optique_phone">000000000</string>
-    <string name="store_bali_optique_fb">balioptique</string>
-    <string name="store_bali_optique_web">balioptique.it</string>
+    <string name="store_bali_optique_des">Balti optique est la destination meilleure pour les lunettes optiques et solaires de haute qualité. </string>
+    <string name="store_bali_optique_phone">98 754 201</string>
+    <string name="store_bali_optique_fb">https://www.facebook.com/BALTI-OPTIQUE</string>
+    <string name="store_bali_optique_web"/>
 
     <string name="store_faouzia_frad">Faouzia Frad</string>
     <string name="store_faouzia_frad_des">faouzia des</string>
@@ -408,6 +408,126 @@
     <string name="store_xti_phone">e</string>
     <string name="store_xti_fb">e</string>
     <string name="store_xti_web">e</string>
+
+    <string name="store_kiabi">Kiabi</string>
+    <string name="store_kiabi_des">d</string>
+    <string name="store_kiabi_phone">f</string>
+    <string name="store_kiabi_fb">fb</string>
+    <string name="store_kiabi_web">com</string>
+
+    <string name="store_hm"><![CDATA[H & M]]></string>
+    <string name="store_hm_des">Mode fabuleuse pour femmes, hommes, et enfants. Ainsi qu’une large gamme de beauté à des prix incroyables! Rendez-vous chez H&amp;M au Centre Commercial Azur City</string>
+    <string name="store_hm_phone">hm</string>
+    <string name="store_hm_fb">hm</string>
+    <string name="store_hm_web">hm</string>
+
+    <string name="store_lindex">Lindex</string>
+    <string name="store_lindex_des">lindex</string>
+    <string name="store_lindex_phone">31301409 </string>
+    <string name="store_lindex_fb">https://www.facebook.com/HM-103211677881196</string>
+    <string name="store_lindex_web">https://www.hm.com/tn/</string>
+
+    <string name="store_italcar">Italcar</string>
+    <string name="store_italcar_des">SHOW ROOM de voitures</string>
+    <string name="store_italcar_phone"/>
+    <string name="store_italcar_fb"/>
+    <string name="store_italcar_web"/>
+
+    <string name="store_koton">Koton</string>
+    <string name="store_koton_des">k</string>
+    <string name="store_koton_phone">e</string>
+    <string name="store_koton_fb">e</string>
+    <string name="store_koton_web">e</string>
+
+    <string name="store_ha">HA</string>
+    <string name="store_ha_des">ha</string>
+    <string name="store_ha_phone">e</string>
+    <string name="store_ha_fb">e</string>
+    <string name="store_ha_web">e</string>
+
+    <string name="store_heni_collection">Heni Collection</string>
+    <string name="store_heni_collection_des">e</string>
+    <string name="store_heni_collection_phone">e</string>
+    <string name="store_heni_collection_fb">e</string>
+    <string name="store_heni_collection_web">e</string>
+
+    <string name="store_exist">Exist</string>
+    <string name="store_exist_des">e</string>
+    <string name="store_exist_phone">e</string>
+    <string name="store_exist_fb">e</string>
+    <string name="store_exist_web">e</string>
+
+    <string name="store_caraja">Caraja</string>
+    <string name="store_caraja_des">e</string>
+    <string name="store_caraja_phone">e</string>
+    <string name="store_caraja_fb">e</string>
+    <string name="store_caraja_web">e</string>
+
+    <string name="store_go_store">Go Sport</string>
+    <string name="store_go_store_des">e</string>
+    <string name="store_go_store_phone">e</string>
+    <string name="store_go_store_fb">e</string>
+    <string name="store_go_store_web">e</string>
+
+    <string name="store_zen">Zen</string>
+    <string name="store_zen_des">z</string>
+    <string name="store_zen_phone">z</string>
+    <string name="store_zen_fb">z</string>
+    <string name="store_zen_web">z</string>
+
+    <string name="store_baguette_baguette"><![CDATA[Baguette & Baguette]]></string>
+    <string name="store_baguette_baguette_des">e</string>
+    <string name="store_baguette_baguette_phone">e</string>
+    <string name="store_baguette_baguette_fb">e</string>
+    <string name="store_baguette_baguette_web">e</string>
+
+    <string name="store_chillis">Chilli\'s</string>
+    <string name="store_chillis_des">e</string>
+    <string name="store_chillis_phone">e</string>
+    <string name="store_chillis_fb">e</string>
+    <string name="store_chillis_web">e</string>
+
+    <string name="store_hobo">Hobo</string>
+    <string name="store_hobo_des">e</string>
+    <string name="store_hobo_phone">e</string>
+    <string name="store_hobo_fb">e</string>
+    <string name="store_hobo_web">e</string>
+
+    <string name="store_kfc">KFC</string>
+    <string name="store_kfc_des">e</string>
+    <string name="store_kfc_phone">e</string>
+    <string name="store_kfc_fb">e</string>
+    <string name="store_kfc_web">e</string>
+
+    <string name="store_legends">Legend\'s</string>
+    <string name="store_legends_des">e</string>
+    <string name="store_legends_phone">e</string>
+    <string name="store_legends_fb">e</string>
+    <string name="store_legends_web">e</string>
+
+    <string name="store_papa_johns">Papa John\'s</string>
+    <string name="store_papa_johns_des">a</string>
+    <string name="store_papa_johns_phone">a</string>
+    <string name="store_papa_johns_fb">a</string>
+    <string name="store_papa_johns_web">a</string>
+
+    <string name="store_echemi">Echemi</string>
+    <string name="store_echemi_des">e</string>
+    <string name="store_echemi_phone">e</string>
+    <string name="store_echemi_fb">e</string>
+    <string name="store_echemi_web">e</string>
+
+    <string name="store_66kif">66 Kif</string>
+    <string name="store_66kif_des">e</string>
+    <string name="store_66kif_phone">e</string>
+    <string name="store_66kif_fb">e</string>
+    <string name="store_66kif_web">e</string>
+
+    <string name="store_pomme_de_pain">Pomme de Pain</string>
+    <string name="store_pomme_de_pain_des">e</string>
+    <string name="store_pomme_de_pain_phone">e</string>
+    <string name="store_pomme_de_pain_fb">e</string>
+    <string name="store_pomme_de_pain_web">e</string>
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
 </resources>

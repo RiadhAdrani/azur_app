@@ -20,10 +20,16 @@
     <style name="fragment_store_text">
         <item name="android:paddingTop">@dimen/tiny_extra</item>
         <item name="android:paddingBottom">@dimen/tiny_extra</item>
+        <item name="android:layout_marginEnd">@dimen/medium</item>
         <item name="singleLine">true</item>
+        <item name="android:textColor">@color/azur_dark</item>
         <item name="android:textStyle">italic|bold</item>
         <item name="android:textAlignment">center</item>
         <item name="android:textSize">@dimen/text_tiny</item>
+    </style>
+
+    <style name="fragment_store_icons">
+        <item name="tint">@color/azur</item>
     </style>
 
     <style name="fragment_store_description">
@@ -34,5 +40,6 @@
         <item name="singleLine">true</item>
         <item name="android:textAlignment">textStart</item>
         <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textColor">@color/azur_darker</item>
     </style>
 </resources>

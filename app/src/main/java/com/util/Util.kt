@@ -874,5 +874,325 @@ fun getLocalStoreList(): ArrayList<Store> {
         ))
     ))
 
+    // -------------------------------------------------------------------------------------------
+    // KIABI
+    list.add(Store(
+        name = R.string.store_kiabi,
+        icon = R.drawable.ic_store,
+        activity =  ArrayList(arrayListOf(Activity.readyToWear)),
+        description = R.string.store_kiabi_des,
+        phone = R.string.store_kiabi_phone,
+        mapID = 50,
+        level = StoreLevel.main,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_kiabi_fb),
+            Link.web(R.string.store_kiabi_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // H&M
+    list.add(Store(
+        name = R.string.store_hm,
+        icon = R.drawable.ic_store,
+        activity =  ArrayList(arrayListOf(Activity.readyToWear)),
+        description = R.string.store_hm_des,
+        phone = R.string.store_hm_phone,
+        mapID = 50,
+        level = StoreLevel.main,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_hm_fb),
+            Link.web(R.string.store_hm_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // LINDEX
+    list.add(Store(
+        name = R.string.store_lindex,
+        icon = R.drawable.ic_store,
+        activity =  ArrayList(arrayListOf(Activity.readyToWear)),
+        description = R.string.store_lindex_des,
+        phone = R.string.store_lindex_phone,
+        mapID = 50,
+        level = StoreLevel.main,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_lindex_fb),
+            Link.web(R.string.store_lindex_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // ITALCAR
+    list.add(Store(
+        name = R.string.store_italcar,
+        icon = R.drawable.ic_store,
+        activity =  ArrayList(arrayListOf(Activity.showroom)),
+        description = R.string.store_italcar_des,
+        phone = R.string.store_italcar_phone,
+        mapID = 50,
+        level = StoreLevel.main,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_italcar_fb),
+            Link.web(R.string.store_italcar_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // KOTON
+    list.add(Store(
+        name = R.string.store_koton,
+        icon = R.drawable.ic_store,
+        activity =  ArrayList(arrayListOf(Activity.readyToWear)),
+        description = R.string.store_koton_des,
+        phone = R.string.store_koton_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_koton_fb),
+            Link.web(R.string.store_koton_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // HA
+    list.add(Store(
+        name = R.string.store_ha,
+        icon = R.drawable.ic_store,
+        activity =  ArrayList(arrayListOf(Activity.readyToWear)),
+        description = R.string.store_ha_des,
+        phone = R.string.store_ha_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_ha_fb),
+            Link.web(R.string.store_ha_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // HENI COLLECTION
+    list.add(Store(
+        name = R.string.store_heni_collection,
+        icon = R.drawable.ic_store,
+        activity =  ArrayList(arrayListOf(Activity.readyToWearMen)),
+        description = R.string.store_heni_collection_des,
+        phone = R.string.store_heni_collection_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_heni_collection_fb),
+            Link.web(R.string.store_heni_collection_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // EXIST
+    list.add(Store(
+        name = R.string.store_exist,
+        icon = R.drawable.ic_store,
+        activity =  ArrayList(arrayListOf(Activity.readyToWearMen)),
+        description = R.string.store_exist_des,
+        phone = R.string.store_exist_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_exist_fb),
+            Link.web(R.string.store_exist_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // CARAJA
+    list.add(Store(
+        name = R.string.store_caraja,
+        icon = R.drawable.ic_store,
+        activity =  ArrayList(arrayListOf(Activity.linens)),
+        description = R.string.store_caraja_des,
+        phone = R.string.store_caraja_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_caraja_fb),
+            Link.web(R.string.store_caraja_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // GO SPORT
+    list.add(Store(
+        name = R.string.store_go_store,
+        icon = R.drawable.ic_store,
+        activity =  ArrayList(arrayListOf(Activity.sport)),
+        description = R.string.store_go_store_des,
+        phone = R.string.store_go_store_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_go_store_fb),
+            Link.web(R.string.store_go_store_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // ZEN
+    list.add(Store(
+        name = R.string.store_zen,
+        icon = R.drawable.ic_store,
+        activity =  ArrayList(arrayListOf(Activity.readyToWear)),
+        description = R.string.store_zen_des,
+        phone = R.string.store_zen_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_zen_fb),
+            Link.web(R.string.store_zen_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // BAGUETTE & BAGUETTE
+    list.add(Store(
+        name = R.string.store_baguette_baguette,
+        icon = R.drawable.ic_store,
+        activity =  ArrayList(arrayListOf(Activity.restaurant)),
+        description = R.string.store_baguette_baguette_des,
+        phone = R.string.store_baguette_baguette_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_baguette_baguette_fb),
+            Link.web(R.string.store_baguette_baguette_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // CHILLIS
+    list.add(Store(
+        name = R.string.store_chillis,
+        icon = R.drawable.ic_store,
+        activity =  ArrayList(arrayListOf(Activity.restaurant)),
+        description = R.string.store_chillis_des,
+        phone = R.string.store_chillis_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_chillis_fb),
+            Link.web(R.string.store_chillis_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // HOBO
+    list.add(Store(
+        name = R.string.store_hobo,
+        icon = R.drawable.ic_store,
+        activity =  ArrayList(arrayListOf(Activity.restaurant)),
+        description = R.string.store_hobo_des,
+        phone = R.string.store_hobo_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_hobo_fb),
+            Link.web(R.string.store_hobo_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // KFC
+    list.add(Store(
+        name = R.string.store_kfc,
+        icon = R.drawable.ic_store,
+        activity =  ArrayList(arrayListOf(Activity.restaurant)),
+        description = R.string.store_kfc_des,
+        phone = R.string.store_kfc_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_kfc_fb),
+            Link.web(R.string.store_kfc_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // LEGEND'S
+    list.add(Store(
+        name = R.string.store_legends,
+        icon = R.drawable.ic_store,
+        activity =  ArrayList(arrayListOf(Activity.restaurant)),
+        description = R.string.store_legends_des,
+        phone = R.string.store_legends_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_legends_fb),
+            Link.web(R.string.store_legends_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // PAPA JOHN'S
+    list.add(Store(
+        name = R.string.store_papa_johns,
+        icon = R.drawable.ic_store,
+        activity =  ArrayList(arrayListOf(Activity.restaurant)),
+        description = R.string.store_papa_johns_des,
+        phone = R.string.store_papa_johns_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_papa_johns_fb),
+            Link.web(R.string.store_papa_johns_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // ECHEMI
+    list.add(Store(
+        name = R.string.store_echemi,
+        icon = R.drawable.ic_store,
+        activity =  ArrayList(arrayListOf(Activity.restaurant)),
+        description = R.string.store_echemi_des,
+        phone = R.string.store_echemi_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_echemi_fb),
+            Link.web(R.string.store_echemi_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // 66KIF
+    list.add(Store(
+        name = R.string.store_66kif,
+        icon = R.drawable.ic_store,
+        activity =  ArrayList(arrayListOf(Activity.restaurant)),
+        description = R.string.store_66kif_des,
+        phone = R.string.store_66kif_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_66kif_fb),
+            Link.web(R.string.store_66kif_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // POMME DE PAIN
+    list.add(Store(
+        name = R.string.store_pomme_de_pain,
+        icon = R.drawable.ic_store,
+        activity =  ArrayList(arrayListOf(Activity.restaurant)),
+        description = R.string.store_pomme_de_pain_des,
+        phone = R.string.store_pomme_de_pain_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_pomme_de_pain_fb),
+            Link.web(R.string.store_pomme_de_pain_web)
+        ))
+    ))
+
     return list
 }
