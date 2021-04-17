@@ -30,7 +30,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // ALDO
     list.add(Store(
         name = R.string.store_aldo,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_aldo,
         activity =  ArrayList(arrayListOf(Activity.shoes)),
         description = R.string.store_aldo_des,
         phone = R.string.store_aldo_phone,
@@ -46,7 +46,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // SENS-INVERSE
     list.add(Store(
         name = R.string.store_sens_inverse,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_sens_inverse,
         activity =  ArrayList(arrayListOf(Activity.shoes)),
         description = R.string.store_sens_inverse_des,
         phone = R.string.store_sens_inverse_phone,
@@ -62,7 +62,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // MAHA MODERN
     list.add(Store(
         name = R.string.store_maha_modern,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_maha_modern,
         activity =  ArrayList(arrayListOf(Activity.readyToWearWomen)),
         description = R.string.store_maha_modern_des,
         phone = R.string.store_maha_modern_phone,
@@ -78,7 +78,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // YVES ROCHER
     list.add(Store(
         name = R.string.store_yves_rocher,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_yves_rocher,
         activity =  ArrayList(arrayListOf(Activity.cosmetics)),
         description = R.string.store_yves_rocher_des,
         phone = R.string.store_yves_rocher_phone,
@@ -94,7 +94,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // NINE WEST
     list.add(Store(
         name = R.string.store_nine_west,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_nine_west,
         activity =  ArrayList(arrayListOf(Activity.shoes)),
         description = R.string.store_nine_west_des,
         phone = R.string.store_nine_west_phone,
@@ -110,7 +110,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // PIMKIE
     list.add(Store(
         name = R.string.store_pimkie,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_pimkie,
         activity =  ArrayList(arrayListOf(Activity.readyToWearWomen)),
         description = R.string.store_pimkie_des,
         phone = R.string.store_pimkie_phone,
@@ -126,7 +126,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // MODA VINCI
     list.add(Store(
         name = R.string.store_moda_vinci,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_moda_vinci,
         activity =  ArrayList(arrayListOf(Activity.readyToWearMen)),
         description = R.string.store_moda_vinci_des,
         phone = R.string.store_moda_vinci_phone,
@@ -142,7 +142,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // ECOVILLAGE
     list.add(Store(
         name = R.string.store_ecovillage,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_ecovillage,
         activity =  ArrayList(arrayListOf(Activity.cosmetics)),
         description = R.string.store_ecovillage_des,
         phone = R.string.store_ecovillage_phone,
@@ -158,7 +158,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // HMILA
     list.add(Store(
         name = R.string.store_hmila,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_hmila,
         activity =  ArrayList(arrayListOf(Activity.decoration)),
         description = R.string.store_hmila_des,
         phone = R.string.store_hmila_phone,
@@ -174,7 +174,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // HUMMEL
     list.add(Store(
         name = R.string.store_hummel,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_hummel,
         activity =  ArrayList(arrayListOf(Activity.sport)),
         description = R.string.store_hummel_des,
         phone = R.string.store_hummel_phone,
@@ -190,7 +190,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // PRETTY WOMAN
     list.add(Store(
         name = R.string.store_pretty_women,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_pretty_woman,
         activity =  ArrayList(arrayListOf(Activity.perfumery)),
         description = R.string.store_pretty_women_des,
         phone = R.string.store_pretty_women_phone,
@@ -206,7 +206,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // L'ILE AUX BIJOUX
     list.add(Store(
         name = R.string.store_lile_aux_bijoux,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_ile_aux_bijoux,
         activity =  ArrayList(arrayListOf(Activity.jewelry)),
         description = R.string.store_lile_aux_bijoux_des,
         phone = R.string.store_lile_aux_bijoux_phone,
@@ -222,7 +222,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // WOMEN SECRET
     list.add(Store(
         name = R.string.store_women_secret,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_women_secret,
         activity =  ArrayList(arrayListOf(Activity.lingerie)),
         description = R.string.store_women_secret_des,
         phone = R.string.store_women_secret_phone,
@@ -238,7 +238,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // FATALES
     list.add(Store(
         name = R.string.store_fatales,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_fatales,
         activity =  ArrayList(arrayListOf(Activity.perfumery)),
         description = R.string.store_fatales_des,
         phone = R.string.store_fatales_phone,
@@ -254,7 +254,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // ORANGE
     list.add(Store(
         name = R.string.store_orange,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_orange,
         activity =  ArrayList(arrayListOf(Activity.service)),
         description = R.string.store_orange_des,
         phone = R.string.store_orange_phone,
@@ -270,7 +270,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // MANUELLA
     list.add(Store(
         name = R.string.store_manuella,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_manuella,
         activity =  ArrayList(arrayListOf(Activity.shoes)),
         description = R.string.store_manuella_des,
         phone = R.string.store_manuella_phone,
@@ -286,7 +286,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // BALI OPTIQUE
     list.add(Store(
         name = R.string.store_bali_optique,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_balti_optic,
         activity =  ArrayList(arrayListOf(Activity.optics)),
         description = R.string.store_bali_optique_des,
         phone = R.string.store_bali_optique_phone,
@@ -302,7 +302,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // FAOUZIA FRAD
     list.add(Store(
         name = R.string.store_faouzia_frad,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_faouzia_frad,
         activity =  ArrayList(arrayListOf(Activity.readyToWearWomen)),
         description = R.string.store_faouzia_frad_des,
         phone = R.string.store_faouzia_frad_phone,
@@ -318,7 +318,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // ETAM
     list.add(Store(
         name = R.string.store_etam,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_etam,
         activity =  ArrayList(arrayListOf(Activity.lingerie)),
         description = R.string.store_etam_des,
         phone = R.string.store_etam_phone,
@@ -334,7 +334,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // NAF NAF
     list.add(Store(
         name = R.string.store_naf_naf,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_naf_naf,
         activity =  ArrayList(arrayListOf(Activity.readyToWearWomen)),
         description = R.string.store_naf_naf_des,
         phone = R.string.store_naf_naf_phone,
@@ -350,7 +350,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // BELTONI
     list.add(Store(
         name = R.string.store_beltoni,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_beltoni,
         activity =  ArrayList(arrayListOf(Activity.shoes)),
         description = R.string.store_beltoni_des,
         phone = R.string.store_beltoni_phone,
@@ -366,7 +366,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // KAREENA
     list.add(Store(
         name = R.string.store_kareena,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_kareena,
         activity =  ArrayList(arrayListOf(Activity.readyToWearWomen)),
         description = R.string.store_kareena_des,
         phone = R.string.store_kareena_phone,
@@ -398,7 +398,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // PARFOIS
     list.add(Store(
         name = R.string.store_parfois,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_parfois,
         activity =  ArrayList(arrayListOf(Activity.jewelry)),
         description = R.string.store_parfois_des,
         phone = R.string.store_parfois_phone,
@@ -414,7 +414,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // SAMSUNG
     list.add(Store(
         name = R.string.store_samsung,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_samsung,
         activity =  ArrayList(arrayListOf(Activity.service,Activity.telecom)),
         description = R.string.store_samsung_des,
         phone = R.string.store_samsung_phone,
@@ -430,7 +430,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // ARCHIPEL
     list.add(Store(
         name = R.string.store_archipel,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_archipel,
         activity =  ArrayList(arrayListOf(Activity.furniture)),
         description = R.string.store_archipel_des,
         phone = R.string.store_archipel_phone,
@@ -478,7 +478,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // CITY WATCH
     list.add(Store(
         name = R.string.store_city_watch,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_city_watch,
         activity =  ArrayList(arrayListOf(Activity.watchmaking)),
         description = R.string.store_city_watch_des,
         phone = R.string.store_city_watch_phone,
@@ -494,7 +494,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // LUFIAN
     list.add(Store(
         name = R.string.store_lufian,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_lufian,
         activity =  ArrayList(arrayListOf(Activity.readyToWearMen)),
         description = R.string.store_lufian_des,
         phone = R.string.store_lufian_phone,
@@ -510,7 +510,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // STAR WATCHES
     list.add(Store(
         name = R.string.store_star_watches,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_star_watches,
         activity =  ArrayList(arrayListOf(Activity.watchmaking)),
         description = R.string.store_star_watches_des,
         phone = R.string.store_star_watches_phone,
@@ -526,7 +526,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // ELU
     list.add(Store(
         name = R.string.store_elu,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_elu,
         activity =  ArrayList(arrayListOf(Activity.shoes)),
         description = R.string.store_elu_des,
         phone = R.string.store_elu_phone,
@@ -542,7 +542,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // L OCCITANE
     list.add(Store(
         name = R.string.store_loccitane,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_loccitane,
         activity =  ArrayList(arrayListOf(Activity.cosmetics)),
         description = R.string.store_loccitane_des,
         phone = R.string.store_loccitane_phone,
@@ -558,7 +558,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // STRASS
     list.add(Store(
         name = R.string.store_strass,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_strass,
         activity =  ArrayList(arrayListOf(Activity.jewelry)),
         description = R.string.store_strass_des,
         phone = R.string.store_strass_phone,
@@ -574,7 +574,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // PENTI
     list.add(Store(
         name = R.string.store_penti,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_penti,
         activity =  ArrayList(arrayListOf(Activity.lingerie)),
         description = R.string.store_penti_des,
         phone = R.string.store_penti_phone,
@@ -590,7 +590,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // TIFFOSI
     list.add(Store(
         name = R.string.store_tiffosi,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_tiffosi,
         activity =  ArrayList(arrayListOf(Activity.readyToWearMen)),
         description = R.string.store_tiffosi_des,
         phone = R.string.store_tiffosi_phone,
@@ -606,7 +606,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // TEMPUS
     list.add(Store(
         name = R.string.store_tempus,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_tempus,
         activity =  ArrayList(arrayListOf(Activity.watchmaking)),
         description = R.string.store_tempus_des,
         phone = R.string.store_tempus_phone,
@@ -622,7 +622,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // GIMEL
     list.add(Store(
         name = R.string.store_gimel,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_gimel,
         activity =  ArrayList(arrayListOf(Activity.readyToWearKids)),
         description = R.string.store_gimel_des,
         phone = R.string.store_gimel_phone,
@@ -638,7 +638,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // GIOSEPPO
     list.add(Store(
         name = R.string.store_gioseppo,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_gioseppo,
         activity =  ArrayList(arrayListOf(Activity.shoes)),
         description = R.string.store_gioseppo_des,
         phone = R.string.store_gioseppo_phone,
@@ -670,7 +670,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // PEAK
     list.add(Store(
         name = R.string.store_peak,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_peak,
         activity =  ArrayList(arrayListOf(Activity.sport)),
         description = R.string.store_peak_des,
         phone = R.string.store_peak_phone,
@@ -686,7 +686,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // JOLIESSE
     list.add(Store(
         name = R.string.store_joliesse,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_joliesse,
         activity =  ArrayList(arrayListOf(Activity.shoes)),
         description = R.string.store_joliesse_des,
         phone = R.string.store_joliesse_phone,
@@ -702,7 +702,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // SPRINGFIELD
     list.add(Store(
         name = R.string.store_springfield,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_springfield,
         activity =  ArrayList(arrayListOf(Activity.readyToWear)),
         description = R.string.store_springfield_des,
         phone = R.string.store_springfield_phone,
@@ -718,7 +718,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // SEBAGO CAT
     list.add(Store(
         name = R.string.store_sebago_cat,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_sebago,
         activity =  ArrayList(arrayListOf(Activity.sport)),
         description = R.string.store_sebago_cat_des,
         phone = R.string.store_sebago_cat_phone,
@@ -734,7 +734,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // WAEL OPTIC
     list.add(Store(
         name = R.string.store_wael_optic,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_wael_optic,
         activity =  ArrayList(arrayListOf(Activity.optics)),
         description = R.string.store_wael_optic_des,
         phone = R.string.store_wael_optic_phone,
@@ -750,7 +750,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // POLARIS
     list.add(Store(
         name = R.string.store_polaris,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_polaris,
         activity =  ArrayList(arrayListOf(Activity.shoes)),
         description = R.string.store_polaris_des,
         phone = R.string.store_polaris_phone,
@@ -766,7 +766,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // LEE COOPER LOIS
     list.add(Store(
         name = R.string.store_lee_cooper_lois,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_lee_cooper,
         activity =  ArrayList(arrayListOf(Activity.sport)),
         description = R.string.store_lee_cooper_lois_des,
         phone = R.string.store_lee_cooper_lois_phone,
@@ -782,7 +782,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // LA SCARFA
     list.add(Store(
         name = R.string.store_la_scarfa,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_la_scarfa,
         activity =  ArrayList(arrayListOf(Activity.jewelry)),
         description = R.string.store_la_scarfa_des,
         phone = R.string.store_la_scarfa_phone,
@@ -798,7 +798,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // PITILLOS
     list.add(Store(
         name = R.string.store_pitillos,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_pitillos,
         activity =  ArrayList(arrayListOf(Activity.shoes)),
         description = R.string.store_pitillos_des,
         phone = R.string.store_pitillos_phone,
@@ -814,7 +814,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // COURIR
     list.add(Store(
         name = R.string.store_courir,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_courir,
         activity =  ArrayList(arrayListOf(Activity.sport)),
         description = R.string.store_courir_des,
         phone = R.string.store_courir_phone,
@@ -830,7 +830,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // DU PAREIL AU MEME
     list.add(Store(
         name = R.string.store_du_pareil_au_meme,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_du_pareil_au_meme,
         activity =  ArrayList(arrayListOf(Activity.readyToWearKids)),
         description = R.string.store_du_pareil_au_meme_des,
         phone = R.string.store_du_pareil_au_meme_phone,
@@ -846,7 +846,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // ENZO
     list.add(Store(
         name = R.string.store_enzo,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_enzo,
         activity =  ArrayList(arrayListOf(Activity.watchmaking)),
         description = R.string.store_enzo_des,
         phone = R.string.store_enzo_phone,
@@ -862,7 +862,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // XTI
     list.add(Store(
         name = R.string.store_xti,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_xti,
         activity =  ArrayList(arrayListOf(Activity.shoes)),
         description = R.string.store_xti_des,
         phone = R.string.store_xti_phone,
@@ -878,7 +878,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // KIABI
     list.add(Store(
         name = R.string.store_kiabi,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_kiabi,
         activity =  ArrayList(arrayListOf(Activity.readyToWear)),
         description = R.string.store_kiabi_des,
         phone = R.string.store_kiabi_phone,
@@ -894,7 +894,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // H&M
     list.add(Store(
         name = R.string.store_hm,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_hm,
         activity =  ArrayList(arrayListOf(Activity.readyToWear)),
         description = R.string.store_hm_des,
         phone = R.string.store_hm_phone,
@@ -910,7 +910,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // LINDEX
     list.add(Store(
         name = R.string.store_lindex,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_lindex,
         activity =  ArrayList(arrayListOf(Activity.readyToWear)),
         description = R.string.store_lindex_des,
         phone = R.string.store_lindex_phone,
@@ -942,7 +942,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // KOTON
     list.add(Store(
         name = R.string.store_koton,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_koton,
         activity =  ArrayList(arrayListOf(Activity.readyToWear)),
         description = R.string.store_koton_des,
         phone = R.string.store_koton_phone,
@@ -958,7 +958,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // HA
     list.add(Store(
         name = R.string.store_ha,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_ha,
         activity =  ArrayList(arrayListOf(Activity.readyToWear)),
         description = R.string.store_ha_des,
         phone = R.string.store_ha_phone,
@@ -974,7 +974,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // HENI COLLECTION
     list.add(Store(
         name = R.string.store_heni_collection,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_heni_collection,
         activity =  ArrayList(arrayListOf(Activity.readyToWearMen)),
         description = R.string.store_heni_collection_des,
         phone = R.string.store_heni_collection_phone,
@@ -990,7 +990,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // EXIST
     list.add(Store(
         name = R.string.store_exist,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_exist,
         activity =  ArrayList(arrayListOf(Activity.readyToWearMen)),
         description = R.string.store_exist_des,
         phone = R.string.store_exist_phone,
@@ -1022,7 +1022,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // GO SPORT
     list.add(Store(
         name = R.string.store_go_store,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_go_sport,
         activity =  ArrayList(arrayListOf(Activity.sport)),
         description = R.string.store_go_store_des,
         phone = R.string.store_go_store_phone,
@@ -1038,7 +1038,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // ZEN
     list.add(Store(
         name = R.string.store_zen,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_zen,
         activity =  ArrayList(arrayListOf(Activity.readyToWear)),
         description = R.string.store_zen_des,
         phone = R.string.store_zen_phone,
@@ -1054,7 +1054,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // BAGUETTE & BAGUETTE
     list.add(Store(
         name = R.string.store_baguette_baguette,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_baguette_baguette,
         activity =  ArrayList(arrayListOf(Activity.restaurant)),
         description = R.string.store_baguette_baguette_des,
         phone = R.string.store_baguette_baguette_phone,
@@ -1070,7 +1070,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // CHILLIS
     list.add(Store(
         name = R.string.store_chillis,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_chillis,
         activity =  ArrayList(arrayListOf(Activity.restaurant)),
         description = R.string.store_chillis_des,
         phone = R.string.store_chillis_phone,
@@ -1086,7 +1086,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // HOBO
     list.add(Store(
         name = R.string.store_hobo,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_hobo,
         activity =  ArrayList(arrayListOf(Activity.restaurant)),
         description = R.string.store_hobo_des,
         phone = R.string.store_hobo_phone,
@@ -1102,7 +1102,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // KFC
     list.add(Store(
         name = R.string.store_kfc,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_kfc,
         activity =  ArrayList(arrayListOf(Activity.restaurant)),
         description = R.string.store_kfc_des,
         phone = R.string.store_kfc_phone,
@@ -1118,7 +1118,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // LEGEND'S
     list.add(Store(
         name = R.string.store_legends,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_legends,
         activity =  ArrayList(arrayListOf(Activity.restaurant)),
         description = R.string.store_legends_des,
         phone = R.string.store_legends_phone,
@@ -1134,7 +1134,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // PAPA JOHN'S
     list.add(Store(
         name = R.string.store_papa_johns,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_papa_johns,
         activity =  ArrayList(arrayListOf(Activity.restaurant)),
         description = R.string.store_papa_johns_des,
         phone = R.string.store_papa_johns_phone,
@@ -1150,7 +1150,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // ECHEMI
     list.add(Store(
         name = R.string.store_echemi,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_echemi,
         activity =  ArrayList(arrayListOf(Activity.restaurant)),
         description = R.string.store_echemi_des,
         phone = R.string.store_echemi_phone,
@@ -1165,16 +1165,16 @@ fun getLocalStoreList(): ArrayList<Store> {
     // -------------------------------------------------------------------------------------------
     // 66KIF
     list.add(Store(
-        name = R.string.store_66kif,
-        icon = R.drawable.ic_store,
+        name = R.string.store_99kif,
+        icon = R.drawable.ic_store_99kif,
         activity =  ArrayList(arrayListOf(Activity.restaurant)),
-        description = R.string.store_66kif_des,
-        phone = R.string.store_66kif_phone,
+        description = R.string.store_99kif_des,
+        phone = R.string.store_99kif_phone,
         mapID = 50,
         level = StoreLevel.first,
         links = ArrayList(arrayListOf(
-            Link.facebook(R.string.store_66kif_fb),
-            Link.web(R.string.store_66kif_web)
+            Link.facebook(R.string.store_99kif_fb),
+            Link.web(R.string.store_99kif_web)
         ))
     ))
 
@@ -1182,7 +1182,7 @@ fun getLocalStoreList(): ArrayList<Store> {
     // POMME DE PAIN
     list.add(Store(
         name = R.string.store_pomme_de_pain,
-        icon = R.drawable.ic_store,
+        icon = R.drawable.ic_store_pomme_de_pain,
         activity =  ArrayList(arrayListOf(Activity.restaurant)),
         description = R.string.store_pomme_de_pain_des,
         phone = R.string.store_pomme_de_pain_phone,
@@ -1191,6 +1191,22 @@ fun getLocalStoreList(): ArrayList<Store> {
         links = ArrayList(arrayListOf(
             Link.facebook(R.string.store_pomme_de_pain_fb),
             Link.web(R.string.store_pomme_de_pain_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // BARIOLO
+    list.add(Store(
+        name = R.string.store_bariolo,
+        icon = R.drawable.ic_store_bariolo,
+        activity =  ArrayList(arrayListOf(Activity.restaurant)),
+        description = R.string.store_bariolo_des,
+        phone = R.string.store_bariolo_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_bariolo_fb),
+            Link.web(R.string.store_bariolo_web)
         ))
     ))
 

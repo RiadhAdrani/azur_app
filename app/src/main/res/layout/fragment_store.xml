@@ -13,7 +13,8 @@
         <ImageView
             android:id="@+id/fragment_banner"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/giant_extra"
+            android:layout_height="@dimen/yo_mama_extra"
+            android:elevation="16dp"
             android:src="@drawable/pic_inside"
             android:contentDescription="@string/azur_city"
             android:scaleType="centerCrop"
@@ -27,7 +28,7 @@
             app:layout_constraintTop_toBottomOf="@id/fragment_banner"
             android:textSize="@dimen/text_big"
             android:textAlignment="center"
-            android:textStyle="italic|bold"
+            android:textColor="@color/black"
             android:layout_marginTop="@dimen/small_extra"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -215,7 +216,6 @@
                 android:text="@string/lorem"
                 style="@style/fragment_store_description"
                 android:justificationMode="inter_word"
-                android:textStyle="bold"
                 />
 
 
