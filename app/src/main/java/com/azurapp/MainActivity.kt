@@ -2,11 +2,13 @@ package com.azurapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.updatePadding
 import androidx.fragment.app.commit
 import com.azurapp.fragments.BaseFragment
 import com.azurapp.fragments.MainFragment
 import com.azurapp.fragments.SearchFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.util.getStatusBarHeight
 
 class MainActivity : AppCompatActivity() {
 

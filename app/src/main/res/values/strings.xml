@@ -187,11 +187,11 @@
     <string name="store_manuella_fb">/ManuellaChaussures/</string>
     <string name="store_manuella_web">www.manuella.com.tn</string>
 
-    <string name="store_bali_optique">Bali Optique</string>
-    <string name="store_bali_optique_des">Balti optique est la destination meilleure pour les lunettes optiques et solaires de haute qualité. </string>
-    <string name="store_bali_optique_phone">98 754 201</string>
-    <string name="store_bali_optique_fb">/BALTI-OPTIQUE</string>
-    <string name="store_bali_optique_web"/>
+    <string name="store_balti_optique">Balti Optique</string>
+    <string name="store_balti_optique_des">Balti optique est la destination meilleure pour les lunettes optiques et solaires de haute qualité. </string>
+    <string name="store_balti_optique_phone">98 754 201</string>
+    <string name="store_balti_optique_fb">/BALTI-OPTIQUE</string>
+    <string name="store_balti_optique_web"/>
 
     <string name="store_faouzia_frad">Faouzia Frad</string>
     <string name="store_faouzia_frad_des">Faouzia Frad haute couture spécialisée en robe Coftan traditionnel modernisée selon le style tunisien qui convient à tout le monde.</string>

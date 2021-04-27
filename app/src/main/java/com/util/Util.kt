@@ -21,6 +21,172 @@ fun getStatusBarHeight(fragment : Fragment): Int {
     return result
 }
 
+fun getLocalRestaurantList(): ArrayList<Store>{
+    val list = ArrayList<Store>()
+
+    // -------------------------------------------------------------------------------------------
+    // BAGUETTE & BAGUETTE
+    list.add(Store(
+        name = R.string.store_baguette_baguette,
+        icon = R.drawable.ic_store_baguette_baguette,
+        activity =  ArrayList(arrayListOf(Activity.restaurant)),
+        description = R.string.store_baguette_baguette_des,
+        phone = R.string.store_baguette_baguette_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_baguette_baguette_fb),
+            Link.web(R.string.store_baguette_baguette_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // CHILLIS
+    list.add(Store(
+        name = R.string.store_chillis,
+        icon = R.drawable.ic_store_chillis,
+        activity =  ArrayList(arrayListOf(Activity.restaurant)),
+        description = R.string.store_chillis_des,
+        phone = R.string.store_chillis_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_chillis_fb),
+            Link.web(R.string.store_chillis_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // HOBO
+    list.add(Store(
+        name = R.string.store_hobo,
+        icon = R.drawable.ic_store_hobo,
+        activity =  ArrayList(arrayListOf(Activity.restaurant)),
+        description = R.string.store_hobo_des,
+        phone = R.string.store_hobo_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_hobo_fb),
+            Link.web(R.string.store_hobo_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // KFC
+    list.add(Store(
+        name = R.string.store_kfc,
+        icon = R.drawable.ic_store_kfc,
+        activity =  ArrayList(arrayListOf(Activity.restaurant)),
+        description = R.string.store_kfc_des,
+        phone = R.string.store_kfc_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_kfc_fb),
+            Link.web(R.string.store_kfc_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // LEGEND'S
+    list.add(Store(
+        name = R.string.store_legends,
+        icon = R.drawable.ic_store_legends,
+        activity =  ArrayList(arrayListOf(Activity.restaurant)),
+        description = R.string.store_legends_des,
+        phone = R.string.store_legends_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_legends_fb),
+            Link.web(R.string.store_legends_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // PAPA JOHN'S
+    list.add(Store(
+        name = R.string.store_papa_johns,
+        icon = R.drawable.ic_store_papa_johns,
+        activity =  ArrayList(arrayListOf(Activity.restaurant)),
+        description = R.string.store_papa_johns_des,
+        phone = R.string.store_papa_johns_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_papa_johns_fb),
+            Link.web(R.string.store_papa_johns_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // ECHEMI
+    list.add(Store(
+        name = R.string.store_echemi,
+        icon = R.drawable.ic_store_echemi,
+        activity =  ArrayList(arrayListOf(Activity.restaurant)),
+        description = R.string.store_echemi_des,
+        phone = R.string.store_echemi_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_echemi_fb),
+            Link.web(R.string.store_echemi_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // 66KIF
+    list.add(Store(
+        name = R.string.store_99kif,
+        icon = R.drawable.ic_store_99kif,
+        activity =  ArrayList(arrayListOf(Activity.restaurant)),
+        description = R.string.store_99kif_des,
+        phone = R.string.store_99kif_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_99kif_fb),
+            Link.web(R.string.store_99kif_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // POMME DE PAIN
+    list.add(Store(
+        name = R.string.store_pomme_de_pain,
+        icon = R.drawable.ic_store_pomme_de_pain,
+        activity =  ArrayList(arrayListOf(Activity.restaurant)),
+        description = R.string.store_pomme_de_pain_des,
+        phone = R.string.store_pomme_de_pain_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_pomme_de_pain_fb),
+            Link.web(R.string.store_pomme_de_pain_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // BARIOLO
+    list.add(Store(
+        name = R.string.store_bariolo,
+        icon = R.drawable.ic_store_bariolo,
+        activity =  ArrayList(arrayListOf(Activity.restaurant)),
+        description = R.string.store_bariolo_des,
+        phone = R.string.store_bariolo_phone,
+        mapID = 50,
+        level = StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_bariolo_fb),
+            Link.web(R.string.store_bariolo_web)
+        ))
+    ))
+
+    return list
+}
+
 
 fun getLocalStoreList(): ArrayList<Store> {
 
@@ -285,16 +451,16 @@ fun getLocalStoreList(): ArrayList<Store> {
     // -------------------------------------------------------------------------------------------
     // BALI OPTIQUE
     list.add(Store(
-        name = R.string.store_bali_optique,
+        name = R.string.store_balti_optique,
         icon = R.drawable.ic_store_balti_optic,
         activity =  ArrayList(arrayListOf(Activity.optics)),
-        description = R.string.store_bali_optique_des,
-        phone = R.string.store_bali_optique_phone,
+        description = R.string.store_balti_optique_des,
+        phone = R.string.store_balti_optique_phone,
         mapID = 50,
         level = StoreLevel.main,
         links = ArrayList(arrayListOf(
-            Link.facebook(R.string.store_bali_optique_fb),
-            Link.web(R.string.store_bali_optique_web)
+            Link.facebook(R.string.store_balti_optique_fb),
+            Link.web(R.string.store_balti_optique_web)
         ))
     ))
 
@@ -1050,165 +1216,7 @@ fun getLocalStoreList(): ArrayList<Store> {
         ))
     ))
 
-    // -------------------------------------------------------------------------------------------
-    // BAGUETTE & BAGUETTE
-    list.add(Store(
-        name = R.string.store_baguette_baguette,
-        icon = R.drawable.ic_store_baguette_baguette,
-        activity =  ArrayList(arrayListOf(Activity.restaurant)),
-        description = R.string.store_baguette_baguette_des,
-        phone = R.string.store_baguette_baguette_phone,
-        mapID = 50,
-        level = StoreLevel.first,
-        links = ArrayList(arrayListOf(
-            Link.facebook(R.string.store_baguette_baguette_fb),
-            Link.web(R.string.store_baguette_baguette_web)
-        ))
-    ))
 
-    // -------------------------------------------------------------------------------------------
-    // CHILLIS
-    list.add(Store(
-        name = R.string.store_chillis,
-        icon = R.drawable.ic_store_chillis,
-        activity =  ArrayList(arrayListOf(Activity.restaurant)),
-        description = R.string.store_chillis_des,
-        phone = R.string.store_chillis_phone,
-        mapID = 50,
-        level = StoreLevel.first,
-        links = ArrayList(arrayListOf(
-            Link.facebook(R.string.store_chillis_fb),
-            Link.web(R.string.store_chillis_web)
-        ))
-    ))
-
-    // -------------------------------------------------------------------------------------------
-    // HOBO
-    list.add(Store(
-        name = R.string.store_hobo,
-        icon = R.drawable.ic_store_hobo,
-        activity =  ArrayList(arrayListOf(Activity.restaurant)),
-        description = R.string.store_hobo_des,
-        phone = R.string.store_hobo_phone,
-        mapID = 50,
-        level = StoreLevel.first,
-        links = ArrayList(arrayListOf(
-            Link.facebook(R.string.store_hobo_fb),
-            Link.web(R.string.store_hobo_web)
-        ))
-    ))
-
-    // -------------------------------------------------------------------------------------------
-    // KFC
-    list.add(Store(
-        name = R.string.store_kfc,
-        icon = R.drawable.ic_store_kfc,
-        activity =  ArrayList(arrayListOf(Activity.restaurant)),
-        description = R.string.store_kfc_des,
-        phone = R.string.store_kfc_phone,
-        mapID = 50,
-        level = StoreLevel.first,
-        links = ArrayList(arrayListOf(
-            Link.facebook(R.string.store_kfc_fb),
-            Link.web(R.string.store_kfc_web)
-        ))
-    ))
-
-    // -------------------------------------------------------------------------------------------
-    // LEGEND'S
-    list.add(Store(
-        name = R.string.store_legends,
-        icon = R.drawable.ic_store_legends,
-        activity =  ArrayList(arrayListOf(Activity.restaurant)),
-        description = R.string.store_legends_des,
-        phone = R.string.store_legends_phone,
-        mapID = 50,
-        level = StoreLevel.first,
-        links = ArrayList(arrayListOf(
-            Link.facebook(R.string.store_legends_fb),
-            Link.web(R.string.store_legends_web)
-        ))
-    ))
-
-    // -------------------------------------------------------------------------------------------
-    // PAPA JOHN'S
-    list.add(Store(
-        name = R.string.store_papa_johns,
-        icon = R.drawable.ic_store_papa_johns,
-        activity =  ArrayList(arrayListOf(Activity.restaurant)),
-        description = R.string.store_papa_johns_des,
-        phone = R.string.store_papa_johns_phone,
-        mapID = 50,
-        level = StoreLevel.first,
-        links = ArrayList(arrayListOf(
-            Link.facebook(R.string.store_papa_johns_fb),
-            Link.web(R.string.store_papa_johns_web)
-        ))
-    ))
-
-    // -------------------------------------------------------------------------------------------
-    // ECHEMI
-    list.add(Store(
-        name = R.string.store_echemi,
-        icon = R.drawable.ic_store_echemi,
-        activity =  ArrayList(arrayListOf(Activity.restaurant)),
-        description = R.string.store_echemi_des,
-        phone = R.string.store_echemi_phone,
-        mapID = 50,
-        level = StoreLevel.first,
-        links = ArrayList(arrayListOf(
-            Link.facebook(R.string.store_echemi_fb),
-            Link.web(R.string.store_echemi_web)
-        ))
-    ))
-
-    // -------------------------------------------------------------------------------------------
-    // 66KIF
-    list.add(Store(
-        name = R.string.store_99kif,
-        icon = R.drawable.ic_store_99kif,
-        activity =  ArrayList(arrayListOf(Activity.restaurant)),
-        description = R.string.store_99kif_des,
-        phone = R.string.store_99kif_phone,
-        mapID = 50,
-        level = StoreLevel.first,
-        links = ArrayList(arrayListOf(
-            Link.facebook(R.string.store_99kif_fb),
-            Link.web(R.string.store_99kif_web)
-        ))
-    ))
-
-    // -------------------------------------------------------------------------------------------
-    // POMME DE PAIN
-    list.add(Store(
-        name = R.string.store_pomme_de_pain,
-        icon = R.drawable.ic_store_pomme_de_pain,
-        activity =  ArrayList(arrayListOf(Activity.restaurant)),
-        description = R.string.store_pomme_de_pain_des,
-        phone = R.string.store_pomme_de_pain_phone,
-        mapID = 50,
-        level = StoreLevel.first,
-        links = ArrayList(arrayListOf(
-            Link.facebook(R.string.store_pomme_de_pain_fb),
-            Link.web(R.string.store_pomme_de_pain_web)
-        ))
-    ))
-
-    // -------------------------------------------------------------------------------------------
-    // BARIOLO
-    list.add(Store(
-        name = R.string.store_bariolo,
-        icon = R.drawable.ic_store_bariolo,
-        activity =  ArrayList(arrayListOf(Activity.restaurant)),
-        description = R.string.store_bariolo_des,
-        phone = R.string.store_bariolo_phone,
-        mapID = 50,
-        level = StoreLevel.first,
-        links = ArrayList(arrayListOf(
-            Link.facebook(R.string.store_bariolo_fb),
-            Link.web(R.string.store_bariolo_web)
-        ))
-    ))
 
     return list
 }
