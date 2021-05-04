@@ -1,4 +1,4 @@
-package com.azurapp.objects.shop
+package com.azurapp.objects.store
 
 import com.azurapp.R
 

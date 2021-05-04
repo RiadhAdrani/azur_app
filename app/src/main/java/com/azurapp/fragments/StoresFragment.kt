@@ -7,10 +7,10 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.azurapp.R
-import com.azurapp.objects.shop.ActivitiesAdapter
-import com.azurapp.objects.shop.Activity
-import com.azurapp.objects.shop.Store
-import com.azurapp.objects.shop.StoreAdapter
+import com.azurapp.objects.store.ActivitiesAdapter
+import com.azurapp.objects.store.Activity
+import com.azurapp.objects.store.Store
+import com.azurapp.objects.store.StoreAdapter
 import com.util.getLocalStoreList
 import com.util.getStatusBarHeight
 

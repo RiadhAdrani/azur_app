@@ -6,9 +6,9 @@ import androidx.core.view.updatePadding
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.azurapp.R
-import com.azurapp.objects.shop.Store
-import com.azurapp.objects.shop.StoreAdapter
-import com.azurapp.objects.shop.StoreRestaurantAdapter
+import com.azurapp.objects.store.Store
+import com.azurapp.objects.store.StoreAdapter
+import com.azurapp.objects.store.StoreRestaurantAdapter
 import com.util.getLocalRestaurantList
 import com.util.getStatusBarHeight
 

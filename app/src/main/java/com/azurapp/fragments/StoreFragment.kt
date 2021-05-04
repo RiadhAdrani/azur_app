@@ -6,7 +6,7 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import com.azurapp.R
-import com.azurapp.objects.shop.Store
+import com.azurapp.objects.store.Store
 
 class StoreFragment(private val store: Store) : BaseFragment(R.layout.fragment_store)  {
 

@@ -2,10 +2,11 @@ package com.util
 
 import androidx.fragment.app.Fragment
 import com.azurapp.R
-import com.azurapp.objects.shop.Activity
-import com.azurapp.objects.shop.Link
-import com.azurapp.objects.shop.Store
-import com.azurapp.objects.shop.StoreLevel
+import com.azurapp.objects.store.Activity
+import com.azurapp.objects.store.Link
+import com.azurapp.objects.store.Store
+import com.azurapp.objects.store.StoreLevel
+import java.util.logging.Level
 
 
 fun activityImage(): Int{
@@ -19,6 +20,153 @@ fun getStatusBarHeight(fragment : Fragment): Int {
         result = fragment.resources.getDimensionPixelSize(resourceId)
     }
     return result
+}
+
+fun getLocalServicesList(): ArrayList<Store>{
+
+    val list = ArrayList<Store>()
+
+    list.add(Store.service(
+        R.string.store_bna,
+        R.drawable.ic_store_bna,
+        Activity.service,
+        R.string.store_bna_des,
+        R.string.store_bna_phone,
+        20,
+        StoreLevel.ground,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_bna_fb),
+            Link.web(R.string.store_bna_web)
+        ))
+    ))
+
+    list.add(Store.service(
+        R.string.store_tunisie_telecom,
+        R.drawable.ic_store_tunisie_telecom,
+        Activity.service,
+        R.string.store_tunisie_telecom_des,
+        R.string.store_tunisie_telecom_phone,
+        20,
+        StoreLevel.ground,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_tunisie_telecom_fb),
+            Link.web(R.string.store_tunisie_telecom_web)
+        ))
+    ))
+
+    list.add(Store.service(
+        R.string.store_tunisia_exchange,
+        R.drawable.ic_store_tunisia_exchange,
+        Activity.service,
+        R.string.store_tunisia_exchange_des,
+        R.string.store_tunisia_exchange_phone,
+        20,
+        StoreLevel.ground,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_tunisia_exchange_fb),
+            Link.web(R.string.store_tunisia_exchange_web)
+        ))
+    ))
+
+    list.add(Store.service(
+        R.string.store_ooredoo,
+        R.drawable.ic_store_ooredoo,
+        Activity.service,
+        R.string.store_ooredoo_des,
+        R.string.store_ooredoo_phone,
+        20,
+        StoreLevel.ground,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_ooredoo_fb),
+            Link.web(R.string.store_ooredoo_web)
+        ))
+    ))
+
+    list.add(Store.service(
+        R.string.store_azur_presse,
+        R.drawable.ic_store_azur_presse,
+        Activity.service,
+        R.string.store_azur_presse_des,
+        R.string.store_azur_presse_phone,
+        20,
+        StoreLevel.ground,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_azur_presse_fb),
+            Link.web(R.string.store_azur_presse_web)
+        ))
+    ))
+
+    list.add(Store.service(
+        R.string.store_all_for_pets,
+        R.drawable.ic_store,
+        Activity.service,
+        R.string.store_all_for_pets_des,
+        R.string.store_all_for_pets_phone,
+        20,
+        StoreLevel.ground,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_all_for_pets_fb),
+            Link.web(R.string.store_all_for_pets_web)
+        ))
+    ))
+
+    list.add(Store.service(
+        R.string.store_culturel,
+        R.drawable.ic_store_culturel,
+        Activity.service,
+        R.string.store_culturel_des,
+        R.string.store_culturel_phone,
+        20,
+        StoreLevel.ground,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_culturel_fb),
+            Link.web(R.string.store_culturel_web)
+        ))
+    ))
+
+    list.add(Store.service(
+        R.string.store_biat,
+        R.drawable.ic_store_biat,
+        Activity.service,
+        R.string.store_biat_des,
+        R.string.store_biat_phone,
+        20,
+        StoreLevel.ground,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_biat_fb),
+            Link.web(R.string.store_biat_web)
+        ))
+    ))
+
+    list.add(Store.service(
+        R.string.store_pronails,
+        R.drawable.ic_store_pronails,
+        Activity.service,
+        R.string.store_pronails_des,
+        R.string.store_pronails_phone,
+        20,
+        StoreLevel.ground,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_pronails_fb),
+            Link.web(R.string.store_pronails_web)
+        ))
+    ))
+
+    list.add(Store.service(
+        R.string.store_administration_rapide,
+        R.drawable.ic_azur_logo,
+        Activity.service,
+        R.string.store_administration_rapide_des,
+        R.string.store_administration_rapide_phone,
+        20,
+        StoreLevel.ground,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_administration_rapide_fb),
+            Link.web(R.string.store_administration_rapide_web)
+        ))
+    ))
+
+    return list
 }
 
 fun getLocalRestaurantList(): ArrayList<Store>{

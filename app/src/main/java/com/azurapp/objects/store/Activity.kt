@@ -1,7 +1,6 @@
-package com.azurapp.objects.shop
+package com.azurapp.objects.store
 
 import com.azurapp.R
-import com.azurapp.objects.shop.Activity.Companion.watchmaking
 
 data class Activity(val id: Int, val name: Int) {
 

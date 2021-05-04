@@ -535,5 +535,65 @@
     <string name="store_bariolo_fb">/bariolo</string>
     <string name="store_bariolo_web">http://www.bariolojuices.com/</string>
 
+    <string name="store_bna">BNA</string>
+    <string name="store_bna_des">Agence BNA bancaire </string>
+    <string name="store_bna_phone" >80 101 433</string>
+    <string name="store_bna_fb"/>
+    <string name="store_bna_web"/>
+
+    <string name="store_tunisie_telecom">Tunisie Telecom</string>
+    <string name="store_tunisie_telecom_des">Soucieux d’être toujours à votre écoute et résolus à vous offrir le meilleur de nos services, toute notre équipe a été mobilisée pour mettre à votre disposition un nouvel espace dont le contenu sera en permanence adapté aux besoins et aux attentes des entreprises et du grand public. Fiers de notre clientèle comptant plus de 6 millions d’abonnés bénéficiant des prestations de la téléphonie fixe et mobile ainsi que de l’accès à l’Internet, nous tenons à travers cet espace à mieux vous informer sur la panoplie de nos produits et services afin de mieux vous servir et satisfaire vos attentes.</string>
+    <string name="store_tunisie_telecom_phone">71 001 240</string>
+    <string name="store_tunisie_telecom_fb">/TunisieTelecom</string>
+    <string name="store_tunisie_telecom_web">https://www.tunisietelecom.tn/</string>
+
+    <string name="store_tunisia_exchange">Tunisia Exchange</string>
+    <string name="store_tunisia_exchange_des">Bureau de change Echanger votre devise en toute sécurité chez nous</string>
+    <string name="store_tunisia_exchange_phone">24 020 000</string>
+    <string name="store_tunisia_exchange_fb" >/Tunisia-Exchange-التونسية-للصرف-105658210912944</string>
+    <string name="store_tunisia_exchange_web"/>
+
+    <string name="store_ooredoo">Ooredoo</string>
+    <string name="store_ooredoo_web">https://www.ooredoo.tn/</string>
+    <string name="store_ooredoo_fb">/ooredootn</string>
+    <string name="store_ooredoo_phone" />
+    <string name="store_ooredoo_des">Fondée en 2005 , spécialiste de la vente de téléphonie et accessoire . Franchisé de Ooredoo ( opérateur téléphonique international ) </string>
+
+    <string name="store_azur_presse">Azur Presse</string>
+    <string name="store_azur_presse_des">Le kiosque à journaux et magazines.</string>
+    <string name="store_azur_presse_phone"/>
+    <string name="store_azur_presse_fb"/>
+    <string name="store_azur_presse_web"/>
+
+    <string name="store_all_for_pets">All For Pets</string>
+    <string name="store_all_for_pets_des">Animalerie spécialiste dans l’alimentation et accessoires pour animaux de compagnie , avec plus de 4000 produits de marque réputées</string>
+    <string name="store_all_for_pets_phone">70 296 535</string>
+    <string name="store_all_for_pets_fb">/AllForPetsAzurCity</string>
+    <string name="store_all_for_pets_web">https://www.facebook.com/AllForPetsAzurCity/</string>
+
+    <string name="store_culturel">Culturel</string>
+    <string name="store_culturel_des">Culturel est une chaîne de librairies en Tunisie fondée en 2008 avec plus de 30 000 références.</string>
+    <string name="store_culturel_phone"/>
+    <string name="store_culturel_fb">/libaririeculturel</string>
+    <string name="store_culturel_web">http://www.culturel.tn/</string>
+
+    <string name="store_biat">Biat</string>
+    <string name="store_biat_des">Agence bancaire BIAT</string>
+    <string name="store_biat_phone">71 131 000 – 31 311 000</string>
+    <string name="store_biat_fb"/>
+    <string name="store_biat_web"/>
+
+    <string name="store_pronails">Pronails</string>
+    <string name="store_pronails_des">Salon de beauté pour femmes et espace barbier pour hommes ( coiffure, soin et onglerie )</string>
+    <string name="store_pronails_phone"/>
+    <string name="store_pronails_fb">/pronails.tunisie/</string>
+    <string name="store_pronails_web">http://www.pronails.com/</string>
+
+    <string name="store_administration_rapide">Administration Rapide</string>
+    <string name="store_administration_rapide_des">Ce service est opérationnel 7jours/7 légalisation de signature , certificat conforme </string>
+    <string name="store_administration_rapide_phone"/>
+    <string name="store_administration_rapide_fb"/>
+    <string name="store_administration_rapide_web"/>
+
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
 </resources>

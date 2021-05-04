@@ -26,7 +26,7 @@
             android:id="@+id/fragment_azur"
             android:layout_width="match_parent"
             android:layout_height="@dimen/bigger"
-            android:layout_marginVertical="16dp"
+            android:layout_marginVertical="@dimen/medium_large"
             android:contentDescription="@string/azur_city"
             android:elevation="4dp"
             android:padding="8dp"

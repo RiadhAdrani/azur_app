@@ -1,4 +1,4 @@
-package com.azurapp.objects.shop
+package com.azurapp.objects.store
 
 import android.content.Context
 import android.view.LayoutInflater
