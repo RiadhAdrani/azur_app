@@ -85,8 +85,9 @@
     <string name="activity_showroom">Showroom</string>
     <string name="activity_linens">Linens</string>
     <string name="activity_restaurant">Restaurant</string>
-    <string name="telecom">Telecom</string>
-    <string name="watchmaking">Watchmaking</string>
+    <string name="activity_telecom">Telecom</string>
+    <string name="activity_watchmaking">Watchmaking</string>
+    <string name="activity_hypermarket">Hypermarket</string>
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- STORES DATA -->
@@ -594,6 +595,13 @@
     <string name="store_administration_rapide_phone"/>
     <string name="store_administration_rapide_fb"/>
     <string name="store_administration_rapide_web"/>
+
+    <string name="store_geant">Géant</string>
+    <string name="store_geant_des">3ème hypermarché de l’enseigne Géant en Tunisie. Plus de 10 000 m² dont le concept répond aux derniers standards du groupe international Casino. 50 000 références de éléctroménager , du textile, de l’art de la table à l’alimentaire. En plus du drive Géant situé au parking sous sol.</string>
+    <string name="store_geant_phone">31 30 58 58</string>
+    <string name="store_geant_fb">/Geant.Tunisie</string>
+    <string name="store_geant_web">www.geant.tn</string>
+    <string name="store_geant_web_drive">www.geantdrive.tn</string>
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
 </resources>

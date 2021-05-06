@@ -6,7 +6,6 @@ import com.azurapp.objects.store.Activity
 import com.azurapp.objects.store.Link
 import com.azurapp.objects.store.Store
 import com.azurapp.objects.store.StoreLevel
-import java.util.logging.Level
 
 
 fun activityImage(): Int{
@@ -21,6 +20,21 @@ fun getStatusBarHeight(fragment : Fragment): Int {
     }
     return result
 }
+
+fun getGeant(): Store = Store(
+    R.string.store_geant,
+    R.drawable.geant,
+    ArrayList(arrayListOf(Activity.hypermarket)),
+    R.string.store_geant_des,
+    R.string.store_geant_phone,
+    1,
+    StoreLevel.main,
+    links = ArrayList(arrayListOf(
+        Link.facebook(R.string.store_geant_fb),
+        Link.web(R.string.store_geant_web),
+        Link.web(R.string.store_geant_web_drive)
+    ))
+)
 
 fun getLocalServicesList(): ArrayList<Store>{
 
