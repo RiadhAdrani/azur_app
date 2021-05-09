@@ -7,7 +7,7 @@ import android.widget.ImageView
 
 class SplashActivity : AppCompatActivity() {
 
-    private val delay : Long = 1500
+    private val delay : Long = 500
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

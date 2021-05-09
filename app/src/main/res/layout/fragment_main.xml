@@ -21,7 +21,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-        
+
         <ImageView
             android:id="@+id/fragment_azur"
             android:layout_width="match_parent"
@@ -31,52 +31,53 @@
             android:elevation="4dp"
             android:padding="8dp"
             android:src="@drawable/ic_azur"
-            app:layout_constraintBottom_toTopOf="@id/fragment_landing_service_1"
+            app:layout_constraintBottom_toTopOf="@id/fragment_sections_wrapper"
             app:layout_constraintTop_toBottomOf="@id/fragment_landing_pic" />
 
         <LinearLayout
-            android:id="@+id/fragment_landing_service_1"
+            android:id="@+id/fragment_sections_wrapper"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center|bottom"
-            app:layout_constraintBottom_toTopOf="@id/activity_landing_service_2"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/tiny"
+            app:layout_constraintBottom_toTopOf="@id/fragment_azur_hire"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/fragment_azur">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/fragment_your_center_button"
-                android:layout_width="@dimen/bigger_extra"
-                android:layout_height="@dimen/bigger_extra"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/big"
                 android:layout_margin="@dimen/epsilon"
                 android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="8dp"
+                app:cardCornerRadius="4dp"
                 app:cardElevation="4dp">
 
                 <LinearLayout
+                    style="@style/section_style"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    style="@style/section_style"
-                    android:orientation="vertical"
+                    android:orientation="horizontal"
                     tools:ignore="UseCompoundDrawables">
 
                     <ImageView
+                        style="@style/section_icon"
                         android:layout_width="@dimen/larger"
                         android:layout_height="@dimen/larger"
                         android:contentDescription="@string/your_center"
                         android:padding="@dimen/epsilon"
-                        android:src="@drawable/ic_map"
-                        style="@style/section_icon" />
+                        android:src="@drawable/ic_map" />
 
                     <TextView
+                        style="@style/section_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:maxLines="2"
                         android:minLines="2"
                         android:text="@string/your_center"
-                        style="@style/section_text"
                         android:textAlignment="center"
                         android:textSize="@dimen/text_tiny" />
 
@@ -86,37 +87,37 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/fragment_shops_button"
-                android:layout_width="@dimen/bigger_extra"
-                android:layout_height="@dimen/bigger_extra"
-                android:layout_margin="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/big"
+                android:layout_margin="@dimen/epsilon"
                 android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="8dp"
+                app:cardCornerRadius="4dp"
                 app:cardElevation="4dp">
 
                 <LinearLayout
+                    style="@style/section_style"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    style="@style/section_style"
-                    android:orientation="vertical"
+                    android:orientation="horizontal"
                     tools:ignore="UseCompoundDrawables">
 
                     <ImageView
+                        style="@style/section_icon"
                         android:layout_width="@dimen/larger"
                         android:layout_height="@dimen/larger"
-                        android:contentDescription="@string/shops"
+                        android:contentDescription="@string/your_center"
                         android:padding="@dimen/epsilon"
-                        style="@style/section_icon"
                         android:src="@drawable/ic_store" />
 
                     <TextView
+                        style="@style/section_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:maxLines="2"
                         android:minLines="2"
-                        style="@style/section_text"
-                        android:text="@string/shops"
+                        android:text="@string/stores"
                         android:textAlignment="center"
                         android:textSize="@dimen/text_tiny" />
 
@@ -126,35 +127,37 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/fragment_geant_button"
-                android:layout_width="@dimen/bigger_extra"
-                android:layout_height="@dimen/bigger_extra"
-                android:layout_margin="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/big"
+                android:layout_margin="@dimen/epsilon"
                 android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="8dp"
+                app:cardCornerRadius="4dp"
                 app:cardElevation="4dp">
 
                 <LinearLayout
+                    style="@style/section_style"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    style="@style/section_style"
+                    android:orientation="horizontal"
                     tools:ignore="UseCompoundDrawables">
 
                     <ImageView
+                        style="@style/section_icon"
                         android:layout_width="@dimen/larger"
                         android:layout_height="@dimen/larger"
-                        android:contentDescription="@string/geant"
+                        android:contentDescription="@string/your_center"
+                        android:padding="@dimen/epsilon"
                         android:src="@drawable/geant" />
 
                     <TextView
+                        style="@style/section_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:maxLines="2"
                         android:minLines="2"
                         android:text="@string/geant"
-                        style="@style/section_text"
                         android:textAlignment="center"
                         android:textSize="@dimen/text_tiny" />
 
@@ -162,52 +165,38 @@
 
             </androidx.cardview.widget.CardView>
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/activity_landing_service_2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center|top"
-            app:layout_constraintBottom_toTopOf="@id/fragment_azur_hire"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/fragment_landing_service_1"
-
-            >
-
             <androidx.cardview.widget.CardView
                 android:id="@+id/fragment_restaurant_button"
-                android:layout_width="@dimen/bigger_extra"
-                android:layout_height="@dimen/bigger_extra"
-                android:layout_margin="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/big"
+                android:layout_margin="@dimen/epsilon"
                 android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="8dp"
+                app:cardCornerRadius="4dp"
                 app:cardElevation="4dp">
 
                 <LinearLayout
+                    style="@style/section_style"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    style="@style/section_style"
-                    android:orientation="vertical"
+                    android:orientation="horizontal"
                     tools:ignore="UseCompoundDrawables">
 
                     <ImageView
+                        style="@style/section_icon"
                         android:layout_width="@dimen/larger"
                         android:layout_height="@dimen/larger"
-                        style="@style/section_icon"
-                        android:contentDescription="@string/restaurant"
+                        android:contentDescription="@string/your_center"
                         android:padding="@dimen/epsilon"
                         android:src="@drawable/ic_restaurant" />
 
                     <TextView
+                        style="@style/section_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:maxLines="2"
                         android:minLines="2"
-                        style="@style/section_text"
                         android:text="@string/restaurant"
                         android:textAlignment="center"
                         android:textSize="@dimen/text_tiny" />
@@ -218,36 +207,36 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/fragment_leisure_button"
-                android:layout_width="@dimen/bigger_extra"
-                android:layout_height="@dimen/bigger_extra"
-                android:layout_margin="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/big"
+                android:layout_margin="@dimen/epsilon"
                 android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="8dp"
+                app:cardCornerRadius="4dp"
                 app:cardElevation="4dp">
 
                 <LinearLayout
+                    style="@style/section_style"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:orientation="vertical"
-                    style="@style/section_style"
+                    android:orientation="horizontal"
                     tools:ignore="UseCompoundDrawables">
 
                     <ImageView
+                        style="@style/section_icon"
                         android:layout_width="@dimen/larger"
                         android:layout_height="@dimen/larger"
-                        style="@style/section_icon"
-                        android:contentDescription="@string/leisure"
+                        android:contentDescription="@string/your_center"
                         android:padding="@dimen/epsilon"
                         android:src="@drawable/ic_play_outline" />
 
                     <TextView
+                        style="@style/section_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:maxLines="2"
                         android:minLines="2"
-                        style="@style/section_text"
                         android:text="@string/leisure"
                         android:textAlignment="center"
                         android:textSize="@dimen/text_tiny" />
@@ -258,35 +247,35 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/fragment_service_button"
-                android:layout_width="@dimen/bigger_extra"
-                android:layout_height="@dimen/bigger_extra"
-                android:layout_margin="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/big"
+                android:layout_margin="@dimen/epsilon"
                 android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="8dp"
+                app:cardCornerRadius="4dp"
                 app:cardElevation="4dp">
 
                 <LinearLayout
+                    style="@style/section_style"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    style="@style/section_style"
-                    android:orientation="vertical"
+                    android:orientation="horizontal"
                     tools:ignore="UseCompoundDrawables">
 
                     <ImageView
+                        style="@style/section_icon"
                         android:layout_width="@dimen/larger"
                         android:layout_height="@dimen/larger"
-                        style="@style/section_icon"
-                        android:contentDescription="@string/services"
+                        android:contentDescription="@string/your_center"
                         android:padding="@dimen/epsilon"
                         android:src="@drawable/ic_service" />
 
                     <TextView
+                        style="@style/section_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:maxLines="2"
-                        style="@style/section_text"
                         android:minLines="2"
                         android:text="@string/services"
                         android:textAlignment="center"
@@ -302,17 +291,17 @@
             android:id="@+id/fragment_azur_hire"
             android:layout_width="match_parent"
             android:layout_height="@dimen/big_extra"
-            android:text="@string/we_hire"
+            android:layout_marginHorizontal="@dimen/medium"
             android:layout_marginTop="@dimen/medium"
             android:autoSizeTextType="uniform"
-            android:textStyle="bold"
             android:backgroundTint="@color/beige"
             android:paddingVertical="@dimen/tiny"
-            android:layout_marginHorizontal="@dimen/medium"
+            android:text="@string/we_hire"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/activity_landing_service_2"        />
+            app:layout_constraintTop_toBottomOf="@id/fragment_sections_wrapper" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

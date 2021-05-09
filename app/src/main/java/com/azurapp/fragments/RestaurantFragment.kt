@@ -26,6 +26,7 @@ class RestaurantFragment : BaseFragment(R.layout.fragment_restaurant) {
                 pushFragment(StoreFragment(list[position]))
             }
         })
+
         val recyclerView : RecyclerView = view.findViewById(R.id.fragment_recycler_view)
         recyclerView.layoutManager = LinearLayoutManager(requireContext(),LinearLayoutManager.VERTICAL, false)
         recyclerView.adapter = adapter

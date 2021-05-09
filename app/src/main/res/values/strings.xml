@@ -28,7 +28,7 @@
     <!-- LANDING FRAGMENT -->
 
     <string name="your_center">Your center</string>
-    <string name="shops">Shops</string>
+    <string name="stores">Stores</string>
     <string name="geant">Géant</string>
     <string name="restaurant">Restaurant</string>
     <string name="leisure">Leisure</string>
@@ -96,23 +96,23 @@
     <string name="store_aldo_fb">https://www.facebook.com/ALDO</string>
     <string name="store_aldo_web">www.aldoshoes.com</string>
     <string name="store_aldo_des">Aldo est la destination mondiale pour les chaussures et accessoires de mode tendance à des prix accessibles. Positif, authentique et débordant de personnalité, Aldo est la marque de style de vie pour les personnes qui s\'engagent dans le monde. ALDO est la première entreprise de chaussures et d\'accessoires de mode au monde à être certifiée climatiquement neutre.</string>
-    <string name="store_aldo_phone"/>
+    <string name="store_aldo_phone" />
 
     <string name="store_sens_inverse">Sens Inverse</string>
     <string name="store_sens_inverse_des">Si vous êtes une cendrillon des temps modernes, venez trouver chaussure à vos pieds chez les magasins SENS INVERSE.</string>
-    <string name="store_sens_inverse_phone"/>
+    <string name="store_sens_inverse_phone" />
     <string name="store_sens_inverse_fb">/SensInverseTunisie</string>
     <string name="store_sens_inverse_web">www.sensinverse.com.tn</string>
 
     <string name="store_maha_modern">Maha Modern</string>
     <string name="store_maha_modern_des">Maha Moden est une marque 100% tunisienne spécialisée dans le prêt à porter féminin. La femme Maha Modern , casual, chic, sport chic ou bien discrète et élégante, attractive et pleine de féminité sans trop en faire. Elle mixe en toute liberté des pièces ultra-tendance indémodables et faciles à porter. Au fil des années maha Moden s\'est dotée d’une culture d\'entreprise basée sur le travail rigoureux, la valorisation du capital humain, et la satisfaction du client.</string>
-    <string name="store_maha_modern_phone"/>
+    <string name="store_maha_modern_phone" />
     <string name="store_maha_modern_fb">/MAHAMODEN.1990/</string>
     <string name="store_maha_modern_web">www.mahamodern.tn</string>
 
     <string name="store_yves_rocher">Yves Rocher</string>
     <string name="store_yves_rocher_des">Yves Rocher crée le principe de la cosmétique à base de plantes, alliant les propriétés des plantes aux meilleures applications de la science. Grâce à son modèle unique, La marque  récolte ses plantes dans ses propres champs cultivés en agriculture biologique. Parce que respecter les plantes et l’environnement, c’est aussi respecter votre beauté. Yves Rocher garantit la qualité inégalée de ses produits et l\'accès direct de ses consommateurs à ceux-ci.</string>
-    <string name="store_yves_rocher_phone"/>
+    <string name="store_yves_rocher_phone" />
     <string name="store_yves_rocher_fb">/YvesRocherTn</string>
     <string name="store_yves_rocher_web">https://www.yvesrocher.tn/</string>
 
@@ -120,11 +120,11 @@
     <string name="store_nine_west_des">Nine West une des marques américaines les plus connues qui définit le style féminin intemporel associé aux dernières tendances chaussures et sacs.</string>
     <string name="store_nine_west_phone">70 130 871</string>
     <string name="store_nine_west_fb">/NineWestTunisia</string>
-    <string name="store_nine_west_web"/>
+    <string name="store_nine_west_web" />
 
     <string name="store_pimkie">Pimkie</string>
     <string name="store_pimkie_des">PIMKIE  a toujours aimé la mode et a toujours voulu être proche de ses clientes. Notre cliente aime aussi la mode. Elle aime avoir le choix et sait mixer ses tenues pour construire son style. Vous avez changé. Nous aussi. Vous êtes devenues plus femmes. Vous êtes devenues plus mode. Nos collections sont le reflet de vos envies du moment. Une mode à croquer, toujours au goût du jour et facile à s’offrir. Et comme nous savons que vous aimez être surprises et vous surprendre vous même, nous vous faisons une promesse : « Surprise Me »</string>
-    <string name="store_pimkie_phone"/>
+    <string name="store_pimkie_phone" />
     <string name="store_pimkie_fb">/Pimkie.Tunisie/</string>
     <string name="store_pimkie_web">www.pimkie.fr</string>
 
@@ -148,7 +148,7 @@
 
     <string name="store_hummel">Hummel</string>
     <string name="store_hummel_des">Hummel, fondée en 1923, est une marque de sportswear et de chaussures de sport profondément ancrée dans le football et le handball.</string>
-    <string name="store_hummel_phone"/>
+    <string name="store_hummel_phone" />
     <string name="store_hummel_fb">/hummeltn/</string>
     <string name="store_hummel_web">www.hummel.tn</string>
 
@@ -160,9 +160,9 @@
 
     <string name="store_lile_aux_bijoux">L\'ile Aux Bijoux</string>
     <string name="store_lile_aux_bijoux_des">L\'élégance, la finesse, la classe, la qualité, le charme, le grand choix, les bons prix… Bijoux en Argent Platiné 925.L\'île aux Bijoux - Just SILVER 925: ARE ALWAYS GOOD IDEA !!</string>
-    <string name="store_lile_aux_bijoux_phone"/>
-    <string name="store_lile_aux_bijoux_fb"/>
-    <string name="store_lile_aux_bijoux_web"/>
+    <string name="store_lile_aux_bijoux_phone" />
+    <string name="store_lile_aux_bijoux_fb" />
+    <string name="store_lile_aux_bijoux_web" />
 
     <string name="store_women_secret">Women Secret</string>
     <string name="store_women_secret_des">Women\'secret  est une marque de sous-vêtements, vêtements de nuit, accessoires et maillots de bain pour la femme d\'aujourd\'hui. Nous créons de nouvelles idées pour rendre la vie plus facile et plus heureuse, provoquant parfois des émotions et parfois apportant des solutions. Nous sommes spécialistes de l\'univers féminin, une marque créée par et pour les femmes .</string>
@@ -192,13 +192,13 @@
     <string name="store_balti_optique_des">Balti optique est la destination meilleure pour les lunettes optiques et solaires de haute qualité. </string>
     <string name="store_balti_optique_phone">98 754 201</string>
     <string name="store_balti_optique_fb">/BALTI-OPTIQUE</string>
-    <string name="store_balti_optique_web"/>
+    <string name="store_balti_optique_web" />
 
     <string name="store_faouzia_frad">Faouzia Frad</string>
     <string name="store_faouzia_frad_des">Faouzia Frad haute couture spécialisée en robe Coftan traditionnel modernisée selon le style tunisien qui convient à tout le monde.</string>
     <string name="store_faouzia_frad_phone">71 287 194</string>
     <string name="store_faouzia_frad_fb">/Faouzia-FRAD-Haute-couture-294171754544866</string>
-    <string name="store_faouzia_frad_web"/>
+    <string name="store_faouzia_frad_web" />
 
     <string name="store_etam">ETAM</string>
     <string name="store_etam_des">Craquez pour la collection lingerie de jour , nuit , bain , prêt à porter et sport.</string>
@@ -218,17 +218,17 @@
     <string name="store_beltoni_fb">/F.Beltoni</string>
     <string name="store_beltoni_web">www.fbeltoni.com/</string>
 
-    <string name="store_kareena" >Kareena</string>
+    <string name="store_kareena">Kareena</string>
     <string name="store_kareena_des">Une large gamme de vêtements tendance pour femmes voilées.</string>
     <string name="store_kareena_phone">27 640 611</string>
     <string name="store_kareena_fb">/KareenaFashion/</string>
-    <string name="store_kareena_web"/>
+    <string name="store_kareena_web" />
 
     <string name="store_123">123</string>
     <string name="store_123_des">Élégance affirmée, tailleurs impeccables et robes chics Allures citadines ou habillées, des plus quotidiennes aux plus sophistiquées, 1.2.3 vous invite à croiser les tendances selon votre mode de vie et votre propre fantaisie. Les intemporels sont subtilement réinterprétés pour une silhouette élégante et féminine. Basiques chics ou vrais coups de cœur mode se rencontrent autour d’une collection haut de gamme où les coupes justes, les matières de qualité et les finitions et détails soignés sont gages de notre qualité, tout en vous assurant un style raffiné en toute occasion. Tailleurs, vestes, pantalons, robes, jupes et accessoires : chaque modèle est conçu pour se mixer à l’envi.</string>
     <string name="store_123_phone">29 888 090</string>
     <string name="store_123_fb">/1.2.3.Tunisie/</string>
-    <string name="store_123_web"/>
+    <string name="store_123_web" />
 
     <string name="store_parfois">Parfois</string>
     <string name="store_parfois_des">PARFOIS , créée en 1994 en Portugal et présente dans plus de 70 pays est une marque d\'accessoires de mode  à ces dernières tendances de sac à mains , bijoux , montres et bien plus encore.</string>
@@ -252,23 +252,23 @@
     <string name="store_gift_story_des">Vente des Montres de luxe et maroquineries</string>
     <string name="store_gift_story_phone">22 433 622 </string>
     <string name="store_gift_story_fb">/Gift-Story-112051205580956</string>
-    <string name="store_gift_story_web"/>
+    <string name="store_gift_story_web" />
 
     <string name="store_specs_optique">Spec\'s Optique</string>
     <string name="store_specs_optique_des">Lunettes optiques et solaires ! découvrez les nouvelles tendances et retrouvez les indémodables classiques, ici vous trouverez lunettes à vos yeux.</string>
     <string name="store_specs_optique_phone">70 292 530 </string>
     <string name="store_specs_optique_fb">/Specs-Optic-Azur-City-103417491133943/</string>
-    <string name="store_specs_optique_web"/>
+    <string name="store_specs_optique_web" />
 
     <string name="store_city_watch">City Watch</string>
     <string name="store_city_watch_des">City Watch vous propose une large gamme de produits où le maître mot est QUALITE et où la philosophie est SATISFACTION CLIENT. C\'est dans cet esprit que "City Watch" propose à ses clients toute une gamme de montres de très grande qualité et provenant des meilleurs fabricants du moment.</string>
     <string name="store_city_watch_phone">70 296 516 </string>
     <string name="store_city_watch_fb">/CityWatchAzurCity</string>
-    <string name="store_city_watch_web"/>
+    <string name="store_city_watch_web" />
 
     <string name="store_lufian">Lufian</string>
     <string name="store_lufian_des">La mode pour nous, c\'est avoir l\'air stylé à chaque instant de la journée en étant pertinent pour les temps changeants dans lesquels nous vivons, sans perdre de simplicité et de naturalité. Rien n\'est plus important pour nous que de rester fidèles à notre âme, à notre héritage et aux valeurs que nous défendons. Nous interprétons l\'innovation avec cette passion en explorant à travers notre curiosité sans fin pour le nouveau.</string>
-    <string name="store_lufian_phone"/>
+    <string name="store_lufian_phone" />
     <string name="store_lufian_fb">/Lufian.tn</string>
     <string name="store_lufian_web">http://www.lufian.tn/</string>
 
@@ -276,7 +276,7 @@
     <string name="store_star_watches_des">Nous avons les montres! Vous avez le temps !</string>
     <string name="store_star_watches_phone">53 876 767 </string>
     <string name="store_star_watches_fb">/starwatchestunisia</string>
-    <string name="store_star_watches_web"/>
+    <string name="store_star_watches_web" />
 
     <string name="store_elu">ELU</string>
     <string name="store_elu_des">ELU est le spécialiste des accessoires homme et femme.</string>
@@ -328,9 +328,9 @@
 
     <string name="store_cosmito">Cosmito</string>
     <string name="store_cosmito_des">NA</string>
-    <string name="store_cosmito_phone"/>
-    <string name="store_cosmito_fb"/>
-    <string name="store_cosmito_web"/>
+    <string name="store_cosmito_phone" />
+    <string name="store_cosmito_fb" />
+    <string name="store_cosmito_web" />
 
     <string name="store_peak">Peak</string>
     <string name="store_peak_des">PEAK c\'est une marque internationale de haut de gamme.Elle fournit des officiels pour les ligues et associations suivantes : LNB, PBA, NBA et les joueurs de basket internationaux Tony Parker ,Lou Williams… Équipementier sportif spécialisé dans les chaussures Lifestyle, Running et basketball.</string>
@@ -352,7 +352,7 @@
 
     <string name="store_sebago_cat">Sebago Cat</string>
     <string name="store_sebago_cat_des">Construite pour être la chaussure nautique parfaite, ces chaussures bateau durables sont faites d’un morceau de cuir pleine fleur non doublé et cousu main avec le meilleur savoir-faire: tige en cuir, doublure, système de lacets en cuir brut à 360 ° et semelle en caoutchouc antidérapante pour offrir une adhérence stable par toutes conditions météorologiques.</string>
-    <string name="store_sebago_cat_phone"/>
+    <string name="store_sebago_cat_phone" />
     <string name="store_sebago_cat_fb">/sebago.world/</string>
     <string name="store_sebago_cat_web">https://www.sebago.fr/</string>
 
@@ -360,11 +360,11 @@
     <string name="store_wael_optic_des">avec 5 magasins pour être plus proche de vous! Vous trouverez également un ensemble de conseillers-expert vue et opticiens agréés qui vous guideront dans un choix vaste de verres et de montures.</string>
     <string name="store_wael_optic_phone">70 296 504</string>
     <string name="store_wael_optic_fb">/waelopticstore/</string>
-    <string name="store_wael_optic_web"/>
+    <string name="store_wael_optic_web" />
 
     <string name="store_polaris">Polaris</string>
     <string name="store_polaris_des">Une chaîne de magasins spécialisés dans la vente des  chaussures, sacs à main et accessoires pour homme, femme et enfant. Polaris offre  un maxi choix et les toutes dernières collections avec plusieurs marques en exclusivité.</string>
-    <string name="store_polaris_phone"/>
+    <string name="store_polaris_phone" />
     <string name="store_polaris_fb">/Polaris.tn/</string>
     <string name="store_polaris_web">www.polaris.tn</string>
 
@@ -382,15 +382,15 @@
 
     <string name="store_pitillos">Pitillos</string>
     <string name="store_pitillos_des">Chaussures haut de gamme confort en cuir importée d\'Espagne pour femmes et hommes. Avec PITILLOS touchez le confort à vos pieds ! Il suffit d\'essayer!</string>
-    <string name="store_pitillos_phone"/>
+    <string name="store_pitillos_phone" />
     <string name="store_pitillos_fb">/PITILLOSCHAUSSURES</string>
     <string name="store_pitillos_web">http://www.grupopitillos.com/</string>
 
     <string name="store_courir">Courir</string>
     <string name="store_courir_des">Chez Courir, on aime les personnes qui se dépassent au quotidien ! Celles qui ont des projets plein la tête et qui mettent tout en œuvre pour les concrétiser. Celles qui ont des idées et qui veulent les emmener toujours plus loin.</string>
-    <string name="store_courir_phone"/>
+    <string name="store_courir_phone" />
     <string name="store_courir_fb">/CourirTunisie</string>
-    <string name="store_courir_web"/>
+    <string name="store_courir_web" />
 
     <string name="store_du_pareil_au_meme">Du Pareil Au Même</string>
     <string name="store_du_pareil_au_meme_des"><![CDATA[Du Pareil au Même, référence des chaussures bébé et de vêtement enfant, vous invite à découvrir son univers de vêtement tendance & confortable pour bébé, fille et garçon ! Par.courez nos différents univers pour trouver le produit idéal pour votre bambin : robe fille, body bébé, pyjama bébé, pantalon garçon, chaussures enfant, … mais aussi de nombreux guides conseils ! Profitez également de bons plans, toute l\'année, sur une sélection de produits d`\'anciennes collections Du Pareil au même ! ]]></string>
@@ -402,7 +402,7 @@
     <string name="store_enzo_des">Montre classique, mode, ou sport, pour femme ou pour homme… Une large gamme de montres où le maître mot est le rapport qualité - prix</string>
     <string name="store_enzo_phone">29 198 121 </string>
     <string name="store_enzo_fb">/ENZOCOLLECTIONWATCHES</string>
-    <string name="store_enzo_web"/>
+    <string name="store_enzo_web" />
 
     <string name="store_xti">XTI</string>
     <string name="store_xti_des">La marque Espagnole de chaussures et accessoires XTI sont à Tunis.</string>
@@ -412,7 +412,7 @@
 
     <string name="store_kiabi">Kiabi</string>
     <string name="store_kiabi_des">KIABI, 1er concept français de la mode à petit prix ! Kiabi est l\'enseigne préférée de toutes les familles qui aiment la mode et les petits prix !</string>
-    <string name="store_kiabi_phone"/>
+    <string name="store_kiabi_phone" />
     <string name="store_kiabi_fb">/kiabi.tunisie/</string>
     <string name="store_kiabi_web">www.kiabi.tn </string>
 
@@ -424,55 +424,55 @@
 
     <string name="store_lindex">Lindex</string>
     <string name="store_lindex_des">Lindex est l\'une des principales entreprises de mode en Europe, avec environ 460 magasins sur 18 marchés et des ventes en ligne. Lindex propose une mode inspirante et abordable pour les femmes intéressées et conscientes de la mode. L\'assortiment comprend plusieurs concepts différents dans les vêtements pour femmes, les vêtements pour enfants, la lingerie et les cosmétiques.</string>
-    <string name="store_lindex_phone"/>
+    <string name="store_lindex_phone" />
     <string name="store_lindex_fb">/LindexTunisie</string>
     <string name="store_lindex_web">http://cutt.ly/Vg3wl4S</string>
 
     <string name="store_italcar">Ital Car</string>
     <string name="store_italcar_des">SHOW ROOM de voitures</string>
-    <string name="store_italcar_phone"/>
-    <string name="store_italcar_fb"/>
-    <string name="store_italcar_web"/>
+    <string name="store_italcar_phone" />
+    <string name="store_italcar_fb" />
+    <string name="store_italcar_web" />
 
     <string name="store_koton">Koton</string>
     <string name="store_koton_des">Avec aujourd\'hui près de 500 magasins et 10 500 employés dans 28 pays. Dirigeant la mode avec son équipe créative de 220 personnes, KOTON rassemble chaque année 250 millions de visiteurs avec plus de 60 000 types de produits. KOTON propose à ses candidats et collaborateurs une proposition de valeur «Mon développement est chez KOTON</string>
-    <string name="store_koton_phone"/>
+    <string name="store_koton_phone" />
     <string name="store_koton_fb">/Koton.Tunisie</string>
     <string name="store_koton_web">https://www.kotonkariyerim.com/</string>
 
     <string name="store_ha">HA</string>
     <string name="store_ha_des">Aujourd’hui, HA s’impose comme le leader sur le marché de prêt à porter en Tunisie pour homme, femme et enfant. Son succès auprès des consommateurs de mode grâce à une meilleure combinaison des facteurs clés de sucées Qualité, Style et Prix accessible.</string>
-    <string name="store_ha_phone"/>
+    <string name="store_ha_phone" />
     <string name="store_ha_fb">/HAMADIABID.2016</string>
     <string name="store_ha_web">www.ha.com.tn </string>
 
     <string name="store_heni_collection">Heni Collection</string>
     <string name="store_heni_collection_des">« HENI Collection » est une entreprise qui a commencé sa carrière depuis 1995. elle est spécialisée dans la vente de vêtements, chaussures et accessoires pour homme. Elle rallie la masculinité au raffinement, le classique au moderne, l\'élégance au décontracté. La richesse des matières, la qualité, l\'esprit de création, voilà autant d\'éléments qui caractérisent la marque Heni depuis le début… La mode homme a ainsi trouvé son nouveau temple, pour satisfaire ses envies d\'élégance sophistiquée et de matières nobles, rechercher une allure intemporelle et incontournable, et choisir le confort d\'un vêtement qui vit avec soi pour toutes les occasions. La qualité a toujours été prônée et a constitué la principale préoccupation de l\'équipe Heni Collection, une politique qui a porté ses fruits.</string>
-    <string name="store_heni_collection_phone"/>
+    <string name="store_heni_collection_phone" />
     <string name="store_heni_collection_fb">/HeniCollections/</string>
     <string name="store_heni_collection_web">http://www.heni.com.tn/</string>
 
     <string name="store_exist">Exist</string>
     <string name="store_exist_des">Exist est une marque de prêt à porter pour Homme, la marque des penseurs, la marque des intellectuels, je pense donc j’existe. Penser fort, à la qualité hors normes, à la richesse des matières, au dernier cri de la mode, à une équipe de professionnel qui travaille nuit et jour pour exister, pour trôner sur un marché concurrentiel aux besoins multiples. Nous possédons toute une dualité de substance qui satisfait nos clients. Cette dualité rallie la masculinité au raffinement, le classique au moderne, l’élégance au décontracté.</string>
-    <string name="store_exist_phone"/>
+    <string name="store_exist_phone" />
     <string name="store_exist_fb">/Exist.fashion/</string>
     <string name="store_exist_web">http://www.exist.com.tn/</string>
 
     <string name="store_caraja">Caraja</string>
     <string name="store_caraja_des">NA</string>
-    <string name="store_caraja_phone"/>
-    <string name="store_caraja_fb"/>
-    <string name="store_caraja_web"/>
+    <string name="store_caraja_phone" />
+    <string name="store_caraja_fb" />
+    <string name="store_caraja_web" />
 
     <string name="store_go_store">Go Sport</string>
     <string name="store_go_store_des">GO SPORT propose une gamme complète de vêtements , de chaussures et de matériel pour une utilisation occasionnelle , régulière ou intensive pour les femmes , hommes et enfants. Avec GO SPORT  découvrez toutes les marques internationales ainsi que des conseils pour pratiquer votre sport préféré avec un maximum de plaisir.</string>
-    <string name="store_go_store_phone"/>
+    <string name="store_go_store_phone" />
     <string name="store_go_store_fb">/GoSportTunisie</string>
-    <string name="store_go_store_web"/>
+    <string name="store_go_store_web" />
 
     <string name="store_zen">Zen</string>
     <string name="store_zen_des">Zen est une marque 100% tunisienne qui opère en Tunisie depuis 2003 elle ne cesse d’innover et de développer son réseau de magasins pour être  le leader incontesté dans le secteur du prêt  à porter.</string>
-    <string name="store_zen_phone"/>
+    <string name="store_zen_phone" />
     <string name="store_zen_fb">/ZEN.Tunisie/</string>
     <string name="store_zen_web">https://www.zen.com.tn/</string>
 
@@ -484,7 +484,7 @@
 
     <string name="store_chillis">Chilli\'s</string>
     <string name="store_chillis_des">Originaire du sud américain  texane n Chili’s est l’une des plus grands enseignes américains de restaurants.</string>
-    <string name="store_chillis_phone"/>
+    <string name="store_chillis_phone" />
     <string name="store_chillis_fb">/ChilisTunisie</string>
     <string name="store_chillis_web">http://www.chilistunisie.com/</string>
 
@@ -492,19 +492,19 @@
     <string name="store_hobo_des">HOBO Chicken Trip est une nouvelle enseigne spécialisée dans le poulet. Son poulet grillé vous fera découvrir des saveurs venues d’ailleurs. La Teriyaki la plus connue des sauces japonaises, la Chili Mirasol la fameuse sauce chilienne, l’itaienneCreamyPepperoncino, la mexicaine Holy Chipotle et plein d’autres vous feront redécouvrir le poulet qui est d’autant plus mariné et grillé à la commande sur de la roche volcanique. Pour les amateurs de friture HOBO propose aussi du poulet pané Crispy et Crunchy .</string>
     <string name="store_hobo_phone">95 023 797</string>
     <string name="store_hobo_fb">/HoboAzurCity</string>
-    <string name="store_hobo_web"/>
+    <string name="store_hobo_web" />
 
     <string name="store_kfc">KFC</string>
     <string name="store_kfc_des">KFC est une marque de restauration rapide (également appelée QSR, ou restaurant à service rapide) spécialisée dans le poulet. Avec plus de 19500 unités dans plus de 115 pays et territoires.</string>
-    <string name="store_kfc_phone"/>
+    <string name="store_kfc_phone" />
     <string name="store_kfc_fb">/KFCTunisia</string>
     <string name="store_kfc_web">https://kfc.com.tn/nous-contacter</string>
 
     <string name="store_legends">Legend\'s</string>
     <string name="store_legends_des">NA</string>
-    <string name="store_legends_phone"/>
+    <string name="store_legends_phone" />
     <string name="store_legends_fb">/LegendsTunis/</string>
-    <string name="store_legends_web"/>
+    <string name="store_legends_web" />
 
     <string name="store_papa_johns">Papa John\'s</string>
     <string name="store_papa_johns_des">Papa John\'s est l\'un des plus grands restaurateurs de Pizza dans le monde. référence incontestable de la qualité, nous comptons plus de 4900 restaurants à travers le monde et sommes présents dans plus de 45 pays.</string>
@@ -514,19 +514,19 @@
 
     <string name="store_echemi">Echemi</string>
     <string name="store_echemi_des">Le menu à inspiration orientale tout en respectant  et en prenant en compte les préférences alimentaires des jeunes et des tunisiens en général d’où le cachet occidental  </string>
-    <string name="store_echemi_phone"/>
+    <string name="store_echemi_phone" />
     <string name="store_echemi_fb">/Echemi.food/</string>
-    <string name="store_echemi_web"/>
+    <string name="store_echemi_web" />
 
     <string name="store_99kif">99 Kif</string>
     <string name="store_99kif_des">Les plats tunisiens traditionels, "Lablabi", "Madfouna" … </string>
     <string name="store_99kif_phone">52 627 433</string>
     <string name="store_99kif_fb">/99kif</string>
-    <string name="store_99kif_web"/>
+    <string name="store_99kif_web" />
 
     <string name="store_pomme_de_pain">Pomme de Pain</string>
     <string name="store_pomme_de_pain_des">Pomme de Pain est une chaîne française de restauration rapide proposant une large gamme de sandwichs, salades, pâtisseries,… préparés avec des ingrédients de qualité afin de satisfaire les goûts et les envies de chacun !</string>
-    <string name="store_pomme_de_pain_phone"/>
+    <string name="store_pomme_de_pain_phone" />
     <string name="store_pomme_de_pain_fb">/pommedepain.tn/</string>
     <string name="store_pomme_de_pain_web">http://www.pommedepain.fr/</string>
 
@@ -538,9 +538,9 @@
 
     <string name="store_bna">BNA</string>
     <string name="store_bna_des">Agence BNA bancaire </string>
-    <string name="store_bna_phone" >80 101 433</string>
-    <string name="store_bna_fb"/>
-    <string name="store_bna_web"/>
+    <string name="store_bna_phone">80 101 433</string>
+    <string name="store_bna_fb" />
+    <string name="store_bna_web" />
 
     <string name="store_tunisie_telecom">Tunisie Telecom</string>
     <string name="store_tunisie_telecom_des">Soucieux d’être toujours à votre écoute et résolus à vous offrir le meilleur de nos services, toute notre équipe a été mobilisée pour mettre à votre disposition un nouvel espace dont le contenu sera en permanence adapté aux besoins et aux attentes des entreprises et du grand public. Fiers de notre clientèle comptant plus de 6 millions d’abonnés bénéficiant des prestations de la téléphonie fixe et mobile ainsi que de l’accès à l’Internet, nous tenons à travers cet espace à mieux vous informer sur la panoplie de nos produits et services afin de mieux vous servir et satisfaire vos attentes.</string>
@@ -551,8 +551,8 @@
     <string name="store_tunisia_exchange">Tunisia Exchange</string>
     <string name="store_tunisia_exchange_des">Bureau de change Echanger votre devise en toute sécurité chez nous</string>
     <string name="store_tunisia_exchange_phone">24 020 000</string>
-    <string name="store_tunisia_exchange_fb" >/Tunisia-Exchange-التونسية-للصرف-105658210912944</string>
-    <string name="store_tunisia_exchange_web"/>
+    <string name="store_tunisia_exchange_fb">/Tunisia-Exchange-التونسية-للصرف-105658210912944</string>
+    <string name="store_tunisia_exchange_web" />
 
     <string name="store_ooredoo">Ooredoo</string>
     <string name="store_ooredoo_web">https://www.ooredoo.tn/</string>
@@ -562,9 +562,9 @@
 
     <string name="store_azur_presse">Azur Presse</string>
     <string name="store_azur_presse_des">Le kiosque à journaux et magazines.</string>
-    <string name="store_azur_presse_phone"/>
-    <string name="store_azur_presse_fb"/>
-    <string name="store_azur_presse_web"/>
+    <string name="store_azur_presse_phone" />
+    <string name="store_azur_presse_fb" />
+    <string name="store_azur_presse_web" />
 
     <string name="store_all_for_pets">All For Pets</string>
     <string name="store_all_for_pets_des">Animalerie spécialiste dans l’alimentation et accessoires pour animaux de compagnie , avec plus de 4000 produits de marque réputées</string>
@@ -574,27 +574,27 @@
 
     <string name="store_culturel">Culturel</string>
     <string name="store_culturel_des">Culturel est une chaîne de librairies en Tunisie fondée en 2008 avec plus de 30 000 références.</string>
-    <string name="store_culturel_phone"/>
+    <string name="store_culturel_phone" />
     <string name="store_culturel_fb">/libaririeculturel</string>
     <string name="store_culturel_web">http://www.culturel.tn/</string>
 
     <string name="store_biat">Biat</string>
     <string name="store_biat_des">Agence bancaire BIAT</string>
     <string name="store_biat_phone">71 131 000 – 31 311 000</string>
-    <string name="store_biat_fb"/>
-    <string name="store_biat_web"/>
+    <string name="store_biat_fb" />
+    <string name="store_biat_web" />
 
     <string name="store_pronails">Pronails</string>
     <string name="store_pronails_des">Salon de beauté pour femmes et espace barbier pour hommes ( coiffure, soin et onglerie )</string>
-    <string name="store_pronails_phone"/>
+    <string name="store_pronails_phone" />
     <string name="store_pronails_fb">/pronails.tunisie/</string>
     <string name="store_pronails_web">http://www.pronails.com/</string>
 
     <string name="store_administration_rapide">Administration Rapide</string>
     <string name="store_administration_rapide_des">Ce service est opérationnel 7jours/7 légalisation de signature , certificat conforme </string>
-    <string name="store_administration_rapide_phone"/>
-    <string name="store_administration_rapide_fb"/>
-    <string name="store_administration_rapide_web"/>
+    <string name="store_administration_rapide_phone" />
+    <string name="store_administration_rapide_fb" />
+    <string name="store_administration_rapide_web" />
 
     <string name="store_geant">Géant</string>
     <string name="store_geant_des">3ème hypermarché de l’enseigne Géant en Tunisie. Plus de 10 000 m² dont le concept répond aux derniers standards du groupe international Casino. 50 000 références de éléctroménager , du textile, de l’art de la table à l’alimentaire. En plus du drive Géant situé au parking sous sol.</string>

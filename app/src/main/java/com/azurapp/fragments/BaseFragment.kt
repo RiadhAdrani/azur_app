@@ -2,9 +2,11 @@ package com.azurapp.fragments
 
 import android.os.Bundle
 import android.view.View
+import androidx.core.view.updatePadding
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.commit
 import com.azurapp.R
+import com.util.getStatusBarHeight
 
 abstract class BaseFragment(layoutRes : Int): Fragment(layoutRes) {
 
@@ -36,5 +38,9 @@ abstract class BaseFragment(layoutRes : Int): Fragment(layoutRes) {
             replace(R.id.activity_main_fragment, fragment)
             addToBackStack(fragment.tag())
         }
+    }
+
+    fun safePadding(view: View){
+        view.updatePadding(top = getStatusBarHeight(this))
     }
 }

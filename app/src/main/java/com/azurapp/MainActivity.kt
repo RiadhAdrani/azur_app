@@ -1,6 +1,7 @@
 package com.azurapp
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.updatePadding
 import androidx.fragment.app.commit
@@ -11,6 +12,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.util.getStatusBarHeight
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var bottomNavigationView : BottomNavigationView
 
     private fun pushFragment(
         fragment : BaseFragment,
@@ -37,29 +40,33 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        BottomNavigationView.OnNavigationItemSelectedListener { item ->
+        bottomNavigationView = findViewById(R.id.bottom_navigation)
+
+        bottomNavigationView.setOnNavigationItemSelectedListener { item ->
             when(item.itemId) {
                 R.id.menu_home -> {
-                    // TODO : HOME
+                    pushFragment(MainFragment())
                     true
                 }
                 R.id.menu_search -> {
-                    // TODO : SEARCH
+                    pushFragment(SearchFragment())
                     true
                 }
                 R.id.menu_favorite -> {
-                    // TODO : FAVORITE
+                    pushFragment(SearchFragment())
                     true
                 }
-                else -> false
+                else -> {
+                    false
+                }
             }
         }
-
-        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottom_navigation)
         bottomNavigationView.setOnNavigationItemReselectedListener { item ->
             when(item.itemId){
                 R.id.menu_home -> {
-                    // TODO : HOME
+                    if ((supportFragmentManager.findFragmentById(R.id.activity_main_fragment) as BaseFragment).tag() != MainFragment().tag()){
+                        pushFragment(MainFragment())
+                    }
                 }
                 R.id.menu_search -> {
                     // TODO : SEARCH
@@ -82,8 +89,12 @@ class MainActivity : AppCompatActivity() {
     override fun onBackPressed() {
 
         val fragment = supportFragmentManager.findFragmentById(R.id.activity_main_fragment) as BaseFragment
-        if (fragment.onBackPressed())
+        if (fragment.onBackPressed()) {
             super.onBackPressed()
+            if ((supportFragmentManager.findFragmentById(R.id.activity_main_fragment) as BaseFragment).tag() == MainFragment().tag()){
+                bottomNavigationView.selectedItemId = R.id.menu_home
+            }
+        }
         else
             finish()
     }

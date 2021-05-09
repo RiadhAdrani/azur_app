@@ -40,6 +40,8 @@ fun getLocalServicesList(): ArrayList<Store>{
 
     val list = ArrayList<Store>()
 
+    // -------------------------------------------------------------------------------------------
+    // BNA
     list.add(Store.service(
         R.string.store_bna,
         R.drawable.ic_store_bna,
@@ -54,6 +56,8 @@ fun getLocalServicesList(): ArrayList<Store>{
         ))
     ))
 
+    // -------------------------------------------------------------------------------------------
+    // TUNISIE TELECOM
     list.add(Store.service(
         R.string.store_tunisie_telecom,
         R.drawable.ic_store_tunisie_telecom,
@@ -68,6 +72,24 @@ fun getLocalServicesList(): ArrayList<Store>{
         ))
     ))
 
+    // -------------------------------------------------------------------------------------------
+    // ORANGE
+    list.add(Store.service(
+        name = R.string.store_orange,
+        icon = R.drawable.ic_store_orange,
+        activity =  Activity.service,
+        description = R.string.store_orange_des,
+        phone = R.string.store_orange_phone,
+        mapID = 50,
+        level = StoreLevel.main,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_orange_fb),
+            Link.web(R.string.store_orange_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // TUNISIA EXCHANGE
     list.add(Store.service(
         R.string.store_tunisia_exchange,
         R.drawable.ic_store_tunisia_exchange,
@@ -82,6 +104,8 @@ fun getLocalServicesList(): ArrayList<Store>{
         ))
     ))
 
+    // -------------------------------------------------------------------------------------------
+    // OOREDOO
     list.add(Store.service(
         R.string.store_ooredoo,
         R.drawable.ic_store_ooredoo,
@@ -96,6 +120,8 @@ fun getLocalServicesList(): ArrayList<Store>{
         ))
     ))
 
+    // -------------------------------------------------------------------------------------------
+    // AZURE
     list.add(Store.service(
         R.string.store_azur_presse,
         R.drawable.ic_store_azur_presse,
@@ -110,6 +136,8 @@ fun getLocalServicesList(): ArrayList<Store>{
         ))
     ))
 
+    // -------------------------------------------------------------------------------------------
+    // ALL FOR PETS
     list.add(Store.service(
         R.string.store_all_for_pets,
         R.drawable.ic_store,
@@ -124,6 +152,8 @@ fun getLocalServicesList(): ArrayList<Store>{
         ))
     ))
 
+    // -------------------------------------------------------------------------------------------
+    // CULTUREL
     list.add(Store.service(
         R.string.store_culturel,
         R.drawable.ic_store_culturel,
@@ -138,6 +168,8 @@ fun getLocalServicesList(): ArrayList<Store>{
         ))
     ))
 
+    // -------------------------------------------------------------------------------------------
+    // BIAT
     list.add(Store.service(
         R.string.store_biat,
         R.drawable.ic_store_biat,
@@ -152,6 +184,8 @@ fun getLocalServicesList(): ArrayList<Store>{
         ))
     ))
 
+    // -------------------------------------------------------------------------------------------
+    // PRONAILS
     list.add(Store.service(
         R.string.store_pronails,
         R.drawable.ic_store_pronails,
@@ -166,6 +200,8 @@ fun getLocalServicesList(): ArrayList<Store>{
         ))
     ))
 
+    // -------------------------------------------------------------------------------------------
+    // ADMINISTRATION RAPIDE
     list.add(Store.service(
         R.string.store_administration_rapide,
         R.drawable.ic_azur_logo,
@@ -575,22 +611,6 @@ fun getLocalStoreList(): ArrayList<Store> {
         links = ArrayList(arrayListOf(
             Link.facebook(R.string.store_fatales_fb),
             Link.web(R.string.store_fatales_web)
-        ))
-    ))
-
-    // -------------------------------------------------------------------------------------------
-    // ORANGE
-    list.add(Store(
-        name = R.string.store_orange,
-        icon = R.drawable.ic_store_orange,
-        activity =  ArrayList(arrayListOf(Activity.service)),
-        description = R.string.store_orange_des,
-        phone = R.string.store_orange_phone,
-        mapID = 50,
-        level = StoreLevel.main,
-        links = ArrayList(arrayListOf(
-            Link.facebook(R.string.store_orange_fb),
-            Link.web(R.string.store_orange_web)
         ))
     ))
 
