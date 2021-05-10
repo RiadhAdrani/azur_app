@@ -13,51 +13,52 @@
     <string name="under_construction">Section under construction</string>
     <string name="check_later">Make sure to check in later!</string>
 
-    <string name="category"> Category</string>
-    <string name="level">Level</string>
+    <string name="category">Activité</string>
+    <string name="level">Niveau</string>
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- MAIN ACTIVITY -->
-    <string name="home">Home</string>
-    <string name="search">Search</string>
-    <string name="favorite">Favorite</string>
+    <string name="home">Acceuil</string>
+    <string name="search">Rechercher</string>
+    <string name="favorite">Favoris</string>
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- LANDING FRAGMENT -->
 
-    <string name="your_center">Your center</string>
-    <string name="stores">Stores</string>
+    <string name="your_center">Votre Centre</string>
+    <string name="stores">Boutiques</string>
     <string name="geant">Géant</string>
     <string name="restaurant">Restaurant</string>
-    <string name="leisure">Leisure</string>
+    <string name="leisure">Loisirs</string>
     <string name="services">Services</string>
-    <string name="we_hire">Azur is hiring! Join Our Team!</string>
+    <string name="we_hire">Azur Recrute!</string>
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- LANDING FRAGMENT -->
 
     <string name="we_hire_description">Are you in search of an opportunity to gain money and experience? Are you confident enough with your skills? What are you waiting for!!! Join our working team now!</string>
-    <string name="first_name">First name</string>
+    <string name="first_name">Nom</string>
     <string name="first_name_hint">foulen</string>
-    <string name="last_name">Last name</string>
+    <string name="last_name">Prénom</string>
     <string name="last_name_hint">benfoulen</string>
     <string name="cin">CIN</string>
     <string name="cin_hint">12345678</string>
-    <string name="activity">Activity</string>
-    <string name="activity_hint">marketing, development…</string>
-    <string name="embed_cv">Embed your CV</string>
-    <string name="submit">Submit</string>
+    <string name="activity">Activité</string>
+    <string name="activity_hint">Marketing, development…</string>
+    <string name="embed_cv">Attacher CV</string>
+    <string name="submit">Envoyer</string>
+
     <string name="all">All</string>
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- FLOOR LEVEL -->
 
-    <string name="ground_floor">Ground Floor</string>
-    <string name="main_floor">Main Floor</string>
-    <string name="first_floor">First Floor</string>
-    <string name="second_floor">Second Floor</string>
+    <string name="ground_floor">Rez-de-chaussée</string>
+    <string name="main_floor">Rez-de-chaussée</string>
+    <string name="first_floor">1e Etage</string>
+    <string name="second_floor">2e Etage</string>
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- SOCIAL MEDIA NAMES -->
@@ -67,27 +68,27 @@
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ACTIVITIES NAMES -->
 
-    <string name="activity_shoes">Shoes</string>
-    <string name="activity_ready_to_wear">Ready-to-wear</string>
-    <string name="activity_ready_to_wear_women">Ready-to-wear women</string>
-    <string name="activity_ready_to_wear_men">Ready-to-wear men</string>
-    <string name="activity_ready_to_wear_kids">Ready-to-wear kids</string>
-    <string name="activity_cosmetics">Cosmetics</string>
-    <string name="activity_decoration">Decoration</string>
+    <string name="activity_shoes">Chaussures</string>
+    <string name="activity_ready_to_wear">Prêt-à-porter</string>
+    <string name="activity_ready_to_wear_women">Prêt-à-porter Femmes</string>
+    <string name="activity_ready_to_wear_men">Prêt-à-porter Hommes</string>
+    <string name="activity_ready_to_wear_kids">Prêt-à-porter Enfants</string>
+    <string name="activity_cosmetics">Cosmétiques</string>
+    <string name="activity_decoration">Décoration</string>
     <string name="activity_sport">Sport</string>
-    <string name="activity_perfumery">Perfumery</string>
-    <string name="activity_jewelry">Jewelry</string>
+    <string name="activity_perfumery">Parfumerie</string>
+    <string name="activity_jewelry">Bijouterie</string>
     <string name="activity_lingerie">Lingerie</string>
     <string name="activity_service">Service</string>
-    <string name="activity_optics">Optics</string>
-    <string name="activity_furniture">Furniture</string>
-    <string name="activity_cafeteria">Cafeteria</string>
+    <string name="activity_optics">Optique</string>
+    <string name="activity_furniture">Meubles</string>
+    <string name="activity_cafeteria">Caféteria</string>
     <string name="activity_showroom">Showroom</string>
-    <string name="activity_linens">Linens</string>
+    <string name="activity_linens">Linge de maison</string>
     <string name="activity_restaurant">Restaurant</string>
-    <string name="activity_telecom">Telecom</string>
-    <string name="activity_watchmaking">Watchmaking</string>
-    <string name="activity_hypermarket">Hypermarket</string>
+    <string name="activity_telecom">Télécommunication</string>
+    <string name="activity_watchmaking">Horlogerie</string>
+    <string name="activity_hypermarket">Hypermarché</string>
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- STORES DATA -->
