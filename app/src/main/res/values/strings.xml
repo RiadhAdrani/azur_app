@@ -12,7 +12,7 @@
 
     <string name="under_construction">Section under construction</string>
     <string name="check_later">Make sure to check in later!</string>
-
+ù
     <string name="category">Activité</string>
     <string name="level">Niveau</string>
 
@@ -62,7 +62,7 @@
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- SOCIAL MEDIA NAMES -->
-    <string name="website">Website</string>
+    <string name="website">Site Web</string>
     <string name="facebook">Facebook</string>
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
@@ -603,6 +603,17 @@
     <string name="store_geant_fb">/Geant.Tunisie</string>
     <string name="store_geant_web">www.geant.tn</string>
     <string name="store_geant_web_drive">www.geantdrive.tn</string>
+    <string name="store_pathe">Pathé</string>
+    <string name="activity_leisure">Leisure</string>
+    <string name="store_pathe_des">Pathé Tunis City, un multiplexe sur le site de azur  City, la meilleure expérience cinéma jamais proposée en Tunisie.</string>
+    <string name="store_pathe_phone" />
+    <string name="store_pathe_fb">/PatheTunisCity</string>
+    <string name="store_pathe_web">https://www.pathe.tn/azurcity</string>
+    <string name="store_magic_city">Magic City</string>
+    <string name="store_magic_city_des">"Aire de jeux indoor pour enfants "</string>
+    <string name="store_magic_city_phone" />
+    <string name="store_magic_city_fb" />
+    <string name="store_magic_city_web" />
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
 </resources>

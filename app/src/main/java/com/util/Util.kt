@@ -21,6 +21,44 @@ fun getStatusBarHeight(fragment : Fragment): Int {
     return result
 }
 
+fun getLocalLeisureList(): ArrayList<Store> {
+    val list = ArrayList<Store>()
+
+    // -------------------------------------------------------------------------------------------
+    // PATHE
+    list.add(Store.service(
+        R.string.store_pathe,
+        R.drawable.ic_store_pathe,
+        Activity.leisure,
+        R.string.store_pathe_des,
+        R.string.store_pathe_phone,
+        20,
+        StoreLevel.first,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_pathe_fb),
+            Link.web(R.string.store_pathe_web)
+        ))
+    ))
+
+    // -------------------------------------------------------------------------------------------
+    // MAGIC CITY
+    list.add(Store.service(
+        R.string.store_magic_city,
+        R.drawable.ic_store,
+        Activity.leisure,
+        R.string.store_magic_city_des,
+        R.string.store_magic_city_phone,
+        21,
+        StoreLevel.main,
+        links = ArrayList(arrayListOf(
+            Link.facebook(R.string.store_magic_city_fb),
+            Link.web(R.string.store_magic_city_web)
+        ))
+    ))
+
+    return list
+}
+
 fun getGeant(): Store = Store(
     R.string.store_geant,
     R.drawable.geant,

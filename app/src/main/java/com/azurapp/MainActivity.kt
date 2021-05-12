@@ -1,28 +1,26 @@
 package com.azurapp
 
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.updatePadding
 import androidx.fragment.app.commit
 import com.azurapp.fragments.BaseFragment
 import com.azurapp.fragments.MainFragment
 import com.azurapp.fragments.SearchFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.util.getStatusBarHeight
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var bottomNavigationView : BottomNavigationView
+    private lateinit var bottomNavigationView: BottomNavigationView
 
     private fun pushFragment(
-        fragment : BaseFragment,
-        enterAnimRes : Int = R.anim.fade_in,
-        exitAnimRes : Int = R.anim.fade_out,
-        popEnterAnimRes : Int = R.anim.fade_in,
-        popExitAnimRes : Int = R.anim.fade_out
-    ){
-        val currentFragment = supportFragmentManager.findFragmentById(R.id.activity_main_fragment) as BaseFragment
+        fragment: BaseFragment,
+        enterAnimRes: Int = R.anim.fade_in,
+        exitAnimRes: Int = R.anim.fade_out,
+        popEnterAnimRes: Int = R.anim.fade_in,
+        popExitAnimRes: Int = R.anim.fade_out
+    ) {
+        val currentFragment =
+            supportFragmentManager.findFragmentById(R.id.activity_main_fragment) as BaseFragment
 
         currentFragment.parentFragmentManager.commit {
             setCustomAnimations(
@@ -43,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         bottomNavigationView = findViewById(R.id.bottom_navigation)
 
         bottomNavigationView.setOnNavigationItemSelectedListener { item ->
-            when(item.itemId) {
+            when (item.itemId) {
                 R.id.menu_home -> {
                     pushFragment(MainFragment())
                     true
@@ -62,14 +60,16 @@ class MainActivity : AppCompatActivity() {
             }
         }
         bottomNavigationView.setOnNavigationItemReselectedListener { item ->
-            when(item.itemId){
+            when (item.itemId) {
                 R.id.menu_home -> {
-                    if ((supportFragmentManager.findFragmentById(R.id.activity_main_fragment) as BaseFragment).tag() != MainFragment().tag()){
+                    if ((supportFragmentManager.findFragmentById(R.id.activity_main_fragment) as BaseFragment).tag() != MainFragment().tag()) {
                         pushFragment(MainFragment())
                     }
                 }
                 R.id.menu_search -> {
-                    // TODO : SEARCH
+                    if ((supportFragmentManager.findFragmentById(R.id.activity_main_fragment) as BaseFragment).tag() != SearchFragment().tag()) {
+                        pushFragment(SearchFragment())
+                    }
                 }
                 R.id.menu_favorite -> {
                     // TODO : FAVORITE
@@ -88,14 +88,23 @@ class MainActivity : AppCompatActivity() {
 
     override fun onBackPressed() {
 
-        val fragment = supportFragmentManager.findFragmentById(R.id.activity_main_fragment) as BaseFragment
+        val fragment =
+            supportFragmentManager.findFragmentById(R.id.activity_main_fragment) as BaseFragment
+
         if (fragment.onBackPressed()) {
             super.onBackPressed()
-            if ((supportFragmentManager.findFragmentById(R.id.activity_main_fragment) as BaseFragment).tag() == MainFragment().tag()){
-                bottomNavigationView.selectedItemId = R.id.menu_home
+
+            if ((supportFragmentManager.findFragmentById(R.id.activity_main_fragment) as BaseFragment).tag() == SearchFragment().tag()) {
+                bottomNavigationView.selectedItemId = R.id.menu_search
+                return
             }
-        }
-        else
+
+            if ((supportFragmentManager.findFragmentById(R.id.activity_main_fragment) as BaseFragment).tag() == MainFragment().tag()) {
+                bottomNavigationView.selectedItemId = R.id.menu_home
+                return
+            }
+
+        } else
             finish()
     }
 }

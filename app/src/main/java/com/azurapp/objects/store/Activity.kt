@@ -28,5 +28,6 @@ data class Activity(val id: Int, val name: Int) {
         val telecom= Activity(19, R.string.activity_telecom)
         val watchmaking = Activity(20, R.string.activity_watchmaking)
         val hypermarket = Activity(21,R.string.activity_hypermarket)
+        val leisure = Activity(22,R.string.activity_leisure)
     }
 }
