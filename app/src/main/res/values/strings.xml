@@ -40,9 +40,9 @@
 
     <string name="we_hire_description">Are you in search of an opportunity to gain money and experience? Are you confident enough with your skills? What are you waiting for!!! Join our working team now!</string>
     <string name="first_name">Nom</string>
-    <string name="first_name_hint">foulen</string>
+    <string name="first_name_hint">Votre nom</string>
     <string name="last_name">Prénom</string>
-    <string name="last_name_hint">benfoulen</string>
+    <string name="last_name_hint">Votre prénom</string>
     <string name="cin">CIN</string>
     <string name="cin_hint">12345678</string>
     <string name="activity">Activité</string>
@@ -50,7 +50,7 @@
     <string name="embed_cv">Attacher CV</string>
     <string name="submit">Envoyer</string>
 
-    <string name="all">All</string>
+    <string name="all">Tout</string>
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- FLOOR LEVEL -->

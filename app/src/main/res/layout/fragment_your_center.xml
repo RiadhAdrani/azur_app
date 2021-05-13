@@ -5,41 +5,53 @@
     android:layout_height="match_parent"
     android:padding="@dimen/tiny_extra">
 
-    <ImageView
-        android:id="@+id/under_construction_icon"
-        android:layout_width="@dimen/bigger_extra"
-        android:layout_height="@dimen/bigger_extra"
-        android:src="@drawable/ic_construction"
-        app:layout_constraintBottom_toTopOf="@id/under_construction_text"
-        app:layout_constraintLeft_toLeftOf="parent"
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fragment_level_1"
+        android:layout_width="@dimen/big"
+        android:layout_height="@dimen/big"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_one"
+        android:rotation="90"
+        app:tint="@android:color/white"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginVertical="@dimen/small"
-        app:tint="@color/azur_dark"
-        android:contentDescription="@string/under_construction" />
+        android:layout_margin="@dimen/small_extra"
+        android:backgroundTint="@color/azur_dark"
+        android:contentDescription="@string/level" />
 
-    <TextView
-        android:id="@+id/under_construction_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/under_construction"
-        android:textColor="@color/azur"
-        android:textSize="@dimen/text_big"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fragment_level_0"
+        android:layout_width="@dimen/big"
+        android:layout_height="@dimen/big"
+        android:src="@drawable/ic_zero"
+        android:rotation="90"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@android:color/white"
+        android:layout_margin="@dimen/small_extra"
+        app:layout_constraintRight_toLeftOf="@id/fragment_level_1"
+        android:backgroundTint="@color/azur_dark"
+        android:contentDescription="@string/level" />
 
-    <TextView
-        android:id="@+id/under_construction_info"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/check_later"
-        android:textColor="@color/azur_darker"
-        android:textSize="20sp"
-        app:layout_constraintTop_toBottomOf="@id/under_construction_text"
-        android:layout_marginVertical="@dimen/small"
-        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fragment_level__1"
+        android:layout_width="@dimen/big"
+        android:layout_height="@dimen/big"
+        android:src="@drawable/ic_minus_one"
+        app:tint="@android:color/white"
+        android:rotation="90"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="@dimen/small_extra"
+        app:layout_constraintRight_toLeftOf="@id/fragment_level_0"
+        android:backgroundTint="@color/azur_dark"
+        android:contentDescription="@string/level" />
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/fragment_center_plan"
+        android:src="@drawable/your_center_level_0"
+        android:rotation="90"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
