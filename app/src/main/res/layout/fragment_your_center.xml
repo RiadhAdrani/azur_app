@@ -11,10 +11,9 @@
         android:layout_height="@dimen/big"
         app:layout_constraintTop_toTopOf="parent"
         android:src="@drawable/ic_one"
-        android:rotation="90"
         app:tint="@android:color/white"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_margin="@dimen/small_extra"
+        android:layout_margin="@dimen/tiny_extra"
         android:backgroundTint="@color/azur_dark"
         android:contentDescription="@string/level" />
 
@@ -23,10 +22,9 @@
         android:layout_width="@dimen/big"
         android:layout_height="@dimen/big"
         android:src="@drawable/ic_zero"
-        android:rotation="90"
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@android:color/white"
-        android:layout_margin="@dimen/small_extra"
+        android:layout_margin="@dimen/tiny_extra"
         app:layout_constraintRight_toLeftOf="@id/fragment_level_1"
         android:backgroundTint="@color/azur_dark"
         android:contentDescription="@string/level" />
@@ -37,21 +35,19 @@
         android:layout_height="@dimen/big"
         android:src="@drawable/ic_minus_one"
         app:tint="@android:color/white"
-        android:rotation="90"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_margin="@dimen/small_extra"
+        android:layout_margin="@dimen/tiny_extra"
         app:layout_constraintRight_toLeftOf="@id/fragment_level_0"
         android:backgroundTint="@color/azur_dark"
         android:contentDescription="@string/level" />
 
-    <com.github.chrisbanes.photoview.PhotoView
+    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
         android:id="@+id/fragment_center_plan"
-        android:src="@drawable/your_center_level_0"
-        android:rotation="90"
+        android:layout_width="match_parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent"
+        app:src="@drawable/your_center_level_1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

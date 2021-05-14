@@ -8,7 +8,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/fragment_category_recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/giant_extra"
+        android:layout_height="wrap_content"
         android:layout_margin="4dp"
         android:padding="4dp"
         app:layout_constraintBottom_toTopOf="@id/fragment_shops_recycler_view"

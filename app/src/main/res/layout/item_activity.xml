@@ -1,35 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="@dimen/giant"
-    android:layout_height="@dimen/giant"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_marginHorizontal="@dimen/epsilon"
-    app:cardCornerRadius="8dp"
+    android:layout_margin="@dimen/epsilon"
+    app:cardBackgroundColor="@color/azur_dark"
+    app:cardCornerRadius="4dp"
     android:background="@drawable/pic_inside"
     android:foreground="?android:attr/selectableItemBackground">
 
-    <ImageView
-        android:id="@+id/item_background"
-        android:layout_width="match_parent"
-        android:background="@drawable/pic_inside"
-        android:layout_height="match_parent"
-        android:contentDescription="@string/azur_city"/>
-
         <TextView
             android:id="@+id/item_text"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:maxLines="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="@string/azur_city"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="@dimen/text_tiny"
-            android:paddingHorizontal="@dimen/tiny"
+            android:paddingHorizontal="@dimen/small_extra"
             android:paddingVertical="@dimen/tiny_extra"
-            android:textAlignment="gravity"
-            android:gravity="end|bottom"
-            android:ellipsize="end"
+            android:textAlignment="center"
             />
-
 
 </androidx.cardview.widget.CardView>

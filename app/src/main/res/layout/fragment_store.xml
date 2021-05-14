@@ -26,12 +26,28 @@
             android:id="@+id/fragment_store_name"
             android:text="@string/store_samsung"
             app:layout_constraintTop_toBottomOf="@id/fragment_banner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:textSize="@dimen/text_big"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:layout_marginTop="@dimen/small_extra"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/fragment_fav" />
+
+        <ImageView
+            android:id="@+id/fragment_fav"
+            android:layout_width="@dimen/large"
+            android:contentDescription="@string/favorite"
+            android:layout_height="@dimen/large"
+            android:layout_marginHorizontal="@dimen/small"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:src="@drawable/ic_fav_off"
+            app:layout_constraintBottom_toBottomOf="@id/fragment_store_name"
+            app:layout_constraintLeft_toRightOf="@id/fragment_store_name"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/fragment_store_name"
+            app:tint="@color/red" />
 
         <LinearLayout
             android:id="@+id/wrapper"

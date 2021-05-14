@@ -20,7 +20,7 @@ class StoresFragment: BaseFragment(R.layout.fragment_stores) {
 
     override fun tag(): String = "SHOPS_FRAGMENT"
 
-    var currentCategory : Activity = Activity.all
+    private var currentCategory : Activity = Activity.all
 
     override fun onCreated(view: View, savedInstanceState: Bundle?) {
         view.updatePadding(top = getStatusBarHeight(this))
