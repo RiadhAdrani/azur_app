@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.menu_search -> {
                     if ((supportFragmentManager.findFragmentById(R.id.activity_main_fragment) as BaseFragment).tag() != SearchFragment().tag()) {
                         pushFragment(SearchFragment())
-                    }
+                    } else {return@setOnNavigationItemReselectedListener}
                 }
                 R.id.menu_favorite -> {
                     // TODO : FAVORITE

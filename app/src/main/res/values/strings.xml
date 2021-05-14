@@ -38,7 +38,7 @@
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- LANDING FRAGMENT -->
 
-    <string name="we_hire_description">Are you in search of an opportunity to gain money and experience? Are you confident enough with your skills? What are you waiting for!!! Join our working team now!</string>
+    <string name="we_hire_description">Êtes-vous à la recherche d\'une opportunité d\'acquérir de l\'argent et de l\'expérience? Avez-vous suffisamment confiance en vos compétences? Qu\'est-ce que vous attendez!!! Rejoignez notre équipe de travail maintenant!</string>
     <string name="first_name">Nom</string>
     <string name="first_name_hint">Votre nom</string>
     <string name="last_name">Prénom</string>

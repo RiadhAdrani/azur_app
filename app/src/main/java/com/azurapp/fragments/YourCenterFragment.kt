@@ -1,7 +1,6 @@
 package com.azurapp.fragments
 
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import com.azurapp.R
 import com.github.chrisbanes.photoview.PhotoView

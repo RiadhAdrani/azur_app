@@ -1,5 +1,6 @@
 package com.util
 
+import android.content.Context
 import androidx.fragment.app.Fragment
 import com.azurapp.R
 import com.azurapp.objects.store.Activity
@@ -19,6 +20,18 @@ fun getStatusBarHeight(fragment : Fragment): Int {
         result = fragment.resources.getDimensionPixelSize(resourceId)
     }
     return result
+}
+
+fun getAllLocalStores(): ArrayList<Store> {
+    val list = ArrayList<Store>()
+
+    list.addAll(getLocalStoreList())
+    list.add(getGeant())
+    list.addAll(getLocalLeisureList())
+    list.addAll(getLocalRestaurantList())
+    list.addAll(getLocalServicesList())
+
+    return list
 }
 
 fun getLocalLeisureList(): ArrayList<Store> {
@@ -422,7 +435,6 @@ fun getLocalRestaurantList(): ArrayList<Store>{
 
     return list
 }
-
 
 fun getLocalStoreList(): ArrayList<Store> {
 

@@ -1,5 +1,7 @@
 package com.azurapp.objects.store
 
+import android.content.Context
+
 /**
  * Data class representing a shop object.
  * @param name name.
@@ -39,6 +41,7 @@ data class Store(
             mapID,
             level,
             links)
+
     }
 
 }
