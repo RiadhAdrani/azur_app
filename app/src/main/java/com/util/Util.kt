@@ -1,6 +1,5 @@
 package com.util
 
-import android.content.Context
 import androidx.fragment.app.Fragment
 import com.azurapp.R
 import com.azurapp.objects.store.Activity
@@ -8,10 +7,6 @@ import com.azurapp.objects.store.Link
 import com.azurapp.objects.store.Store
 import com.azurapp.objects.store.StoreLevel
 
-
-fun activityImage(): Int{
-    return R.drawable.pic_inside
-}
 
 fun getStatusBarHeight(fragment : Fragment): Int {
     var result = 0

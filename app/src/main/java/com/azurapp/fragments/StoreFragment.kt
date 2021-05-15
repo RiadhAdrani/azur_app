@@ -46,15 +46,22 @@ class StoreFragment(private val store: Store) : BaseFragment(R.layout.fragment_s
         val web : TextView = view.findViewById(R.id.fragment_web_label)
         if (requireContext().getString(store.links[1].link).trim().isEmpty()){
             view.findViewById<LinearLayout>(R.id.fragment_website_wrapper).visibility = View.GONE
-        }else {
+        } else {
             web.text = requireContext().getString(store.links[1].link)
         }
 
-        val description : TextView = view.findViewById(R.id.fragment_description)
+        val description: TextView = view.findViewById(R.id.fragment_description)
         description.text = requireContext().getString(store.description)
 
-        val banner : ImageView = view.findViewById(R.id.fragment_banner)
+        val banner: ImageView = view.findViewById(R.id.fragment_banner)
         banner.setImageResource(store.icon)
+
+        val fav: ImageView = view.findViewById(R.id.fragment_fav)
+        fav.setImageResource(if (isFav(store)) R.drawable.ic_fav_on else R.drawable.ic_fav_off)
+        fav.setOnClickListener {
+            if (isFav(store)) removeFavStore(store) else addFavStore(store)
+            fav.setImageResource(if (isFav(store)) R.drawable.ic_fav_on else R.drawable.ic_fav_off)
+        }
 
     }
 }

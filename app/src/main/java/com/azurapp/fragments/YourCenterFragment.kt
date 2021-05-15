@@ -19,7 +19,7 @@ class YourCenterFragment : BaseFragment(R.layout.fragment_your_center) {
         safePadding(view)
 
         val plan : SubsamplingScaleImageView = view.findViewById(R.id.fragment_center_plan)
-        plan.setScaleAndCenter(2f, PointF(0f,0f))
+        plan.setImage(ImageSource.resource(R.drawable.your_center_level_0))
 
         val levelOne : FloatingActionButton = view.findViewById(R.id.fragment_level_1)
         levelOne.setOnClickListener {

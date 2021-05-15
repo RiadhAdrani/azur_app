@@ -11,51 +11,33 @@ import com.azurapp.R
 import java.util.*
 import kotlin.collections.ArrayList
 
-class StoreAdapter2(
+class StoreFavAdapter(
     private val list: ArrayList<Store>,
     private val context: Context,
-    private val onClick: StoreAdapter.OnStoreClick
-) : RecyclerView.Adapter<StoreAdapter2.StoreHolder>() {
+    private val onClick: OnClick
+) : RecyclerView.Adapter<StoreFavAdapter.StoreHolder>() {
 
-    var listToDisplay = ArrayList<Store>(list)
+    interface OnClick{
+        fun onStoreClick(position: Int, list: ArrayList<Store>)
+        fun onFavClick(position: Int, list: ArrayList<Store>, adapter: StoreFavAdapter)
+    }
 
     inner class StoreHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val logo: ImageView = itemView.findViewById(R.id.item_icon)
         private val name: TextView = itemView.findViewById(R.id.item_name)
+        private val fav : ImageView = itemView.findViewById(R.id.item_fav)
 
         fun bind(store: Store) {
             logo.setImageResource(store.icon)
             name.text = context.getText(store.name)
+            fav.setOnClickListener {
+                onClick.onFavClick(adapterPosition, list, this@StoreFavAdapter)
+            }
             itemView.setOnClickListener {
-                onClick.onClick(adapterPosition, listToDisplay)
+                onClick.onStoreClick(adapterPosition, list)
             }
+
         }
-    }
-
-    fun filter(text: CharSequence?, context: Context) {
-
-        if (text == null)
-            return
-
-        if (text.isEmpty()) {
-            listToDisplay = ArrayList(list)
-            notifyDataSetChanged()
-        } else {
-            listToDisplay.clear()
-            for (store: Store in list) {
-                if (context.getText(store.name).toString().toLowerCase(Locale.ROOT).contains(
-                        text.toString().toLowerCase(
-                            Locale.ROOT
-                        )
-                    )
-                ) {
-                    listToDisplay.add(0, store)
-                    notifyItemInserted(0)
-                }
-            }
-            notifyDataSetChanged()
-        }
-
     }
 
     override fun onCreateViewHolder(
@@ -64,13 +46,13 @@ class StoreAdapter2(
     ): StoreHolder {
         return StoreHolder(
             LayoutInflater.from(parent.context)
-                .inflate(R.layout.item_store_2, parent, false)
+                .inflate(R.layout.item_store_fav, parent, false)
         )
     }
 
     override fun onBindViewHolder(holder: StoreHolder, position: Int) {
-        holder.bind(listToDisplay[position])
+        holder.bind(list[position])
     }
 
-    override fun getItemCount(): Int = listToDisplay.size
+    override fun getItemCount(): Int = list.size
 }

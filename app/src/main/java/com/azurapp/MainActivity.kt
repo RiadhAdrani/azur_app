@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.commit
 import com.azurapp.fragments.BaseFragment
+import com.azurapp.fragments.FavoriteFragment
 import com.azurapp.fragments.MainFragment
 import com.azurapp.fragments.SearchFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -51,7 +52,7 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.menu_favorite -> {
-                    pushFragment(SearchFragment())
+                    pushFragment(FavoriteFragment())
                     true
                 }
                 else -> {
@@ -72,7 +73,9 @@ class MainActivity : AppCompatActivity() {
                     } else {return@setOnNavigationItemReselectedListener}
                 }
                 R.id.menu_favorite -> {
-                    // TODO : FAVORITE
+                    if ((supportFragmentManager.findFragmentById(R.id.activity_main_fragment) as BaseFragment).tag() != FavoriteFragment().tag()) {
+                        pushFragment(FavoriteFragment())
+                    } else {return@setOnNavigationItemReselectedListener}
                 }
             }
         }
