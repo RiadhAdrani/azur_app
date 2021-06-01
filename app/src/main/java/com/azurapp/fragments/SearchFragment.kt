@@ -12,6 +12,7 @@ import com.azurapp.objects.store.StoreAdapter
 import com.azurapp.objects.store.StoreAdapter2
 import com.util.getAllLocalStores
 import com.util.getStatusBarHeight
+import com.util.sortStoreList
 
 class SearchFragment : BaseFragment(R.layout.fragment_search) {
 
@@ -22,7 +23,7 @@ class SearchFragment : BaseFragment(R.layout.fragment_search) {
     override fun onCreated(view: View, savedInstanceState: Bundle?) {
 
         val adapter = StoreAdapter2(
-            getAllLocalStores(),
+            sortStoreList(getAllLocalStores(),requireContext()),
             requireContext(),
             object : StoreAdapter.OnStoreClick {
                 override fun onClick(position: Int, list: ArrayList<Store>) {

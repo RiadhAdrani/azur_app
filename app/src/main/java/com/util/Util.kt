@@ -1,5 +1,6 @@
 package com.util
 
+import android.content.Context
 import androidx.fragment.app.Fragment
 import com.azurapp.R
 import com.azurapp.objects.store.Activity
@@ -15,6 +16,31 @@ fun getStatusBarHeight(fragment : Fragment): Int {
         result = fragment.resources.getDimensionPixelSize(resourceId)
     }
     return result
+}
+
+fun sortStoreList(list : ArrayList<Store>,context: Context): ArrayList<Store>{
+
+    val names = ArrayList<String>()
+
+    for (x : Store in list){
+        names.add(context.getString(x.name))
+    }
+
+    names.sortBy {
+        it
+    }
+
+    val sortedList = ArrayList<Store>()
+    for (e : String in names){
+        for (s : Store in list){
+            if (context.getString(s.name) == e){
+                sortedList.add(s)
+                break
+            }
+        }
+    }
+
+    return sortedList
 }
 
 fun getAllLocalStores(): ArrayList<Store> {

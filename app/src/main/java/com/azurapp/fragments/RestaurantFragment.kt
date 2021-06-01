@@ -11,6 +11,7 @@ import com.azurapp.objects.store.StoreAdapter
 import com.azurapp.objects.store.StoreRestaurantAdapter
 import com.util.getLocalRestaurantList
 import com.util.getStatusBarHeight
+import com.util.sortStoreList
 
 class RestaurantFragment : BaseFragment(R.layout.fragment_restaurant) {
 
@@ -21,7 +22,7 @@ class RestaurantFragment : BaseFragment(R.layout.fragment_restaurant) {
     override fun onCreated(view: View, savedInstanceState: Bundle?) {
         view.updatePadding(top = getStatusBarHeight(this))
 
-        val adapter = StoreRestaurantAdapter(getLocalRestaurantList(),requireContext(), object : StoreAdapter.OnStoreClick{
+        val adapter = StoreRestaurantAdapter(sortStoreList(getLocalRestaurantList(),requireContext()),requireContext(), object : StoreAdapter.OnStoreClick{
             override fun onClick(position: Int, list: ArrayList<Store>) {
                 pushFragment(StoreFragment(list[position]))
             }

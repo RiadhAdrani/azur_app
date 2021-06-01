@@ -68,7 +68,7 @@
                         android:layout_height="@dimen/larger"
                         android:contentDescription="@string/your_center"
                         android:padding="@dimen/epsilon"
-                        android:src="@drawable/ic_map" />
+                        android:src="@drawable/ic_your_center_updated" />
 
                     <TextView
                         style="@style/section_text"
@@ -108,7 +108,7 @@
                         android:layout_height="@dimen/larger"
                         android:contentDescription="@string/your_center"
                         android:padding="@dimen/epsilon"
-                        android:src="@drawable/ic_store" />
+                        android:src="@drawable/ic_store_updated" />
 
                     <TextView
                         style="@style/section_text"
@@ -188,7 +188,7 @@
                         android:layout_height="@dimen/larger"
                         android:contentDescription="@string/your_center"
                         android:padding="@dimen/epsilon"
-                        android:src="@drawable/ic_restaurant" />
+                        android:src="@drawable/ic_restaurants_updated" />
 
                     <TextView
                         style="@style/section_text"
@@ -228,7 +228,7 @@
                         android:layout_height="@dimen/larger"
                         android:contentDescription="@string/your_center"
                         android:padding="@dimen/epsilon"
-                        android:src="@drawable/ic_play_outline" />
+                        android:src="@drawable/ic_leisure_updated" />
 
                     <TextView
                         style="@style/section_text"
@@ -268,7 +268,7 @@
                         android:layout_height="@dimen/larger"
                         android:contentDescription="@string/your_center"
                         android:padding="@dimen/epsilon"
-                        android:src="@drawable/ic_service" />
+                        android:src="@drawable/ic_services_updated" />
 
                     <TextView
                         style="@style/section_text"

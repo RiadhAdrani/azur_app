@@ -11,6 +11,7 @@ import com.azurapp.objects.store.StoreFavAdapter
 import com.azurapp.objects.store.StoreLeisureAdapter
 import com.util.getAllLocalStores
 import com.util.getLocalLeisureList
+import com.util.sortStoreList
 
 class FavoriteFragment : BaseFragment(R.layout.fragment_favorite) {
 
@@ -29,7 +30,7 @@ class FavoriteFragment : BaseFragment(R.layout.fragment_favorite) {
             }
         }
 
-        val adapter = StoreFavAdapter(list,requireContext(),onClick())
+        val adapter = StoreFavAdapter(sortStoreList(list,requireContext()),requireContext(),onClick())
 
         val recyclerView : RecyclerView = view.findViewById(R.id.fragment_recycler_view)
 

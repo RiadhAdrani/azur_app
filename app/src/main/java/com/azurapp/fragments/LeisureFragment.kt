@@ -13,6 +13,7 @@ import com.azurapp.objects.store.StoreServiceAdapter
 import com.util.getLocalLeisureList
 import com.util.getLocalServicesList
 import com.util.getStatusBarHeight
+import com.util.sortStoreList
 
 class LeisureFragment : BaseFragment(R.layout.fragment_leisure) {
 
@@ -24,7 +25,7 @@ class LeisureFragment : BaseFragment(R.layout.fragment_leisure) {
 
         view.updatePadding(top = getStatusBarHeight(this))
 
-        val adapter = StoreLeisureAdapter(getLocalLeisureList(),requireContext(), object : StoreAdapter.OnStoreClick{
+        val adapter = StoreLeisureAdapter(sortStoreList(getLocalLeisureList(),requireContext()),requireContext(), object : StoreAdapter.OnStoreClick{
             override fun onClick(position: Int, list: ArrayList<Store>) {
                 pushFragment(StoreFragment(list[position]))
             }

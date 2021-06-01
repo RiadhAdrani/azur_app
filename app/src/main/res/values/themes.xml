@@ -45,6 +45,7 @@
 
     <style name="section_style">
         <item name="android:background">@color/azur</item>
+        <item name="android:paddingHorizontal">@dimen/tiny_extra</item>
     </style>
 
     <style name="section_text">
